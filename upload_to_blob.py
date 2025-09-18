@@ -24,8 +24,8 @@ def upload_file(local_path, container='trends-raw', dest_path=None, overwrite=Tr
 
     if not dest_path:
         today = datetime.utcnow().strftime("%Y-%m-%d")
-    base = os.path.basename(local_path)
-    dest_path = f"raw/site/{today}/{base}"
+        base = os.path.basename(local_path)
+        dest_path = f"raw/site/{today}/{base}"
 
 
     # sanitize destination
