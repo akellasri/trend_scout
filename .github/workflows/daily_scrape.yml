@@ -1,0 +1,45 @@
+name: Daily Trend Scrape
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # daily at 03:00 UTC — change if needed
+  workflow_dispatch:     # allow manual runs from the Actions UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Upgrade pip and install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright browsers (required if your scraper uses Playwright)
+        run: |
+          python -m pip install playwright
+          playwright install --with-deps
+
+      - name: Download spaCy English model
+        run: |
+          python -m spacy download en_core_web_sm
+
+      - name: Run website scraper
+        run: |
+          mkdir -p output
+          python extract_trend_metrics_websites.py --limit 20 --out output/trends-raw-$(date +%F).json 
+
+      - name: Upload JSON to Azure Blob
+        env:
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+        run: |
+          python upload_to_blob.py output/trends-raw-$(date +%F).json 
