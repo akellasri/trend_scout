@@ -33,13 +33,20 @@ jobs:
         run: |
           python -m spacy download en_core_web_sm
 
-      - name: Run website scraper
+      - name: Run website scraper (fast mode for Actions)
         run: |
           mkdir -p output
-          python extract_trend_metrics_websites.py --limit 20 --out output/trends-raw-$(date +%F).json 
+          python extract_trend_metrics_websites.py --limit 20 --no-clip --out output/trends-raw-$(date +%F).json
 
-      - name: Upload JSON to Azure Blob
+      - name: Upload JSON to Azure Blob (dated)
         env:
           AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
         run: |
-          python upload_to_blob.py output/trends-raw-$(date +%F).json 
+          python upload_to_blob.py output/trends-raw-$(date +%F).json --container trends-raw
+
+      - name: Upload JSON to Azure Blob (latest overwrite)
+        env:
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+        run: |
+          cp output/trends-raw-$(date +%F).json output/latest.json
+          python upload_to_blob.py output/latest.json --container trends-raw --dest-path "latest/trends.json"
