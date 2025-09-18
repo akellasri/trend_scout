@@ -39,18 +39,17 @@ jobs:
       - name: Run website scraper (fast mode for Actions)
         run: |
           mkdir -p output
-          python extract_trend_metrics_websites-copy.py --limit 20 --no-clip --out output/trends-raw-$(date +%F).json
+          FNAME="trends-raw-$(date +%F).json"
+          echo "Writing to output/$FNAME"
+          python extract_trend_metrics_websites-copy.py --limit 20 --no-clip --out output/$FNAME
 
-      - name: Upload JSON to Azure Blob (dated)
+      - name: Upload JSON to Azure Blob (dated + latest)
         env:
           AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
         run: |
-          python upload_to_blob.py output/trends-raw-$(date +%F).json --container trends-raw
-
-      - name: Upload JSON to Azure Blob (latest overwrite)
-        env:
-          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
-        run: |
-          cp output/trends-raw-$(date +%F).json output/latest.json
+          FNAME="trends-raw-$(date +%F).json"
+          echo "Uploading output/$FNAME to container trends-raw"
+          python upload_to_blob.py output/$FNAME --container trends-raw
+          # also upload as latest.json (overwrite)
+          cp output/$FNAME output/latest.json
           python upload_to_blob.py output/latest.json --container trends-raw --dest-path "latest/trends.json"
-
