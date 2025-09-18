@@ -1,6 +1,9 @@
 name: Daily Trend Scrape
 
 on:
+  push:
+    branches:
+      - main              # run when you push to main
   schedule:
     - cron: '0 3 * * *'   # daily at 03:00 UTC — change if needed
   workflow_dispatch:     # allow manual runs from the Actions UI
