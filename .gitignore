@@ -5,3 +5,5 @@ output/
 *.log
 .vscode/
 .ipynb_checkpoints/
+*.amltmp
+EOF

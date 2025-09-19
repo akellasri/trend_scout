@@ -6,3 +6,6 @@ azure-storage-blob
 spacy
 playwright
 python-dotenv
+azure-storage-blob
+imagehash
+numpy

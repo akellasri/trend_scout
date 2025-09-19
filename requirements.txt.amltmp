@@ -1,8 +1,0 @@
-requests
-beautifulsoup4
-tqdm
-pillow
-azure-storage-blob
-spacy
-playwright
-python-dotenv

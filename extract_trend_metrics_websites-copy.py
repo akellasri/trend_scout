@@ -1,20 +1,15 @@
 #!/usr/bin/env python3
 """
-trend_scraper_full_patched_with_fixes.py
+trend_scraper_full_patched_with_xhr.py
 
-Patched from user's original script with the following added fixes requested:
-- deterministic dominant color extraction per accepted image (pixel-based) and mapping to nearest named color
-- stricter metric fusion: prefer image-confirmed metrics (text+clip) or very-high visual-only matches
-- include top-N example images per accepted trend label (with clip scores) in `extracted` for auditing
-- add image diagnostics entries for dominant color and color name
-- keep other discovery features (BLIP, CLIP, clustering) intact
-
-Usage:
-  python trend_scraper_full_patched_with_fixes.py --limit 3 --use-blip --use-phash --cluster
-
-Note: Replace or install optional dependencies as needed (transformers, torch, imagehash, sklearn).
+Patched scraper with:
+ - Playwright JS harvesting (computed image src/currentSrc/srcset/background-image)
+ - data: URI decode handling
+ - XHR/fetch capture and heuristics to follow cursor/next-token pagination
+ - browser reuse, robots cache, URL normalization, pagination helpers
+ - CLIP/BLIP/cluster logic preserved (optional)
+ - ADDED: sleeve & neckline phrase lists + extraction + visual detection
 """
-
 import os
 import re
 import time
@@ -23,9 +18,10 @@ import math
 import argparse
 import urllib.parse
 import requests
+import base64
 from io import BytesIO
 from datetime import datetime
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlunparse, urlsplit, urlunsplit, parse_qsl, urlencode, urljoin, urlunparse
 from urllib import robotparser
 from collections import Counter
 
@@ -75,27 +71,51 @@ except Exception:
 
 # ----------------- CONFIG -----------------
 SEEDS = [
-    "https://www.lakmefashionweek.co.in/",
-    "https://in.kalkifashion.com/blog?source=us&medium=reference",
-    "https://www.vogue.in/fashion",
+    "https://www.perniaspopupshop.com/mens-shop/?category_product=shirt190-casualshirts&",
+    "https://www.perniaspopupshop.com/designers/gaurav-gupta?page=3&sort=new_desc",
+    "https://www.perniaspopupshop.com/exclusive-collection",
+    "https://in.kalkifashion.com/collections/new-arrivals",
+    "https://www.vogue.in/fashion/fashion-trends",
+    "https://www.vogue.in/fashion/street-style",
     "https://www.harpersbazaar.in/fashion",
-    "https://www.missmalini.com/fashion",
-    "https://www.utsavfashion.com/showcase",
-    "https://www.azafashions.com/blog",
-    "https://taruntahiliani.com/?srsltid=AfmBOooBRdkAHrDz6DpSVSCl_OvyxRCZNzd-9iTc6aUz32MJsNFP2NdL",
-    "https://sabyasachi.com/",
-    "https://www.shantanunikhil.com/?srsltid=AfmBOoqVWhtu13g_MPtiPYxjVoo0qVA5VtLWs1ymrv1Bn7Pa4HU4KQla",
-    "https://www.houseofmasaba.com/",
-    "https://anamikakhanna.com/",
-    "https://www.masoomminawala.com/",
-    "https://www.awigna.com/",
+    "https://www.houseofindya.com/women-clothing/cat?sort=bestseller",
+    "https://www.azafashions.com/new",
+    "https://taruntahiliani.com/collections/recently-added",
+    "https://aashniandco.com/new-in.html",
+    "https://www.shantanunikhil.com/category/new-in-8567?source=menu&page=1&orderway=asc&orderby=popular&fp[]=Gender__fq:Men",
+    "https://www.shantanunikhil.com/category/new-in-8567?source=menu&page=1&orderway=asc&orderby=popular&fp[]=Gender__fq:Women",
+    "https://anamikakhanna.com/collections/mens",
+    "https://anamikakhanna.com/collections/womenwear",
+    "https://www.awigna.com/collections/amara",
+    "https://diyarajvvir.in/collections/designers-picks",
+    "https://zadeclothing.com/shop/",
+    "https://ikatindia.com/collections/",
+    "https://dipanniki.com/collections",
+    "https://www.muskannkapadiaa.in/collections/all",
+    "https://sakhe.in/collections/all",
+    "https://styxways.com/collections/",
+    "https://mogradesigns.com/collections/shop",
+    "https://labeldc.com/collections/indo-western-coord-sets-jumpsuits-shararas-kurta-sets-new-arrivals",
+    "https://adahbyleesha.com/collections/mens-wear-new",
+    "https://adahbyleesha.com/collections/womens-wear",
+    "https://www.nishorama.com/collections/new-arrival",
+    "https://shopaugust.co/",
+    "https://www.ragdoll.co.in/collections/all",
+    "https://sufiza.com/collections/latest-arrival",
+    "https://www.dusted.in/categories/shirts/2173229000000037001 - men shirts",
+    "https://www.safuuclothing.in/category",
+    "https://wastedwrld.in/collections/the-rebuild-ss25",
+    "https://lostinsummer.in/collections/new-arrivals",
+    "https://bykaveri.com/collections/everyday-k-2",
 ]
 
 HEADERS = {"User-Agent": "TrendScoutBot/1.0 (+contact)"}
 SCROLL_PAUSE = 0.6
-SCROLL_TIMES = 8
+SCROLL_TIMES = 12
 MAX_PAGES_PER_SITE = 40
 CRAWL_DELAY = 0.6
+MAX_DEPTH = 6  # max link depth from seed
+TRACKING_PARAMS = {"utm_source","utm_medium","utm_campaign","utm_term","utm_content","fbclid","gclid"}
 
 # image heuristics (tunable)
 MIN_IMAGE_BYTES = 8 * 1024
@@ -125,6 +145,22 @@ FABRICS = ["organza","chiffon","silk","satin","crepe","linen","cotton","khadi","
            "raw silk","banarasi","banarasi silk","brocade","velvet","denim","chikankari","handloom","woven",
            "lace","net","georgette","viscose","rayon","modal","muslin","twill"]
 
+# ADDED: sleeves & necklines
+SLEEVES = [
+    "sleeveless", "cap sleeve", "cap-sleeve", "short sleeve", "short-sleeve",
+    "elbow sleeve", "elbow-length sleeve", "three-quarter sleeve", "3/4 sleeve",
+    "full sleeve", "long sleeve", "balloon sleeve", "bishop sleeve", "puff sleeve",
+    "ruffle sleeve", "kimono sleeve", "bell sleeve", "flared sleeve", "dolman sleeve",
+    "petal sleeve", "cold shoulder", "half sleeve", "quarter sleeve"
+]
+
+NECKLINES = [
+    "v-neck", "v neck", "v-neckline", "round neck", "round-neck", "crew neck",
+    "boat neck", "square neck", "square-neck", "sweetheart neck", "sweetheart",
+    "halter neck", "halter", "off shoulder", "off-shoulder", "collared", "shirt collar",
+    "high neck", "mock neck", "keyhole neck", "square neckline"
+]
+
 # spaCy matcher
 nlp = spacy.load("en_core_web_sm")   # parser & tagger enabled
 try:
@@ -141,15 +177,18 @@ add_terms("PRINT", PRINTS)
 add_terms("COLOR", COLORS)
 add_terms("SHAPE", SHAPES)
 add_terms("FABRIC", FABRICS)
+# ADDED
+add_terms("SLEEVE", SLEEVES)
+add_terms("NECK", NECKLINES)
 
 # stronger bad img regex
 BAD_IMG_RX = re.compile(
-    r"(logo|sprite|icon|placeholder|avatar|pixel|ads?|tracking|badge|close|thumb|spinner|blank|banner|social|og:|share|meta|facebook|twitter|instagram|linkedin|paypal|visa|mastercard|apple-pay|google-pay|qr|watermark|shopify|cdn|/icons/|/assets/|/static/|/logos?/|badge|btn|btn-)",
+    r"(logo|sprite|icon|placeholder|avatar|pixel|ads?|tracking|badge|close|thumb|spinner|blank|banner|social|og:|share|meta|facebook|twitter|instagram|linkedin|paypal|visa|mastercard|apple-pay|qr|watermark|shopify|cdn|/icons/|/assets/|/static/|/logos?/|badge|btn|btn-)",
     re.I
 )
 
-from urllib.parse import urlparse, urlunparse
-
+# robots cache
+ROBOTS_CACHE = {}
 
 def url_without_query(u):
     try:
@@ -157,7 +196,6 @@ def url_without_query(u):
         return urlunparse((p.scheme, p.netloc, p.path, "", "", ""))
     except Exception:
         return u
-
 
 def normalize_and_dedupe(img_list, max_keep=MAX_IMAGES_PER_PAGE):
     seen = {}
@@ -179,6 +217,18 @@ def normalize_and_dedupe(img_list, max_keep=MAX_IMAGES_PER_PAGE):
             break
     return out
 
+def normalize_url(u):
+    try:
+        p = urlsplit(u)
+        qs = [(k,v) for k,v in parse_qsl(p.query) if k not in TRACKING_PARAMS]
+        q = urlencode(qs)
+        path = p.path or "/"
+        # strip trailing slash for consistency (keep root '/')
+        if path != "/" and path.endswith("/"):
+            path = path[:-1]
+        return urlunsplit((p.scheme, p.netloc, path, q, ""))
+    except Exception:
+        return u
 
 def extract_from_html(html, base_url):
     soup = BeautifulSoup(html, "html.parser")
@@ -189,7 +239,7 @@ def extract_from_html(html, base_url):
         candidate = soup.find(attrs={"role":"main"}) or soup.find("div", {"class": re.compile(r'(content|article|main|post)', re.I)})
         if candidate:
             article = candidate
-    page_text = article.get_text(separator=" ", strip=True)[:120000]
+    page_text = article.get_text(separator=" ", strip=True)[:120000] if article else ""
     images = set()
     def add_img(u):
         if not u: return
@@ -248,147 +298,232 @@ def extract_from_html(html, base_url):
             pass
     return {"pageUrl": canonical, "text": page_text, "images": sorted(images), "html": html}
 
-
 def allowed_by_robots(url, user_agent=HEADERS["User-Agent"]):
     try:
         parsed = urlparse(url)
         base = f"{parsed.scheme}://{parsed.netloc}"
-        rp = robotparser.RobotFileParser()
-        rp.set_url(base + "/robots.txt")
-        rp.read()
+        if base not in ROBOTS_CACHE:
+            rp = robotparser.RobotFileParser()
+            try:
+                rp.set_url(base + "/robots.txt")
+                rp.read()
+                ROBOTS_CACHE[base] = rp
+            except Exception:
+                ROBOTS_CACHE[base] = None
+        rp = ROBOTS_CACHE.get(base)
+        if rp is None:
+            return True
         return rp.can_fetch(user_agent, url)
     except Exception:
         return True
 
+# ---------------- Render & XHR capture ----------------
+def render_page_and_extract(browser, url, scroll_times=SCROLL_TIMES, scroll_pause=SCROLL_PAUSE, xhr_capture_limit=30):
+    """
+    Render page with Playwright and:
+     - capture computed image URLs (currentSrc, srcset parts, <source>, background-image)
+     - capture XHR/fetch JSON responses for pagination heuristics
+    Returns dict with keys: pageUrl, text, images, html, xhr (list)
+    """
+    page = browser.new_page(viewport={"width":1280,"height":900}, user_agent=HEADERS["User-Agent"])
+    captured_xhr = []
 
-def render_page_and_extract(url, scroll_times=SCROLL_TIMES, scroll_pause=SCROLL_PAUSE):
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(viewport={"width":1280,"height":900})
+    def _on_response(resp):
         try:
-            page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            rt = resp.request.resource_type
         except Exception:
+            rt = ""
+        try:
+            status = resp.status
+        except Exception:
+            status = None
+        if rt in ("xhr", "fetch") and status == 200:
             try:
-                page.goto(url, wait_until="networkidle", timeout=45000)
-            except Exception:
-                browser.close()
-                return None
-        for _ in range(scroll_times):
-            try:
-                page.evaluate("window.scrollBy(0, window.innerHeight);")
+                ctype = (resp.headers.get("content-type") or "").lower()
+                if "application/json" in ctype or resp.url.endswith(".json"):
+                    try:
+                        j = resp.json(timeout=3)
+                        captured_xhr.append({"url": resp.url, "json": j})
+                    except Exception:
+                        # fallback to text
+                        try:
+                            t = resp.text()
+                            captured_xhr.append({"url": resp.url, "text": t})
+                        except Exception:
+                            pass
+                else:
+                    # sometimes HTML or others; ignore for now
+                    pass
             except Exception:
                 pass
-            time.sleep(scroll_pause)
+
+    page.on("response", _on_response)
+
+    try:
         try:
-            for btn in page.query_selector_all("a,button"):
-                try:
-                    txt = (btn.inner_text() or "").lower()
-                    if "view gallery" in txt or "view more" in txt or "next" in txt or "gallery" in txt:
-                        btn.click(timeout=200)
-                        time.sleep(0.2)
-                except Exception:
-                    pass
+            page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        except Exception:
+            page.goto(url, wait_until="networkidle", timeout=60000)
+    except Exception:
+        try: page.close()
+        except: pass
+        return None
+
+    # scrolling with DOM-growth detection (allow lazy load)
+    prev_len = -1
+    for _ in range(scroll_times):
+        try:
+            page.evaluate("window.scrollBy(0, window.innerHeight);")
         except Exception:
             pass
-        html = page.content()
-        browser.close()
-    return extract_from_html(html, url)
+        time.sleep(scroll_pause)
+        try:
+            curr_len = page.evaluate("document.body.innerText.length")
+        except Exception:
+            curr_len = -1
+        if curr_len == prev_len:
+            break
+        prev_len = curr_len
 
-
-def is_logo_or_small(url, session=None):
-    session = session or requests.Session()
-    session.headers.update(HEADERS)
+    # give extra time for lazy load & XHRs
     try:
-        lowerr = url.lower()
-        if BAD_IMG_RX.search(lowerr):
-            return True
-        if lowerr.endswith(".svg") or lowerr.startswith("data:"):
-            return True
-        h = session.head(url, allow_redirects=True, timeout=6)
-        if h.status_code >= 400:
-            return True
-        ctype = h.headers.get("Content-Type","")
-        if ctype and not ctype.startswith("image"):
-            return True
-        clen = h.headers.get("Content-Length")
-        if clen and int(clen) < MIN_IMAGE_BYTES:
-            return True
+        page.wait_for_timeout(1000)
     except Exception:
         pass
+
+    # JS collector for images
     try:
-        r = session.get(url, stream=True, timeout=10)
-        if r.status_code != 200:
-            return True
-        data = r.content[:200000]
-        if len(data) < MIN_IMAGE_BYTES:
-            return True
-        img = Image.open(BytesIO(data)).convert("RGB")
-        w,h = img.size
-        if w < MIN_WIDTH or h < MIN_HEIGHT:
-            return True
-        aspect = w / float(h) if h else 0
-        if aspect > 6 or aspect < 0.2:
-            return True
+        js = r'''
+        () => {
+            const out = new Set();
+            function add(u){ if(!u) return; try{ out.add((new URL(u, location.href)).href) }catch(e){} }
+            const og = document.querySelector('meta[property="og:image"]');
+            if(og && og.content) add(og.content);
+            document.querySelectorAll('img').forEach(img => {
+                add(img.currentSrc || img.src);
+                const ss = img.getAttribute('srcset');
+                if(ss){
+                    ss.split(',').forEach(part => {
+                        const url = part.trim().split(' ')[0];
+                        add(url);
+                    })
+                }
+                ['data-src','data-original','data-lazy','data-srcset','data-lazy-src'].forEach(a=>{
+                    const v = img.getAttribute(a);
+                    if(v){
+                        if(v.indexOf(',')>-1){
+                            v.split(',').forEach(part => add(part.trim().split(' ')[0]));
+                        } else add(v);
+                    }
+                });
+            });
+            document.querySelectorAll('source').forEach(s=>{
+                add(s.getAttribute('src') || s.getAttribute('srcset'));
+                const ss = s.getAttribute('srcset');
+                if(ss) ss.split(',').forEach(part => add(part.trim().split(' ')[0]));
+            });
+            document.querySelectorAll('*[style]').forEach(el=>{
+                const st = el.style && el.style.backgroundImage;
+                if(st && st.indexOf('url(')>-1){
+                    const m = st.match(/url\((?:'|")?(.*?)(?:'|")?\)/);
+                    if(m && m[1]) add(m[1]);
+                }
+            });
+            const els = Array.from(document.querySelectorAll('body *')).slice(0,400);
+            els.forEach(el=>{
+                try{
+                    const cs = window.getComputedStyle(el);
+                    const bg = cs.getPropertyValue('background-image');
+                    if(bg && bg.indexOf('url(')>-1){
+                        const m = bg.match(/url\((?:'|")?(.*?)(?:'|")?\)/);
+                        if(m && m[1]) add(m[1]);
+                    }
+                }catch(e){}
+            });
+            return Array.from(out);
+        }
+        '''
+        images_from_js = page.evaluate(js)
     except Exception:
-        return True
-    return False
+        images_from_js = []
 
+    # raw HTML
+    html = page.content()
 
-def extract_metrics_from_text(text):
-    doc = nlp(text or "")
-    matches = matcher(doc)
-    out = {"prints": set(), "colors": set(), "shapes": set(), "fabrics": set()}
-    for match_id, start, end in matches:
-        label = nlp.vocab.strings[match_id]
-        span = doc[start:end].text.lower()
-        if label == "PRINT":
-            out["prints"].add(span)
-        elif label == "COLOR":
-            out["colors"].add(span)
-        elif label == "SHAPE":
-            out["shapes"].add(span)
-        elif label == "FABRIC":
-            out["fabrics"].add(span)
-    return {k: sorted(list(v)) for k,v in out.items()}
+    try:
+        page.close()
+    except Exception:
+        pass
 
+    # combine with existing soup-based extraction
+    extracted = extract_from_html(html, url)
+    merged = []
+    seen = set()
+    for u in (images_from_js or []):
+        if not u: continue
+        if u in seen: continue
+        seen.add(u)
+        merged.append(u)
+    for u in extracted.get("images", []):
+        if u not in seen:
+            seen.add(u)
+            merged.append(u)
+    # limit & normalize
+    merged = merged[:MAX_IMAGES_PER_PAGE*3]
+    return {"pageUrl": extracted.get("pageUrl", url), "text": extracted.get("text",""), "images": merged, "html": html, "xhr": captured_xhr}
 
-def extract_page_date_from_soup_and_headers(soup, headers=None):
-    meta_props = [
-        ("meta", {"property":"article:published_time"}),
-        ("meta", {"name":"date"}),
-        ("meta", {"itemprop":"datePublished"}),
-        ("meta", {"name":"pubdate"}),
-        ("meta", {"property":"article:modified_time"}),
-        ("meta", {"name":"last-modified"})
-    ]
-    for tag, attrs in meta_props:
-        el = soup.find(tag, attrs=attrs)
-        if el:
-            v = el.get("content") or el.get("value") or el.string
-            if v:
-                try:
-                    return datetime.fromisoformat(v.replace("Z","+00:00")).isoformat()+"Z"
-                except Exception:
-                    try:
-                        return datetime.strptime(v, "%Y-%m-%d").isoformat()+"Z"
-                    except Exception:
-                        pass
-    t = soup.find("time")
-    if t and t.get("datetime"):
-        try:
-            return datetime.fromisoformat(t.get("datetime").replace("Z","+00:00")).isoformat()+"Z"
-        except Exception:
-            pass
-    if headers:
-        lm = headers.get("Last-Modified")
-        if lm:
-            try:
-                from email.utils import parsedate_to_datetime
-                return parsedate_to_datetime(lm).isoformat()+"Z"
-            except Exception:
-                pass
-    return None
+# ----------------- Image helpers (data: decoding) -----------------
+def decode_data_uri(uri):
+    try:
+        header, data = uri.split(",", 1)
+        if ";base64" in header:
+            return base64.b64decode(data)
+        else:
+            return urllib.parse.unquote_to_bytes(data)
+    except Exception:
+        return None
 
+# ----------------- other helpers (color, clip, captioning, etc.) -----------------
+# COLOR PALETTE
+NAMED_COLOR_PALETTE = {
+    'red': (220,20,60), 'maroon': (128,0,0), 'burgundy': (128,0,32), 'orange': (255,165,0),
+    'yellow': (255,215,0), 'mustard': (205,173,0), 'green': (34,139,34), 'olive': (128,128,0),
+    'mint': (152,255,152), 'emerald': (80,200,120), 'blue': (30,144,255), 'powder blue': (176,224,230),
+    'navy': (0,0,128), 'teal': (0,128,128), 'pink': (255,192,203), 'dusty pink': (205,135,145), 'blush': (222,93,131),
+    'pastel': (255,179,186), 'lavender': (230,230,250), 'purple': (128,0,128), 'beige': (245,245,220),
+    'tan': (210,180,140), 'brown': (165,42,42), 'black': (0,0,0), 'white': (255,255,255), 'ivory': (255,255,240),
+    'cream': (255,253,208), 'gold': (212,175,55), 'silver': (192,192,192), 'metallic': (169,169,169)
+}
+
+def rgb_distance(c1, c2):
+    return math.sqrt(sum((a-b)**2 for a,b in zip(c1,c2)))
+
+def nearest_named_color(hex_rgb):
+    if not hex_rgb:
+        return None
+    best = None
+    best_d = 1e9
+    for name, rgb in NAMED_COLOR_PALETTE.items():
+        d = rgb_distance(hex_rgb, rgb)
+        if d < best_d:
+            best_d = d
+            best = name
+    return best
+
+def dominant_color_hex_from_bytes(image_bytes, resize=120):
+    try:
+        img = Image.open(BytesIO(image_bytes)).convert('RGB')
+        img = img.resize((resize, resize))
+        colors = img.getcolors(maxcolors=resize*resize+1)
+        if not colors:
+            arr = list(img.getdata())
+            counts = Counter(arr)
+            most = counts.most_common(1)[0][0]
+        else:
+            most = max(colors, key=lambda x: x[0])[1]
+        return tuple(int(v) for v in most)
+    except Exception:
+        return None
 
 class CLIPWrapper:
     def __init__(self, device=None):
@@ -423,6 +558,75 @@ class CLIPWrapper:
             emb = emb / np.linalg.norm(emb, axis=1, keepdims=True)
         return emb[0]
 
+# BLIP caption helpers (lazy load)
+BLIP_MODEL = None
+BLIP_PROCESSOR = None
+
+def load_blip():
+    global BLIP_MODEL, BLIP_PROCESSOR
+    if BLIP_MODEL is not None:
+        return True
+    if not BLIP_AVAILABLE:
+        return False
+    try:
+        BLIP_PROCESSOR = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
+        BLIP_MODEL = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base").to("cuda" if torch.cuda.is_available() else "cpu")
+        return True
+    except Exception:
+        return False
+
+def caption_image_bytes(image_bytes):
+    if not load_blip():
+        return None
+    try:
+        img = Image.open(BytesIO(image_bytes)).convert("RGB")
+        inputs = BLIP_PROCESSOR(images=img, return_tensors="pt").to(BLIP_MODEL.device)
+        out = BLIP_MODEL.generate(**inputs, max_length=32)
+        caption = BLIP_PROCESSOR.decode(out[0], skip_special_tokens=True)
+        return caption
+    except Exception:
+        return None
+
+def extract_metrics_from_text(text):
+    doc = nlp(text or "")
+    matches = matcher(doc)
+    out = {"prints": set(), "colors": set(), "shapes": set(), "fabrics": set(), "sleeves": set(), "necklines": set()}
+    for match_id, start, end in matches:
+        label = nlp.vocab.strings[match_id]
+        span = doc[start:end].text.lower()
+        if label == "PRINT":
+            out["prints"].add(span)
+        elif label == "COLOR":
+            out["colors"].add(span)
+        elif label == "SHAPE":
+            out["shapes"].add(span)
+        elif label == "FABRIC":
+            out["fabrics"].add(span)
+        elif label == "SLEEVE":
+            out["sleeves"].add(span)
+        elif label == "NECK":
+            out["necklines"].add(span)
+
+    # Regex heuristics for sleeve patterns (captures "3/4 sleeve", "three-quarter sleeve", etc.)
+    try:
+        text_low = (text or "").lower()
+        # numeric sleeve patterns like "3/4 sleeve" or "three-quarter sleeve"
+        for m in re.finditer(r'\b(?:\d\s*/\s*\d|3/4|three[- ]?quarter)\s*sleeve\b', text_low):
+            out["sleeves"].add(m.group(0))
+        # common sleeve words if missed by phrase matcher
+        for s in ["cap sleeve","short sleeve","long sleeve","sleeveless","half sleeve","elbow sleeve","full sleeve","puff sleeve","bishop sleeve","bell sleeve","kimono sleeve","cold shoulder","off shoulder","three-quarter sleeve","3/4 sleeve"]:
+            if s in text_low:
+                out["sleeves"].add(s)
+        # neckline regex (v-neck, round neck, boat neck etc.)
+        for m in re.finditer(r'\b(v[- ]?neck|round[- ]?neck|crew[- ]?neck|boat[- ]?neck|square[- ]?neck|sweetheart|halter|off[- ]?shoulder|mock[- ]?neck|keyhole)\b', text_low):
+            out["necklines"].add(m.group(0))
+        for n in ["v-neck","v neck","round neck","boat neck","square neck","sweetheart","halter","off shoulder","mock neck","keyhole"]:
+            if n in text_low:
+                out["necklines"].add(n)
+    except Exception:
+        pass
+
+    return {k: sorted(list(v)) for k,v in out.items()}
 
 def extract_candidate_phrases(text, min_len=3, max_phrases=40):
     try:
@@ -442,92 +646,13 @@ def extract_candidate_phrases(text, min_len=3, max_phrases=40):
     common = [p for p, _ in counts.most_common(max_phrases)]
     return common
 
-
-# BLIP caption helpers (lazy load)
-BLIP_MODEL = None
-BLIP_PROCESSOR = None
-
-def load_blip():
-    global BLIP_MODEL, BLIP_PROCESSOR
-    if BLIP_MODEL is not None:
-        return True
-    if not BLIP_AVAILABLE:
-        return False
-    try:
-        BLIP_PROCESSOR = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
-        BLIP_MODEL = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base").to("cuda" if torch.cuda.is_available() else "cpu")
-        return True
-    except Exception:
-        return False
-
-
-def caption_image_bytes(image_bytes):
-    if not load_blip():
-        return None
-    try:
-        img = Image.open(BytesIO(image_bytes)).convert("RGB")
-        inputs = BLIP_PROCESSOR(images=img, return_tensors="pt").to(BLIP_MODEL.device)
-        out = BLIP_MODEL.generate(**inputs, max_length=32)
-        caption = BLIP_PROCESSOR.decode(out[0], skip_special_tokens=True)
-        return caption
-    except Exception:
-        return None
-
-
-# ----------------- New helpers: color extraction & mapping -----------------
-# Basic palette for mapping named COLORS -> RGB (approximate)
-NAMED_COLOR_PALETTE = {
-    'red': (220,20,60), 'maroon': (128,0,0), 'burgundy': (128,0,32), 'orange': (255,165,0),
-    'yellow': (255,215,0), 'mustard': (205,173,0), 'green': (34,139,34), 'olive': (128,128,0),
-    'mint': (152,255,152), 'emerald': (80,200,120), 'blue': (30,144,255), 'powder blue': (176,224,230),
-    'navy': (0,0,128), 'teal': (0,128,128), 'pink': (255,192,203), 'dusty pink': (205,135,145), 'blush': (222,93,131),
-    'pastel': (255,179,186), 'lavender': (230,230,250), 'purple': (128,0,128), 'beige': (245,245,220),
-    'tan': (210,180,140), 'brown': (165,42,42), 'black': (0,0,0), 'white': (255,255,255), 'ivory': (255,255,240),
-    'cream': (255,253,208), 'gold': (212,175,55), 'silver': (192,192,192), 'metallic': (169,169,169)
-}
-
-
-def rgb_distance(c1, c2):
-    return math.sqrt(sum((a-b)**2 for a,b in zip(c1,c2)))
-
-
-def nearest_named_color(hex_rgb):
-    # hex_rgb: (r,g,b)
-    best = None
-    best_d = 1e9
-    for name, rgb in NAMED_COLOR_PALETTE.items():
-        d = rgb_distance(hex_rgb, rgb)
-        if d < best_d:
-            best_d = d
-            best = name
-    return best
-
-
-def dominant_color_hex_from_bytes(image_bytes, resize=120):
-    try:
-        img = Image.open(BytesIO(image_bytes)).convert('RGB')
-        img = img.resize((resize, resize))
-        # use getcolors to find most common color
-        colors = img.getcolors(maxcolors=resize*resize+1)
-        if not colors:
-            arr = list(img.getdata())
-            counts = Counter(arr)
-            most = counts.most_common(1)[0][0]
-        else:
-            most = max(colors, key=lambda x: x[0])[1]
-        return tuple(int(v) for v in most)
-    except Exception:
-        return None
-
-
-# main pipeline for a url
-
-def process_url(url, clip_wrapper=None, limit_images=MAX_IMAGES_PER_PAGE, use_phash=False, use_blip=False, global_image_records=None):
+# ----------------- main process_url with data-uri handling & CLIP -----------------
+def process_url(url, clip_wrapper=None, limit_images=MAX_IMAGES_PER_PAGE, use_phash=False, use_blip=False, global_image_records=None, browser=None):
     out_item = {"pageUrl": url, "fetchedAt": datetime.utcnow().isoformat()+"Z", "extracted": None, "metrics": {}, "notes": []}
     if not allowed_by_robots(url):
         out_item["notes"].append("Disallowed by robots.txt")
         return out_item
-    rendered = render_page_and_extract(url)
+    rendered = render_page_and_extract(browser, url)
     if not rendered:
         out_item["notes"].append("RenderFailed")
         return out_item
@@ -553,39 +678,55 @@ def process_url(url, clip_wrapper=None, limit_images=MAX_IMAGES_PER_PAGE, use_ph
             image_diagnostics[img_url] = diag
             continue
         try:
-            h = session.head(img_url, allow_redirects=True, timeout=6)
-            if h.status_code >= 400:
-                diag["skipped"] = True
-                diag["reason"] = f"HEAD status {h.status_code}"
-                image_diagnostics[img_url] = diag
-                continue
-            ctype = h.headers.get("Content-Type","")
-            if ctype and not ctype.startswith("image"):
-                diag["skipped"] = True
-                diag["reason"] = f"non-image content-type {ctype}"
-                image_diagnostics[img_url] = diag
-                continue
-            clen = h.headers.get("Content-Length")
-            if clen and int(clen) < MIN_IMAGE_BYTES:
-                diag["skipped"] = True
-                diag["reason"] = f"content-length too small {clen}"
-                image_diagnostics[img_url] = diag
-                continue
-        except Exception as e:
-            diag["head_error"] = str(e)[:200]
-        try:
-            r = session.get(img_url, timeout=10)
-            if r.status_code != 200:
-                diag["skipped"] = True
-                diag["reason"] = f"GET status {r.status_code}"
-                image_diagnostics[img_url] = diag
-                continue
-            data = r.content[:200000]
+            # handle data URI specially
+            if img_url.startswith("data:"):
+                data = decode_data_uri(img_url)
+                if not data:
+                    diag["skipped"] = True
+                    diag["reason"] = "data-uri-decode-error"
+                    image_diagnostics[img_url] = diag
+                    continue
+            else:
+                # attempt HEAD (some hosts block HEAD, handle gracefully)
+                try:
+                    h = session.head(img_url, allow_redirects=True, timeout=6)
+                    if h.status_code >= 400:
+                        diag["skipped"] = True
+                        diag["reason"] = f"HEAD status {h.status_code}"
+                        image_diagnostics[img_url] = diag
+                        continue
+                    ctype = h.headers.get("Content-Type","")
+                    if ctype and not ctype.startswith("image"):
+                        diag["skipped"] = True
+                        diag["reason"] = f"non-image content-type {ctype}"
+                        image_diagnostics[img_url] = diag
+                        continue
+                    clen = h.headers.get("Content-Length")
+                    if clen and int(clen) < MIN_IMAGE_BYTES:
+                        diag["skipped"] = True
+                        diag["reason"] = f"content-length too small {clen}"
+                        image_diagnostics[img_url] = diag
+                        continue
+                except Exception:
+                    # proceed to GET as fallback
+                    pass
+
+                # GET
+                r = session.get(img_url, timeout=10)
+                if r.status_code != 200:
+                    diag["skipped"] = True
+                    diag["reason"] = f"GET status {r.status_code}"
+                    image_diagnostics[img_url] = diag
+                    continue
+                data = r.content[:200000]
+
+            # validate size
             if len(data) < MIN_IMAGE_BYTES:
                 diag["skipped"] = True
                 diag["reason"] = f"body bytes too small {len(data)}"
                 image_diagnostics[img_url] = diag
                 continue
+
             pil = Image.open(BytesIO(data)).convert("RGB")
             w,h = pil.size
             if w < MIN_WIDTH or h < MIN_HEIGHT:
@@ -607,10 +748,28 @@ def process_url(url, clip_wrapper=None, limit_images=MAX_IMAGES_PER_PAGE, use_ph
             diag["reason"] = f"get/parse error: {str(e)[:200]}"
             image_diagnostics[img_url] = diag
             continue
+
         # accepted
         image_diagnostics[img_url] = {"skipped": False, "reason": "accepted", "width": w, "height": h, "dominant_rgb": dom_rgb, "dominant_color_name": dom_name}
         good_images.append(img_url)
         image_bytes_map[img_url] = data
+
+    # ADDED: if use_blip, generate captions from accepted images and append to page_text (helps matcher)
+    if use_blip:
+        captions_seen = set()
+        for img_url, data in list(image_bytes_map.items()):
+            try:
+                cap = caption_image_bytes(data)
+                if cap:
+                    normalized = cap.strip()
+                    if normalized and normalized not in captions_seen:
+                        captions_seen.add(normalized)
+                        page_text += " " + normalized
+                # limit appended captions to avoid huge text
+                if len(captions_seen) >= 6:
+                    break
+            except Exception:
+                pass
 
     # text metrics and candidates
     text_metrics = extract_metrics_from_text(page_text)
@@ -620,7 +779,10 @@ def process_url(url, clip_wrapper=None, limit_images=MAX_IMAGES_PER_PAGE, use_ph
         "prints": [p for p in PRINTS],
         "fabrics": [f for f in FABRICS],
         "shapes": [s for s in SHAPES],
-        "colors": [c for c in COLORS]
+        "colors": [c for c in COLORS],
+        # ADDED: include sleeves & necklines in visual detection
+        "sleeves": [s for s in SLEEVES],
+        "necklines": [n for n in NECKLINES]
     }
 
     seen_phash = set()
@@ -700,7 +862,8 @@ def process_url(url, clip_wrapper=None, limit_images=MAX_IMAGES_PER_PAGE, use_ph
 
     # stricter fusion: prefer image-confirmed metrics or very high visual confidence
     final_metrics = {}
-    for cat in ["prints","colors","shapes","fabrics"]:
+    # ADDED sleeves & necklines into categories to fuse
+    for cat in ["prints","colors","shapes","fabrics","sleeves","necklines"]:
         text_vals = text_metrics.get(cat, [])
         agg_items = {a["label"].lower(): a["agg_score"] for a in aggregated_clip.get(cat, [])}
         entries = []
@@ -716,12 +879,10 @@ def process_url(url, clip_wrapper=None, limit_images=MAX_IMAGES_PER_PAGE, use_ph
                 conf = "high" if clip_score >= CLIP_SIM_HIGH else "medium"
                 entries.append({"value": tv, "source": "text+clip", "confidence": conf, "clip_score": clip_score})
             else:
-                # include text-only as low (can be filtered by consumer)
                 entries.append({"value": tv, "source": "text", "confidence": "low", "clip_score": clip_score})
         # dedupe by value (prefer highest confidence)
         seen_vals = set()
         final_list = []
-        # sort to keep high first
         order_key = lambda x: (0 if x["confidence"]=="high" else (1 if x["confidence"]=="medium" else 2), -(x.get("clip_score") or 0))
         for e in sorted(entries, key=order_key):
             vkey = (e["value"] or "").lower()
@@ -753,7 +914,7 @@ def process_url(url, clip_wrapper=None, limit_images=MAX_IMAGES_PER_PAGE, use_ph
     try:
         headers = {}
         try:
-            head_resp = session.head(url, allow_redirects=True, timeout=6)
+            head_resp = requests.head(url, allow_redirects=True, timeout=6)
             headers = dict(head_resp.headers)
         except Exception:
             headers = {}
@@ -773,12 +934,338 @@ def process_url(url, clip_wrapper=None, limit_images=MAX_IMAGES_PER_PAGE, use_ph
         "images": good_images,
         "imageDiagnostics": image_diagnostics,
         "topExamples": top_examples,
-        "pageDate": page_date
+        "pageDate": page_date,
+        "rawImagesFound": candidate_images,
+        "xhr": rendered.get("xhr", [])  # captured XHR responses for debugging / pagination heuristics
     }
     out_item["pageDate"] = page_date
     out_item["metrics"] = final_metrics
     return out_item
 
+# reuse extract_page_date function (handles None)
+def extract_page_date_from_soup_and_headers(soup, headers=None):
+    if soup is None:
+        if headers:
+            lm = headers.get("Last-Modified")
+            if lm:
+                try:
+                    from email.utils import parsedate_to_datetime
+                    return parsedate_to_datetime(lm).isoformat()+"Z"
+                except Exception:
+                    pass
+        return None
+    meta_props = [
+        ("meta", {"property":"article:published_time"}),
+        ("meta", {"name":"date"}),
+        ("meta", {"itemprop":"datePublished"}),
+        ("meta", {"name":"pubdate"}),
+        ("meta", {"property":"article:modified_time"}),
+        ("meta", {"name":"last-modified"})
+    ]
+    for tag, attrs in meta_props:
+        el = soup.find(tag, attrs=attrs)
+        if el:
+            v = el.get("content") or el.get("value") or el.string
+            if v:
+                try:
+                    return datetime.fromisoformat(v.replace("Z","+00:00")).isoformat()+"Z"
+                except Exception:
+                    try:
+                        return datetime.strptime(v, "%Y-%m-%d").isoformat()+"Z"
+                    except Exception:
+                        pass
+    t = soup.find("time")
+    if t and t.get("datetime"):
+        try:
+            return datetime.fromisoformat(t.get("datetime").replace("Z","+00:00")).isoformat()+"Z"
+        except Exception:
+            pass
+    if headers:
+        lm = headers.get("Last-Modified")
+        if lm:
+            try:
+                from email.utils import parsedate_to_datetime
+                return parsedate_to_datetime(lm).isoformat()+"Z"
+            except Exception:
+                pass
+    return None
+
+# ------------ XHR parsing heuristics ------------
+def parse_xhr_for_pagination(xhr_list, base_url):
+    """
+    Inspect captured XHR JSONs and return list of candidate URLs or (request_url, next_token) tuples.
+    Heuristics:
+      - if JSON contains 'next', 'next_page', 'next_url' with a URL -> return it
+      - if JSON contains 'next_cursor'/'nextToken' -> return (request_url, token)
+      - if JSON contains 'results'/'items' and response has 'page'/'page_count', attempt to increment page param in request URL
+    Returns: list of dicts {type: 'url', 'url': ...} or {type: 'cursor', 'request_url':..., 'token': ...}
+    """
+    out = []
+    for entry in xhr_list or []:
+        url = entry.get("url")
+        j = entry.get("json")
+        if not j:
+            # try to parse text for simple markers
+            txt = entry.get("text") or ""
+            # skip
+            continue
+        # 1) look for URL-like fields
+        for key in ("next","next_page","next_url","nextPage","next_url_full","next_href"):
+            v = j.get(key)
+            if isinstance(v, str) and v.strip():
+                cand = v.strip()
+                # if looks like relative path or url, resolve
+                try:
+                    out_url = urljoin(url, cand)
+                    out.append({"type":"url", "url": out_url})
+                except Exception:
+                    pass
+        # 2) numeric page info
+        page = None
+        if isinstance(j.get("page"), (int,str)):
+            try:
+                page = int(j.get("page"))
+            except Exception:
+                page = None
+        if isinstance(j.get("pageNumber"), (int,str)):
+            try:
+                page = int(j.get("pageNumber"))
+            except Exception:
+                page = page
+        # if we have page and maybe 'totalPages' or 'has_more'
+        if page is not None:
+            # try to increment page param on original request url
+            try:
+                p = urlparse(url)
+                qs = dict(parse_qsl(p.query))
+                # find likely page param name
+                for key in ("page","p","page_no","pg"):
+                    if key in qs:
+                        try:
+                            curr = int(qs[key])
+                            qs[key] = str(curr + 1)
+                            new_q = urlencode(sorted(qs.items()))
+                            new_url = urlunparse((p.scheme,p.netloc,p.path,new_q,""))
+                            out.append({"type":"url","url": new_url})
+                            break
+                        except Exception:
+                            pass
+            except Exception:
+                pass
+        # 3) cursor/continuation token patterns
+        for k in ("next_cursor","nextCursor","nextToken","continuation","cursor","after"):
+            if k in j:
+                token = j.get(k)
+                if token:
+                    out.append({"type":"cursor", "request_url": url, "token": token})
+        # 4) if the JSON contains items with embedded image/product urls, sometimes there is a 'link'/'url' fields — extract any string-looking urls
+        def walk_for_urls(o):
+            found = []
+            if isinstance(o, dict):
+                for kk, vv in o.items():
+                    if isinstance(vv, str) and (vv.startswith("http://") or vv.startswith("https://") or vv.startswith("/")):
+                        found.append(urljoin(url, vv))
+                    else:
+                        found.extend(walk_for_urls(vv))
+            elif isinstance(o, list):
+                for i in o:
+                    found.extend(walk_for_urls(i))
+            return found
+        candidates = walk_for_urls(j)
+        for c in candidates:
+            if len(out) >= 6:
+                break
+            out.append({"type":"url","url": c})
+    # dedupe preserve order
+    seen = set()
+    res = []
+    for e in out:
+        u = e.get("url") or (e.get("request_url") + "|" + str(e.get("token"))) if e.get("type")=="cursor" else None
+        key = json.dumps(e, sort_keys=True)
+        if key in seen:
+            continue
+        seen.add(key)
+        res.append(e)
+    return res
+
+# ----------------- Pagination helpers & crawl_site with XHR integration -----------------
+def enqueue_if_new(abs_href, seen_norm, to_visit, parsed_seed, depth, page_num):
+    try:
+        abs_norm = normalize_url(abs_href)
+    except Exception:
+        return
+    if not abs_norm:
+        return
+    if abs_norm in seen_norm:
+        return
+    parsed_abs = urlparse(abs_norm)
+    if parsed_abs.netloc != parsed_seed.netloc:
+        return
+    # disallow direct media links
+    if re.search(r'\.(jpg|jpeg|png|gif|webp|svg|pdf|zip|mp4|mp3)(\?|$)', parsed_abs.path, re.I):
+        return
+    to_visit.append((abs_norm, depth, page_num))
+
+def next_page_by_query(u):
+    try:
+        p = urlparse(u)
+        qs = dict(parse_qsl(p.query))
+        for key in ("page","p","page_no","pg"):
+            if key in qs:
+                try:
+                    n = int(qs[key])
+                    qs[key] = str(n+1)
+                    new_q = urlencode(sorted(qs.items()))
+                    return urlunparse((p.scheme, p.netloc, p.path, new_q, ""))
+                except Exception:
+                    pass
+    except Exception:
+        pass
+    return None
+
+def next_page_by_path(u):
+    try:
+        p = urlparse(u)
+        m = re.search(r'(?P<prefix>.*?/(?:page|p)/)(?P<num>\d+)(?P<suffix>/?.*)$', p.path)
+        if m:
+            prefix = m.group("prefix")
+            num = int(m.group("num"))
+            suffix = m.group("suffix") or ""
+            new_path = f"{prefix}{num+1}{suffix}"
+            return urlunparse((p.scheme, p.netloc, new_path, p.query, ""))
+        m2 = re.search(r'(?P<prefix>.*?/page-)(?P<num>\d+)(?P<suffix>/?.*)$', p.path)
+        if m2:
+            prefix = m2.group("prefix")
+            num = int(m2.group("num"))
+            suffix = m2.group("suffix") or ""
+            new_path = f"{prefix}{num+1}{suffix}"
+            return urlunparse((p.scheme, p.netloc, new_path, p.query, ""))
+    except Exception:
+        pass
+    return None
+
+def crawl_site(seed, clip_wrapper, limit_per_site, use_phash, use_blip, global_image_records, browser):
+    to_visit = []
+    seen_norm = set()
+    results = []
+    session = requests.Session()
+    session.headers.update(HEADERS)
+
+    seed_norm = normalize_url(seed)
+    if not seed_norm:
+        return results
+    to_visit.append((seed_norm, 0, 1))
+
+    while to_visit and len(results) < limit_per_site:
+        url, depth, page_num = to_visit.pop(0)
+        if url in seen_norm:
+            continue
+        if depth > MAX_DEPTH:
+            continue
+        seen_norm.add(url)
+        try:
+            parsed_seed = urlparse(seed)
+            parsed_url = urlparse(url)
+            if parsed_url.netloc != parsed_seed.netloc:
+                continue
+        except Exception:
+            continue
+        try:
+            item = process_url(url, clip_wrapper=clip_wrapper, limit_images=MAX_IMAGES_PER_PAGE, use_phash=use_phash, use_blip=use_blip, global_image_records=global_image_records, browser=browser)
+            results.append(item)
+        except Exception as e:
+            print("Error processing", url, e)
+        time.sleep(CRAWL_DELAY)
+
+        # parse links with requests-based soup
+        try:
+            r = session.get(url, timeout=8, headers=HEADERS)
+            if r.status_code == 200 and 'text/html' in (r.headers.get('Content-Type') or ''):
+                soup = BeautifulSoup(r.text, 'html.parser')
+
+                # 1) follow <link rel="next">
+                lnext = soup.find("link", rel="next")
+                if lnext and lnext.get("href"):
+                    enqueue_if_new(urljoin(url, lnext["href"]), seen_norm, to_visit, parsed_seed, depth+1, page_num+1)
+
+                # 2) visible next anchors
+                for a in soup.find_all('a', href=True):
+                    txt = (a.get_text() or "").strip().lower()
+                    href = a.get('href')
+                    if any(k in txt for k in ("next","older","›","→","more results","older posts","load more")):
+                        enqueue_if_new(urljoin(url, href), seen_norm, to_visit, parsed_seed, depth+1, page_num+1)
+                    else:
+                        # generic enqueue internal links
+                        if href:
+                            try:
+                                abs_href = urljoin(url, href)
+                                if abs_href.startswith("mailto:") or abs_href.startswith("tel:"):
+                                    continue
+                                enqueue_if_new(abs_href, seen_norm, to_visit, parsed_seed, depth+1, 1)
+                            except Exception:
+                                pass
+
+                # 3) next by ?page=
+                npq = next_page_by_query(url)
+                if npq:
+                    enqueue_if_new(npq, seen_norm, to_visit, parsed_seed, depth+1, page_num+1)
+
+                # 4) next by /page/N
+                npp = next_page_by_path(url)
+                if npp:
+                    enqueue_if_new(npp, seen_norm, to_visit, parsed_seed, depth+1, page_num+1)
+
+                # 5) sitemaps or explicit sitemap links
+                sitemap_links = []
+                for s in soup.find_all('a', href=True):
+                    if 'sitemap' in (s.get_text() or "").lower() or 'sitemap' in s.get('href',''):
+                        sitemap_links.append(urljoin(url, s['href']))
+                for sm in sitemap_links:
+                    enqueue_if_new(sm, seen_norm, to_visit, parsed_seed, depth+1, 1)
+
+        except Exception:
+            pass
+
+        # 6) XHR-based pagination heuristics: look at captured xhr responses in the last item
+        try:
+            xhr_list = item.get("extracted", {}).get("xhr", [])
+            if xhr_list:
+                parsed = parse_xhr_for_pagination(xhr_list, url)
+                for p in parsed:
+                    if p.get("type") == "url" and p.get("url"):
+                        enqueue_if_new(p["url"], seen_norm, to_visit, parsed_seed, depth+1, page_num+1)
+                    elif p.get("type") == "cursor":
+                        # attempt to construct new URL by replacing cursor param in request URL if present
+                        req = p.get("request_url")
+                        token = p.get("token")
+                        if req and token:
+                            try:
+                                pu = urlparse(req)
+                                qs = dict(parse_qsl(pu.query))
+                                # try to find cursor param name in request (common names)
+                                found = False
+                                for key in ("cursor","next_cursor","nextToken","token","continuation","after"):
+                                    if key in qs:
+                                        qs[key] = token
+                                        new_q = urlencode(sorted(qs.items()))
+                                        new_url = urlunparse((pu.scheme, pu.netloc, pu.path, new_q, ""))
+                                        enqueue_if_new(new_url, seen_norm, to_visit, parsed_seed, depth+1, page_num+1)
+                                        found = True
+                                        break
+                                if not found:
+                                    # append token as query param
+                                    new_q = pu.query + ("&" if pu.query else "") + "cursor=" + urllib.parse.quote_plus(str(token))
+                                    new_url = urlunparse((pu.scheme, pu.netloc, pu.path, new_q, ""))
+                                    enqueue_if_new(new_url, seen_norm, to_visit, parsed_seed, depth+1, page_num+1)
+                            except Exception:
+                                pass
+        except Exception:
+            pass
+
+        if len(results) >= limit_per_site:
+            break
+
+    return results
 
 def cluster_and_summarize(global_image_records, out_clusters_file="image_clusters_summary.json"):
     if not SKLEARN_AVAILABLE or not global_image_records:
@@ -802,63 +1289,12 @@ def cluster_and_summarize(global_image_records, out_clusters_file="image_cluster
     print("Wrote image clusters summary to", out_clusters_file)
     return summary
 
-
-def crawl_site(seed, clip_wrapper, limit_per_site, use_phash, use_blip, global_image_records):
-    to_visit = [seed]
-    seen_urls = set()
-    results = []
-    session = requests.Session()
-    session.headers.update(HEADERS)
-
-    while to_visit and len(results) < limit_per_site:
-        url = to_visit.pop(0)
-        if url in seen_urls:
-            continue
-        seen_urls.add(url)
-        try:
-            parsed_seed = urlparse(seed)
-            parsed_url = urlparse(url)
-            if parsed_url.netloc != parsed_seed.netloc:
-                continue
-        except Exception:
-            continue
-        try:
-            item = process_url(url, clip_wrapper=clip_wrapper, limit_images=MAX_IMAGES_PER_PAGE, use_phash=use_phash, use_blip=use_blip, global_image_records=global_image_records)
-            results.append(item)
-        except Exception as e:
-            print("Error processing", url, e)
-        try:
-            r = session.get(url, timeout=8)
-            if r.status_code == 200 and 'text/html' in (r.headers.get('Content-Type') or ''):
-                soup = BeautifulSoup(r.text, 'html.parser')
-                for a in soup.find_all('a', href=True):
-                    href = a.get('href')
-                    if not href: continue
-                    try:
-                        abs_href = urllib.parse.urljoin(url, href)
-                    except Exception:
-                        continue
-                    parsed_abs = urlparse(abs_href)
-                    if parsed_abs.netloc != parsed_seed.netloc:
-                        continue
-                    if parsed_abs.path == '' or abs_href in seen_urls:
-                        continue
-                    if re.search(r'\.(jpg|jpeg|png|gif|webp|svg|pdf|zip|mp4|mp3)(\?|$)', parsed_abs.path, re.I):
-                        continue
-                    if abs_href not in to_visit and abs_href not in seen_urls:
-                        to_visit.append(abs_href)
-                    if len(to_visit) + len(results) >= limit_per_site * 3:
-                        break
-        except Exception:
-            pass
-    return results
-
-
+# -------------------- CLI & main --------------------
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-clip", action="store_true", help="Disable CLIP image checks")
     parser.add_argument("--limit", type=int, default=MAX_PAGES_PER_SITE, help="Max pages per seed")
-    parser.add_argument("--out", default="trend_output1_patched.json", help="Output JSON filename")
+    parser.add_argument("--out", default="trend_output_xhr.json", help="Output JSON filename")
     parser.add_argument("--use-phash", action="store_true", help="Use perceptual-hash dedupe before CLIP (requires imagehash)")
     parser.add_argument("--use-blip", action="store_true", help="Use BLIP image captioning (optional, requires transformers)")
     parser.add_argument("--cluster", action="store_true", help="Cluster collected image embeddings and write summary")
@@ -883,21 +1319,32 @@ def main():
     global_image_records = []
     all_results = []
 
-    for seed in SEEDS:
-        print(f"Crawling seed site: {seed} (up to {args.limit} pages)")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        for seed in SEEDS:
+            print(f"Crawling seed site: {seed} (up to {args.limit} pages)")
+            try:
+                site_results = crawl_site(seed, clip_wrapper, args.limit, args.use_phash, use_blip, global_image_records, browser)
+                all_results.extend(site_results)
+            except Exception as e:
+                print("Error crawling seed", seed, e)
+            time.sleep(CRAWL_DELAY)
         try:
-            site_results = crawl_site(seed, clip_wrapper, args.limit, args.use_phash, use_blip, global_image_records)
-            all_results.extend(site_results)
-        except Exception as e:
-            print("Error crawling seed", seed, e)
-        time.sleep(CRAWL_DELAY)
+            browser.close()
+        except Exception:
+            pass
 
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(all_results, f, ensure_ascii=False, indent=2)
     print("Saved", len(all_results), "items to", args.out)
 
-    if args.cluster and global_image_records:
-        cluster_and_summarize(global_image_records)
+    if args.cluster:
+        print("Cluster requested.")
+        if not global_image_records:
+            print("Skipping clustering: no image embeddings were collected (global_image_records is empty).")
+        else:
+            print(f"Clustering on {len(global_image_records)} image records...")
+            cluster_and_summarize(global_image_records)
 
 if __name__ == "__main__":
     main()

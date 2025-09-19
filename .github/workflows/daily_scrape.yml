@@ -5,7 +5,7 @@ on:
     branches:
       - main              # run when you push to main
   schedule:
-    - cron: '0 3 * * *'   # daily at 03:00 UTC — change if needed
+    - cron: '30 0 * * *'   # daily at 03:00 UTC — change if needed
   workflow_dispatch:     # allow manual runs from the Actions UI
 
 jobs:
@@ -41,15 +41,13 @@ jobs:
           mkdir -p output
           FNAME="trends-raw-$(date +%F).json"
           echo "Writing to output/$FNAME"
-          python extract_trend_metrics_websites-copy.py --limit 20 --no-clip --out output/$FNAME
+          python extract_trend_metrics_websites-copy.py --limit 2 --no-clip --use-phash --out output/$FNAME
 
-      - name: Upload JSON to Azure Blob (dated + latest)
+      - name: Upload JSON to Azure Blob (dated)
         env:
           AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
         run: |
           FNAME="trends-raw-$(date +%F).json"
-          echo "Uploading output/$FNAME to container trends-raw"
           python upload_to_blob.py output/$FNAME --container trends-raw
-          # also upload as latest.json (overwrite)
           cp output/$FNAME output/latest.json
           python upload_to_blob.py output/latest.json --container trends-raw --dest-path "latest/trends.json"
