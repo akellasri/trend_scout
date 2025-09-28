@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"ETG001\",\n    \"title\": \"Earth Tone Relaxed Co-ord Set\",\n    \"image_prompt\": \"flat-lay product render of a two-piece co-ord set in warm earth tones, consisting of a relaxed-fit button-up shirt and matching wide-leg trousers, isolated on plain white background, high-detail fabric texture, visible stitching, natural matte finish, subtle tonal buttons, no model, no mannequin, apparel only\",\n    \"color_palette\": [\"sand beige\", \"terracotta\", \"olive green\", \"warm taupe\"],\n    \"fabrics\": [\"organic cotton twill\", \"linen blend\"],\n    \"prints_patterns\": [\"solid with subtle slub texture\"],\n    \"garment_type\": \"co-ord set\",\n    \"silhouette\": \"relaxed fit\",\n    \"sleeves\": \"long sleeves with buttoned cuffs\",\n    \"neckline\": \"classic shirt collar\",\n    \"length\": \"shirt: hip length, trousers: full length\",\n    \"style_fit\": \"loose and breathable\",\n    \"trims_and_details\": [\"tonal buttons\", \"double-stitched seams\", \"side pockets on trousers\", \"curved hem on shirt\"],\n    \"techpack\": \"Shirt: organic cotton twill, long sleeves with button cuffs, classic collar, front placket with tonal buttons, curved hem. Trousers: linen blend, wide-leg cut, elasticated waistband with concealed drawstring, side pockets, double-stitched seams.\",\n    \"provenance\": \"Inspired by the 'Earth tones' trend, combining natural hues and breathable fabrics for a versatile, commercial co-ord set.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985412,
+  "id": "chatcmpl-CKQkO0DnfEc1tj0CPEae3ZQhpaUYn",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 352,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 616,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 968
+  }
+}

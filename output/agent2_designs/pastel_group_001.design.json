@@ -1,0 +1,33 @@
+{
+  "design_id": "pastel_group_001",
+  "title": "Pastel Co-ord Set with Soft Pleats",
+  "image_prompt": "high-resolution flat-lay product render of a pastel co-ord set consisting of a short-sleeve blouse and a midi skirt, isolated on a plain white background, high-detail fabric texture, visible stitching, soft pleats on skirt, delicate buttons on blouse, no model, no mannequin, no human, apparel-only",
+  "color_palette": [
+    "soft lavender",
+    "powder pink",
+    "mint green",
+    "buttercream yellow"
+  ],
+  "fabrics": [
+    "lightweight cotton poplin",
+    "silk blend",
+    "polyester lining"
+  ],
+  "prints_patterns": [
+    "solid pastel tones"
+  ],
+  "garment_type": "co-ord set",
+  "silhouette": "relaxed blouse with A-line midi skirt",
+  "sleeves": "short sleeves",
+  "neckline": "round neckline",
+  "length": "midi skirt length",
+  "style_fit": "regular fit blouse, high-waist skirt",
+  "trims_and_details": [
+    "fabric-covered buttons",
+    "soft pleats",
+    "invisible side zipper on skirt"
+  ],
+  "techpack": "Blouse: lightweight cotton poplin, round neckline, short sleeves, fabric-covered buttons at front placket, straight hem. Skirt: silk blend outer with polyester lining, A-line silhouette, soft pleats, invisible side zipper, high waist with waistband. Colorways in soft lavender, powder pink, mint green, buttercream yellow.",
+  "provenance": "Inspired by pastel trend and commercial co-ord sets from provided examples.",
+  "design_text": "Pastel Co-ord Set with Soft Pleats (pastel_group_001)\nColors: soft lavender, powder pink, mint green, buttercream yellow\nFabrics: lightweight cotton poplin, silk blend, polyester lining\nPrints/Patterns: solid pastel tones\nGarment Type: co-ord set\nSilhouette: relaxed blouse with A-line midi skirt\nSleeves: short sleeves\nNeckline: round neckline\nLength: midi skirt length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t,  , b, l, o, u, s, e, ,,  , h, i, g, h, -, w, a, i, s, t,  , s, k, i, r, t\nTrims & details: fabric-covered buttons, soft pleats, invisible side zipper on skirt\nTechpack: available"
+}

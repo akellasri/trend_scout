@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"ALD001\",\n    \"title\": \"Ankle-Length Fluid Maxi Dress\",\n    \"image_prompt\": \"flat-lay product render of an ankle-length maxi dress, isolated on plain white background, high-detail fabric texture, visible stitching and trims, soft drape, slight A-line silhouette, short flutter sleeves, V-neckline, concealed side zipper, lightweight woven fabric\",\n    \"color_palette\": [\"soft sage green\", \"warm ivory\", \"muted blush\"],\n    \"fabrics\": [\"lightweight rayon\", \"cotton blend lining\"],\n    \"prints_patterns\": [\"solid color\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short flutter sleeves\",\n    \"neckline\": \"V-neck\",\n    \"length\": \"ankle-length\",\n    \"style_fit\": \"relaxed fit through body, gently fitted at waist\",\n    \"trims_and_details\": [\"concealed side zipper\", \"narrow self-fabric waist tie\", \"topstitching along neckline and hem\"],\n    \"techpack\": \"Ankle-length A-line maxi dress with short flutter sleeves, V-neckline, concealed side zipper on left seam, self-fabric waist tie, topstitching detail at neckline and hem, lightweight rayon shell with cotton blend lining, finished hem length 58 inches from shoulder.\",\n    \"provenance\": \"Inspired by the commercial ankle-length trend for versatile day-to-evening wear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985441,
+  "id": "chatcmpl-CKQkrBc2VLnwPzLpVkUxVMUXFHr0d",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 317,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 383,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 700
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "design_id": "BLWH-001",
+  "title": "Blue & White Nautical Stripe Midi Dress",
+  "image_prompt": "flat-lay product render of a women's midi dress in alternating horizontal blue and white stripes, sleeveless, fitted bodice with A-line skirt, scoop neckline, high-detail cotton fabric texture, visible stitching and concealed side zipper, isolated on plain white background",
+  "color_palette": [
+    "navy blue",
+    "white"
+  ],
+  "fabrics": [
+    "cotton poplin",
+    "spandex blend"
+  ],
+  "prints_patterns": [
+    "horizontal stripes"
+  ],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": [
+    "sleeveless"
+  ],
+  "neckline": "scoop",
+  "length": "midi",
+  "style_fit": "fitted bodice with flared skirt",
+  "trims_and_details": [
+    "concealed side zipper",
+    "topstitching along neckline and armholes",
+    "striped pattern alignment at seams"
+  ],
+  "techpack": "A-line midi dress with horizontal navy blue and white stripes, sleeveless, scoop neckline, fitted bodice, flared skirt, concealed side zipper, cotton poplin with slight stretch for comfort, stripe matching at seams, hem finished with double topstitch.",
+  "provenance": "Designed by combining blue and white color palette inspired by nautical themes for a commercial-ready summer dress.",
+  "design_text": "Blue & White Nautical Stripe Midi Dress (BLWH-001)\nColors: navy blue, white\nFabrics: cotton poplin, spandex blend\nPrints/Patterns: horizontal stripes\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['sleeveless']\nNeckline: scoop\nLength: midi\nStyle / Fit: f, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: concealed side zipper, topstitching along neckline and armholes, striped pattern alignment at seams\nTechpack: available"
+}

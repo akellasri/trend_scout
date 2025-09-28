@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BRWNCRW001\",\n    \"title\": \"Chestnut Crew Neck Knit Sweater\",\n    \"image_prompt\": \"flat-lay product render of a chestnut brown crew neck knit sweater, isolated on plain white background, high-detail fabric texture, visible stitching along hems and cuffs, ribbed neckline, cuffs, and waistband, no model, no mannequin, no human, apparel-only\",\n    \"color_palette\": [\"chestnut brown\", \"warm cocoa\", \"soft beige\"],\n    \"fabrics\": [\"organic cotton\", \"merino wool blend\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"sweater\",\n    \"silhouette\": \"classic straight\",\n    \"sleeves\": \"long sleeves\",\n    \"neckline\": \"crew neck\",\n    \"length\": \"waist length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"ribbed neckline\", \"ribbed cuffs\", \"ribbed waistband\", \"double-stitched seams\"],\n    \"techpack\": \"Chestnut brown crew neck sweater in organic cotton and merino wool blend; regular fit with classic straight silhouette; long sleeves with ribbed cuffs; ribbed crew neckline; ribbed waistband; double-stitched seams for durability; waist length.\",\n    \"provenance\": \"Designed based on combination of brown color palette and crew neck neckline trend.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985234,
+  "id": "chatcmpl-CKQhWdYT42smuPDcFy1qPJJy3Moaw",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 299,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 606,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 905
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BLKGRY-001\",\n    \"title\": \"Black & Grey Colorblock Utility Shirt\",\n    \"image_prompt\": \"flat-lay product render of a long-sleeve button-up utility shirt, colorblocked in deep black and charcoal grey panels, isolated on plain white background, high-detail cotton twill texture, visible stitching, matte black buttons, double chest pockets with flaps, straight hem, no model, no mannequin\",\n    \"color_palette\": [\"black\", \"charcoal grey\", \"light grey (stitching)\"],\n    \"fabrics\": [\"cotton twill\"],\n    \"prints_patterns\": [\"colorblock\"],\n    \"garment_type\": \"shirt\",\n    \"silhouette\": \"straight\",\n    \"sleeves\": \"long sleeves\",\n    \"neckline\": \"collared\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"matte black buttons\", \"double chest pockets with flaps\", \"contrast topstitching in light grey\", \"buttoned cuffs\"],\n    \"techpack\": \"Front: two-tone colorblock panels with black on right front and charcoal grey on left front, matching back panel arrangement; double chest pockets with flap closures; matte black buttons along center front placket; long sleeves with buttoned cuffs; straight hem; contrast light grey topstitching throughout for definition.\",\n    \"provenance\": \"Designed by combining trending black and grey color palette into a commercial utility shirt silhouette.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985218,
+  "id": "chatcmpl-CKQhG0251xy4QmpTOAYJOVomk8dZS",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 327,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 561,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 888
+  }
+}

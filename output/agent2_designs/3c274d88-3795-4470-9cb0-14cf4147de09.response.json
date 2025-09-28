@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"PW001\",\n    \"title\": \"Blush & Ivory Patchwork Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a women's midi dress combining blush pink and ivory panels in a patchwork design, short puff sleeves, V-neckline, fit-and-flare silhouette, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"blush pink\", \"ivory white\"],\n    \"fabrics\": [\"lightweight cotton\", \"linen blend\"],\n    \"prints_patterns\": [\"patchwork\", \"solid color blocks\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"fit-and-flare\",\n    \"sleeves\": \"short puff sleeves\",\n    \"neckline\": \"V-neck\",\n    \"length\": \"midi\",\n    \"style_fit\": \"tailored at waist with flared skirt\",\n    \"trims_and_details\": [\"contrast topstitching\", \"side seam pockets\", \"invisible back zipper\"],\n    \"techpack\": \"Midi dress with alternating blush pink and ivory panels in patchwork layout, short puff sleeves gathered at cuff, V-neckline with facing, fitted bodice with darts, flared skirt panels, invisible zipper at center back, side seam pockets, contrast topstitching along panel seams.\",\n    \"provenance\": \"Designed by combining trending pink and white color palette inspired by contemporary patchwork and fit-and-flare silhouettes from example references.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985228,
+  "id": "chatcmpl-CKQhQwffVF8yLwMjdxXpeh8xHwKkp",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 562,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 880
+  }
+}

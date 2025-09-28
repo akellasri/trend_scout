@@ -1,0 +1,32 @@
+{
+  "design_id": "SLV-MIN-001",
+  "title": "Minimalist Solid Sleeveless Tank Top",
+  "image_prompt": "flat-lay product render of a minimalist solid-color sleeveless tank top, isolated on plain white background, high-detail fabric texture, visible stitching and clean hems, no model, no mannequin, no human, no lifestyle scene",
+  "color_palette": [
+    "soft ivory",
+    "warm beige",
+    "charcoal grey"
+  ],
+  "fabrics": [
+    "organic cotton jersey",
+    "modal blend"
+  ],
+  "prints_patterns": [
+    "solid"
+  ],
+  "garment_type": "tank top",
+  "silhouette": "straight cut",
+  "sleeves": [
+    "sleeveless"
+  ],
+  "neckline": "crew neck",
+  "length": "hip length",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "double-stitched hems",
+    "self-fabric neck binding"
+  ],
+  "techpack": "Sleeveless tank top in organic cotton jersey with modal blend for softness; crew neck with self-fabric binding; straight cut silhouette; hip length; double-stitched hems for durability; available in soft ivory, warm beige, and charcoal grey solid colors.",
+  "provenance": "Designed based on combination of minimalist solid print and sleeveless/tank style from provided examples.",
+  "design_text": "Minimalist Solid Sleeveless Tank Top (SLV-MIN-001)\nColors: soft ivory, warm beige, charcoal grey\nFabrics: organic cotton jersey, modal blend\nPrints/Patterns: solid\nGarment Type: tank top\nSilhouette: straight cut\nSleeves: ['sleeveless']\nNeckline: crew neck\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: double-stitched hems, self-fabric neck binding\nTechpack: available"
+}

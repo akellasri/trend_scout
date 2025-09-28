@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"WD001\",\n    \"title\": \"White Minimalist Linen Shift Dress\",\n    \"image_prompt\": \"flat-lay product render of a pure white minimalist shift dress, solid color, lightweight linen fabric, short sleeves, crew neckline, knee-length, straight silhouette, subtle topstitching, no embellishments, isolated on plain white background, high-detail fabric texture, visible stitching and clean hems\",\n    \"color_palette\": [\"pure white\"],\n    \"fabrics\": [\"lightweight linen\", \"cotton blend lining\"],\n    \"prints_patterns\": [\"solid\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"shift\",\n    \"sleeves\": \"short sleeves\",\n    \"neckline\": \"crew neckline\",\n    \"length\": \"knee-length\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"topstitching\", \"hidden side zipper\", \"clean hem finish\"],\n    \"techpack\": \"A knee-length shift dress in pure white lightweight linen with cotton blend lining. Features short sleeves, crew neckline, relaxed fit, hidden side zipper closure, and clean hem finish. Solid color with minimalist aesthetic. All seams finished with topstitching for durability.\",\n    \"provenance\": \"Designed based on combination of color:white and print:solids/minimalist from provided trend context.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985140,
+  "id": "chatcmpl-CKQg0o7pITpCmWMDj7tQJrZFByYQp",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 294,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 586,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 880
+  }
+}

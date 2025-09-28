@@ -1,0 +1,30 @@
+{
+  "design_id": "CHIFFON-001",
+  "title": "Soft Pastel Chiffon Midi Dress",
+  "image_prompt": "Isolated flat-lay of a commercial-ready chiffon midi dress on a plain white background, soft pastel gradient in blush pink and lavender, lightweight semi-sheer fabric with visible fine weave texture, short flutter sleeves, V-neckline, fitted waist with gathered skirt, delicate pearl buttons on front placket, high-detail stitching and trims, no model or mannequin, product render style",
+  "color_palette": [
+    "Blush Pink",
+    "Lavender",
+    "Soft Ivory"
+  ],
+  "fabrics": [
+    "Chiffon",
+    "Polyester lining"
+  ],
+  "prints_patterns": [
+    "Solid with subtle gradient effect"
+  ],
+  "garment_type": "Dress",
+  "silhouette": "A-line",
+  "sleeves": "Short flutter sleeves",
+  "neckline": "V-neck",
+  "length": "Midi",
+  "style_fit": "Fitted bodice with flowing skirt",
+  "trims_and_details": [
+    "Pearl buttons",
+    "Gathered waist",
+    "Invisible side zipper"
+  ],
+  "techpack": "Lightweight chiffon outer with polyester lining; A-line silhouette; short flutter sleeves; V-neckline; fitted waist with gathered skirt; pearl button front placket; invisible side zipper; hem finished with narrow rolled edge; gradient dye from blush pink to lavender.",
+  "provenance": "Inspired by trending chiffon fabric styles in contemporary Indian and fusion wear."
+}

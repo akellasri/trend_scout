@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"MX2024-001\",\n    \"title\": \"Flowing Maxi Dress with Tiered Skirt\",\n    \"image_prompt\": \"flat-lay product render of a flowing maxi dress with tiered skirt, short flutter sleeves, V-neckline, made from lightweight chiffon, solid dusty rose color, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"dusty rose\", \"soft blush\", \"warm beige\"],\n    \"fabrics\": [\"lightweight chiffon\", \"polyester lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line tiered\",\n    \"sleeves\": \"short flutter sleeves\",\n    \"neckline\": \"V-neckline\",\n    \"length\": \"maxi\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"tiered skirt panels\", \"invisible back zipper\", \"narrow waistband seam\"],\n    \"techpack\": \"Maxi length A-line dress with three tiered skirt panels, short flutter sleeves, V-neckline, invisible back zipper closure, chiffon outer with polyester lining, finished with narrow waistband seam for subtle shaping.\",\n    \"provenance\": \"Inspired by the 'Maxi' length trend for commercial womenswear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985446,
+  "id": "chatcmpl-CKQkw1VJGOYQIpswQoFVNxXdwvM7D",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 285,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 381,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 666
+  }
+}

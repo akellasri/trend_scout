@@ -1,0 +1,28 @@
+{
+  "design_id": "WD-FS-001",
+  "title": "White Full-Sleeve Tailored Shirt",
+  "image_prompt": "Isolated flat-lay product render of a crisp white full-sleeve tailored shirt, high-detail cotton fabric texture, visible stitching, pearl buttons, structured collar, plain white background, no model, no mannequin, no human elements, commercial product page style",
+  "color_palette": [
+    "white",
+    "pearl"
+  ],
+  "fabrics": [
+    "100% cotton poplin"
+  ],
+  "prints_patterns": [],
+  "garment_type": "shirt",
+  "silhouette": "tailored fit",
+  "sleeves": "full sleeves",
+  "neckline": "classic pointed collar",
+  "length": "hip length",
+  "style_fit": "slim fit",
+  "trims_and_details": [
+    "pearl buttons",
+    "double-stitched seams",
+    "buttoned cuffs",
+    "reinforced collar stand"
+  ],
+  "techpack": "White tailored shirt with full sleeves, slim fit, hip length, classic pointed collar, 100% cotton poplin, pearl buttons, double-stitched seams, buttoned cuffs, reinforced collar stand. Flat-lay presentation for product page.",
+  "provenance": "Designed by in-house fashion product team based on trending minimal white full-sleeve styles.",
+  "design_text": "White Full-Sleeve Tailored Shirt (WD-FS-001)\nColors: white, pearl\nFabrics: 100% cotton poplin\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: tailored fit\nSleeves: full sleeves\nNeckline: classic pointed collar\nLength: hip length\nStyle / Fit: s, l, i, m,  , f, i, t\nTrims & details: pearl buttons, double-stitched seams, buttoned cuffs, reinforced collar stand\nTechpack: available"
+}

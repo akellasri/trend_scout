@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"SLK001\",\n    \"title\": \"Midnight Bloom Silk Blouse\",\n    \"image_prompt\": \"high-resolution flat-lay product render of a women's silk blouse, deep midnight blue color with subtle floral jacquard pattern, isolated on plain white background, high-detail fabric texture, visible stitching, pearl button front placket, no model, no mannequin, no human, no lifestyle scene\",\n    \"color_palette\": [\"Midnight Blue\", \"Ivory\", \"Soft Gold\"],\n    \"fabrics\": [\"100% Mulberry Silk\"],\n    \"prints_patterns\": [\"Floral Jacquard\"],\n    \"garment_type\": \"Blouse\",\n    \"silhouette\": \"Relaxed fit with slight taper at waist\",\n    \"sleeves\": \"Long sleeves with buttoned cuffs\",\n    \"neckline\": \"Mandarin collar\",\n    \"length\": \"Hip length\",\n    \"style_fit\": \"Regular fit\",\n    \"trims_and_details\": [\"Pearl buttons\", \"Jacquard weave\", \"Double-stitched seams\", \"Side slits\"],\n    \"techpack\": \"Silk blouse with floral jacquard weave, mandarin collar, long sleeves with buttoned cuffs, pearl button front closure, hip length, regular fit. Fabric: 100% mulberry silk, weight 80gsm. Finish: soft sheen, pre-shrunk. Stitching: double-stitched seams, side slits for ease.\",\n    \"provenance\": \"Inspired by contemporary commercial silk trends and traditional jacquard weaving techniques.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985358,
+  "id": "chatcmpl-CKQjWddt38PcNvMF6ZZ1XPxx8NKLx",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 334,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 628,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 962
+  }
+}

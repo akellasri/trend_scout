@@ -1,0 +1,29 @@
+{
+  "design_id": "WD001",
+  "title": "White Minimalist Linen Shift Dress",
+  "image_prompt": "flat-lay product render of a pure white minimalist shift dress, solid color, lightweight linen fabric, short sleeves, crew neckline, knee-length, straight silhouette, subtle topstitching, no embellishments, isolated on plain white background, high-detail fabric texture, visible stitching and clean hems",
+  "color_palette": [
+    "pure white"
+  ],
+  "fabrics": [
+    "lightweight linen",
+    "cotton blend lining"
+  ],
+  "prints_patterns": [
+    "solid"
+  ],
+  "garment_type": "dress",
+  "silhouette": "shift",
+  "sleeves": "short sleeves",
+  "neckline": "crew neckline",
+  "length": "knee-length",
+  "style_fit": "relaxed fit",
+  "trims_and_details": [
+    "topstitching",
+    "hidden side zipper",
+    "clean hem finish"
+  ],
+  "techpack": "A knee-length shift dress in pure white lightweight linen with cotton blend lining. Features short sleeves, crew neckline, relaxed fit, hidden side zipper closure, and clean hem finish. Solid color with minimalist aesthetic. All seams finished with topstitching for durability.",
+  "provenance": "Designed based on combination of color:white and print:solids/minimalist from provided trend context.",
+  "design_text": "White Minimalist Linen Shift Dress (WD001)\nColors: pure white\nFabrics: lightweight linen, cotton blend lining\nPrints/Patterns: solid\nGarment Type: dress\nSilhouette: shift\nSleeves: short sleeves\nNeckline: crew neckline\nLength: knee-length\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: topstitching, hidden side zipper, clean hem finish\nTechpack: available"
+}

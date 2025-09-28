@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"MID2024-001\",\n    \"title\": \"Classic Midi Wrap Dress\",\n    \"image_prompt\": \"flat-lay product render of a midi-length wrap dress, solid dusty rose color, lightweight crepe fabric, short flutter sleeves, V-neckline, self-tie waist belt, subtle topstitching, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"Dusty Rose\", \"Soft Blush\", \"Warm Taupe\"],\n    \"fabrics\": [\"Lightweight Crepe\", \"Polyester Blend\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"Dress\",\n    \"silhouette\": \"Wrap\",\n    \"sleeves\": \"Short Flutter Sleeves\",\n    \"neckline\": \"V-Neck\",\n    \"length\": \"Midi\",\n    \"style_fit\": \"Regular Fit\",\n    \"trims_and_details\": [\"Self-tie waist belt\", \"Topstitching along edges\", \"Hidden side zipper\"],\n    \"techpack\": \"Midi-length wrap dress with short flutter sleeves and V-neckline. Constructed in lightweight crepe polyester blend. Features self-tie waist belt, hidden side zipper, and topstitching along neckline and hem. Skirt length from waist to hem: approx. 80cm.\",\n    \"provenance\": \"Inspired by commercial midi-length trend for Spring/Summer 2024.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985430,
+  "id": "chatcmpl-CKQkgFZ3AmXpyKbZEs8pzLVI26A4F",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 306,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 379,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 685
+  }
+}

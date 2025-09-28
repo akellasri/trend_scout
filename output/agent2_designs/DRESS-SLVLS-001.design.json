@@ -1,0 +1,32 @@
+{
+  "design_id": "DRESS-SLVLS-001",
+  "title": "Sleeveless A-Line Midi Dress with Botanical Print",
+  "image_prompt": "flat-lay product render of a sleeveless A-line midi dress, soft drape, scoop neckline, botanical floral print in muted tones, lightweight cotton sateen fabric, isolated on plain white background, high-detail fabric texture, visible stitching and trims",
+  "color_palette": [
+    "sage green",
+    "soft cream",
+    "dusty rose",
+    "warm taupe"
+  ],
+  "fabrics": [
+    "cotton sateen",
+    "lining: lightweight cotton voile"
+  ],
+  "prints_patterns": [
+    "botanical floral print"
+  ],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": "sleeveless/tank",
+  "neckline": "scoop",
+  "length": "midi",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "invisible back zipper",
+    "self-fabric waist tie",
+    "topstitching along neckline and armholes"
+  ],
+  "techpack": "Sleeveless A-line midi dress in cotton sateen with botanical floral print. Scoop neckline finished with bias binding. Invisible zipper closure at center back. Self-fabric waist tie attached at side seams. Fully lined with lightweight cotton voile. Hem finished with double fold stitch.",
+  "provenance": "Designed by combining garment:dress and sleeve:Sleeveless/Tank from provided trend attributes.",
+  "design_text": "Sleeveless A-Line Midi Dress with Botanical Print (DRESS-SLVLS-001)\nColors: sage green, soft cream, dusty rose, warm taupe\nFabrics: cotton sateen, lining: lightweight cotton voile\nPrints/Patterns: botanical floral print\nGarment Type: dress\nSilhouette: A-line\nSleeves: sleeveless/tank\nNeckline: scoop\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: invisible back zipper, self-fabric waist tie, topstitching along neckline and armholes\nTechpack: available"
+}

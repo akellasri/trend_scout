@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BRN001\",\n    \"title\": \"Mocha Satin Midi Wrap Dress\",\n    \"image_prompt\": \"flat-lay product render of a mocha brown satin midi wrap dress, isolated on plain white background, high-detail fabric texture, visible stitching, waist tie belt, subtle sheen, no model, no mannequin, no body parts\",\n    \"color_palette\": [\"mocha brown\", \"warm taupe\", \"soft beige\"],\n    \"fabrics\": [\"satin\", \"polyester blend lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"wrap\",\n    \"sleeves\": \"long bishop sleeves\",\n    \"neckline\": \"V-neck\",\n    \"length\": \"midi\",\n    \"style_fit\": \"regular fit with adjustable waist tie\",\n    \"trims_and_details\": [\"self-fabric waist tie belt\", \"covered buttons on cuffs\", \"topstitching along neckline and hem\"],\n    \"techpack\": \"Mocha brown satin wrap dress with long bishop sleeves, V-neckline, midi length. Self-fabric waist tie belt for adjustable fit, covered buttons on sleeve cuffs, polyester blend lining for comfort. Topstitching detail along neckline and hem for durability.\",\n    \"provenance\": \"Inspired by the trending brown color palette, designed for commercial womenswear with a timeless wrap silhouette.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985328,
+  "id": "chatcmpl-CKQj2FguqDs3qfA1sKA0akUehHB4L",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 604,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 902
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BR-EMB-001\",\n    \"title\": \"Chestnut Embroidered Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a chestnut brown midi dress with intricate tonal floral embroidery across bodice and hem, short puff sleeves, sweetheart neckline, fitted waist, A-line silhouette, high-detail fabric texture, visible stitching and trims, isolated on plain white background\",\n    \"color_palette\": [\"chestnut brown\", \"warm beige\", \"gold thread\"],\n    \"fabrics\": [\"cotton sateen\", \"polyester lining\"],\n    \"prints_patterns\": [\"floral embroidery\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short puff sleeves\",\n    \"neckline\": \"sweetheart\",\n    \"length\": \"midi\",\n    \"style_fit\": \"fitted bodice with flared skirt\",\n    \"trims_and_details\": [\"tonal floral embroidery\", \"invisible back zipper\", \"waist seam piping\"],\n    \"techpack\": \"Chestnut brown cotton sateen midi dress with polyester lining; sweetheart neckline; short puff sleeves; fitted bodice with waist seam; A-line skirt; tonal floral embroidery on bodice and hem; invisible back zipper; waist seam piping; hem finished with blind stitch.\",\n    \"provenance\": \"Designed based on trend combination of brown color and embroidery, inspired by contemporary ethnic-fusion womenswear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985239,
+  "id": "chatcmpl-CKQhbdka2sssSWs12wwc1us0W6LlJ",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 314,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 606,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 920
+  }
+}

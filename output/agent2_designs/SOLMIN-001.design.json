@@ -1,0 +1,33 @@
+{
+  "design_id": "SOLMIN-001",
+  "title": "Minimalist Solid A-Line Midi Dress",
+  "image_prompt": "flat-lay product render of a minimalist solid-color A-line midi dress, sleeveless with clean round neckline, soft drape, high-detail fabric texture, visible stitching and subtle topstitching, isolated on plain white background, no model, no mannequin, no human, commercial ready-to-wear style",
+  "color_palette": [
+    "soft beige",
+    "warm taupe",
+    "charcoal grey"
+  ],
+  "fabrics": [
+    "lightweight cotton twill",
+    "viscose blend lining"
+  ],
+  "prints_patterns": [
+    "solid"
+  ],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": [
+    "sleeveless"
+  ],
+  "neckline": "round",
+  "length": "midi",
+  "style_fit": "relaxed fit",
+  "trims_and_details": [
+    "invisible side zipper",
+    "topstitch detailing along hem",
+    "self-fabric waist tie"
+  ],
+  "techpack": "A-line midi dress in solid lightweight cotton twill with viscose blend lining. Sleeveless, round neckline, invisible side zipper closure, self-fabric waist tie for adjustable fit. Topstitch detailing along hem and neckline. Seam allowance 1cm, hem allowance 3cm.",
+  "provenance": "Designed based on solids/minimalist trend for commercial ready-to-wear.",
+  "design_text": "Minimalist Solid A-Line Midi Dress (SOLMIN-001)\nColors: soft beige, warm taupe, charcoal grey\nFabrics: lightweight cotton twill, viscose blend lining\nPrints/Patterns: solid\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['sleeveless']\nNeckline: round\nLength: midi\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: invisible side zipper, topstitch detailing along hem, self-fabric waist tie\nTechpack: available"
+}

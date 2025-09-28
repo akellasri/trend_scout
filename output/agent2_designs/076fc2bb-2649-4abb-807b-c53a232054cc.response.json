@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"GREY_SOLID_MINIMALIST_001\",\n    \"title\": \"Minimalist Grey Solid Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a minimalist solid grey midi dress, A-line silhouette, short sleeves, crew neckline, soft matte cotton fabric, isolated on plain white background, high-detail fabric texture, visible stitching and clean hems, no model, no mannequin\",\n    \"color_palette\": [\"charcoal grey\", \"ash grey\", \"light silver\"],\n    \"fabrics\": [\"cotton poplin\", \"organic cotton\"],\n    \"prints_patterns\": [\"solid\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short sleeves\",\n    \"neckline\": \"crew neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"topstitching along seams\", \"hidden side zipper\", \"clean hem finish\"],\n    \"techpack\": \"A-line midi dress in solid grey cotton poplin with short sleeves and crew neckline. Hidden side zipper closure, topstitching for durability, clean hem finish. Regular fit with minimal detailing for a modern, versatile look.\",\n    \"provenance\": \"Designed based on combination of grey color palette and minimalist solid print trend.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985191,
+  "id": "chatcmpl-CKQgpULga56E4Zj5CKUBHw5stMmwq",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 289,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 591,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 880
+  }
+}

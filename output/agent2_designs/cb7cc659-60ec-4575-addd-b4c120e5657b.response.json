@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"HLT001\",\n    \"title\": \"Satin Halter Midi Dress\",\n    \"image_prompt\": \"Isolated flat-lay product render of a sleeveless satin halter midi dress on a plain white background, high-detail fabric texture, visible stitching, clean edges, subtle sheen, no model, no mannequin, no props.\",\n    \"color_palette\": [\"Champagne Beige\", \"Soft Blush Pink\", \"Midnight Navy\"],\n    \"fabrics\": [\"Silk Satin\", \"Polyester Satin Blend\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"Dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"Sleeveless\",\n    \"neckline\": \"Halter\",\n    \"length\": \"Midi\",\n    \"style_fit\": \"Regular fit with slight waist shaping\",\n    \"trims_and_details\": [\"Invisible back zipper\", \"Self-fabric halter tie\", \"Lined bodice\", \"Topstitching along hem\"],\n    \"techpack\": \"A-line midi dress with halter neckline, sleeveless, silk satin fabric, invisible back zipper closure, self-fabric halter tie, lined bodice, topstitched hem. Seam allowance 1cm, standard size grading.\",\n    \"provenance\": \"Inspired by current halter neckline trend in commercial womenswear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985467,
+  "id": "chatcmpl-CKQlHtjzPrWCYgJxddsr8gO4mQmXP",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 291,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 381,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 672
+  }
+}

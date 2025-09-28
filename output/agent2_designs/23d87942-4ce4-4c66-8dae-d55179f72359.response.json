@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "[\n  {\n    \"design_id\": \"embroidery_print_001\",\n    \"title\": \"Floral Vine Embroidered Tunic\",\n    \"image_prompt\": \"flat-lay product render of a women's tunic, crafted from lightweight cotton-silk blend, featuring intricate floral vine embroidery in contrasting thread colors across the front panel and cuffs, isolated on a plain white background, high-detail fabric texture, visible stitching and trims, no model, no mannequin, no human elements\",\n    \"color_palette\": [\"ivory\", \"deep emerald\", \"burnished gold\", \"rose pink\"],\n    \"fabrics\": [\"cotton-silk blend\"],\n    \"prints_patterns\": [\"floral vine embroidery\"],\n    \"garment_type\": \"tunic\",\n    \"silhouette\": \"straight\",\n    \"sleeves\": \"three-quarter length\",\n    \"neckline\": \"boat neck\",\n    \"length\": \"mid-thigh\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"embroidered front panel\", \"embroidered sleeve cuffs\", \"side slits\", \"contrast piping along neckline\"],\n    \"techpack\": \"Lightweight cotton-silk blend tunic with straight silhouette, boat neck, three-quarter sleeves, mid-thigh length. Floral vine embroidery in deep emerald, burnished gold, and rose pink threads on ivory base. Side slits for ease of movement, contrast piping along neckline. Recommended embroidery density: medium, thread type: rayon.\",\n    \"provenance\": \"Inspired by contemporary commercial embroidery trends, referencing South Asian artisanal motifs adapted for modern tunic wear.\"\n  }\n]",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985477,
+  "id": "chatcmpl-CKQlRPxSdFfSGSxw9FKRyyIn77KkZ",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 334,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 646,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 980
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "design_id": "COLLARED_SS24_001",
+  "title": "Classic Collared Linen Shirt",
+  "image_prompt": "Flat-lay product render of a classic collared short-sleeve linen shirt, isolated on a plain white background, high-detail fabric texture, visible stitching, buttons, and collar structure, no model, no mannequin, no human, apparel-only view",
+  "color_palette": [
+    "soft ivory",
+    "warm sand",
+    "sky blue"
+  ],
+  "fabrics": [
+    "100% linen",
+    "cotton-linen blend"
+  ],
+  "prints_patterns": [],
+  "garment_type": "shirt",
+  "silhouette": "straight cut",
+  "sleeves": "short sleeves",
+  "neckline": "pointed collar",
+  "length": "hip length",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "mother-of-pearl buttons",
+    "double topstitching",
+    "side vents"
+  ],
+  "techpack": "Short-sleeve collared shirt with pointed collar, front button placket, straight hem with side vents, constructed in lightweight linen with reinforced collar stand, double topstitching along seams, standard button spacing, pre-washed for softness.",
+  "provenance": "Inspired by SS24 collared neckline trend; designed for commercial ready-to-wear production.",
+  "design_text": "Classic Collared Linen Shirt (COLLARED_SS24_001)\nColors: soft ivory, warm sand, sky blue\nFabrics: 100% linen, cotton-linen blend\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: straight cut\nSleeves: short sleeves\nNeckline: pointed collar\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: mother-of-pearl buttons, double topstitching, side vents\nTechpack: available"
+}

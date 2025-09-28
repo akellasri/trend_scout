@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"pastel_group_001\",\n    \"title\": \"Pastel Co-ord Set with Soft Pleats\",\n    \"image_prompt\": \"high-resolution flat-lay product render of a pastel co-ord set consisting of a short-sleeve blouse and a midi skirt, isolated on a plain white background, high-detail fabric texture, visible stitching, soft pleats on skirt, delicate buttons on blouse, no model, no mannequin, no human, apparel-only\",\n    \"color_palette\": [\"soft lavender\", \"powder pink\", \"mint green\", \"buttercream yellow\"],\n    \"fabrics\": [\"lightweight cotton poplin\", \"silk blend\", \"polyester lining\"],\n    \"prints_patterns\": [\"solid pastel tones\"],\n    \"garment_type\": \"co-ord set\",\n    \"silhouette\": \"relaxed blouse with A-line midi skirt\",\n    \"sleeves\": \"short sleeves\",\n    \"neckline\": \"round neckline\",\n    \"length\": \"midi skirt length\",\n    \"style_fit\": \"regular fit blouse, high-waist skirt\",\n    \"trims_and_details\": [\"fabric-covered buttons\", \"soft pleats\", \"invisible side zipper on skirt\"],\n    \"techpack\": \"Blouse: lightweight cotton poplin, round neckline, short sleeves, fabric-covered buttons at front placket, straight hem. Skirt: silk blend outer with polyester lining, A-line silhouette, soft pleats, invisible side zipper, high waist with waistband. Colorways in soft lavender, powder pink, mint green, buttercream yellow.\",\n    \"provenance\": \"Inspired by pastel trend and commercial co-ord sets from provided examples.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985418,
+  "id": "chatcmpl-CKQkU8F3Heh3TRol41k3yBBC5WFLS",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 358,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 569,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 927
+  }
+}

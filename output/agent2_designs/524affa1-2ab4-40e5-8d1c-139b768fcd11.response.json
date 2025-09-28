@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"NTL-001\",\n    \"title\": \"Sandstone Neutral Linen Shirt\",\n    \"image_prompt\": \"flat-lay product render of a neutral-tone men's long-sleeve linen shirt, sandstone beige color, button-down front, single chest pocket, subtle topstitching, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"sandstone beige\", \"warm ivory\", \"taupe\"],\n    \"fabrics\": [\"pure linen\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"shirt\",\n    \"silhouette\": \"classic straight cut\",\n    \"sleeves\": \"long sleeves with buttoned cuffs\",\n    \"neckline\": \"spread collar\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"mother-of-pearl buttons\", \"single chest patch pocket\", \"double-needle topstitching\"],\n    \"techpack\": \"Men's long-sleeve shirt in pure linen, sandstone beige color; spread collar; front placket with 7 mother-of-pearl buttons; single chest patch pocket; long sleeves with buttoned cuffs; double-needle topstitching along seams; hip length; regular fit.\",\n    \"provenance\": \"Inspired by the 'Neutrals' trend and commercial linen shirt styles from contemporary Indian designers.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985407,
+  "id": "chatcmpl-CKQkJWoAl5FkKuHv9YuqiJWKSERbw",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 302,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 581,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 883
+  }
+}

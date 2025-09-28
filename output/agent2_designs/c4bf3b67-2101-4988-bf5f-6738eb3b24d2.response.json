@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"FS001\",\n    \"title\": \"Classic Full Sleeve Blouse\",\n    \"image_prompt\": \"Isolated flat-lay product render of a women's blouse with full-length sleeves, tailored fit, soft drape, solid dusty rose color, high-detail fabric texture, visible stitching and button cuffs, plain white background, no model or mannequin\",\n    \"color_palette\": [\"Dusty Rose\", \"Soft Beige\", \"Ivory White\"],\n    \"fabrics\": [\"Lightweight Cotton Poplin\", \"Silk Blend\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"Blouse\",\n    \"silhouette\": \"Tailored\",\n    \"sleeves\": \"Full sleeves with buttoned cuffs\",\n    \"neckline\": \"Crew neck\",\n    \"length\": \"Hip length\",\n    \"style_fit\": \"Regular fit\",\n    \"trims_and_details\": [\"Mother-of-pearl buttons\", \"Double topstitching\", \"Buttoned cuffs\"],\n    \"techpack\": \"Women's blouse with full-length sleeves, tailored silhouette, crew neckline, hip length, regular fit. Constructed in lightweight cotton poplin with silk blend for softness. Features mother-of-pearl buttons on front placket and cuffs, double topstitching for durability. Recommended seam allowance 1cm, sleeve length 60cm from shoulder point.\",\n    \"provenance\": \"Inspired by commercial full sleeve trend in contemporary womenswear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985532,
+  "id": "chatcmpl-CKQmK4pCW6rKzwuLB2YBEe2oVfc5h",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 306,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 558,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 864
+  }
+}

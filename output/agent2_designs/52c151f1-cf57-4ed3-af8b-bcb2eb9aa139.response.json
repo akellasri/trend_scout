@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"IKAT-2024-001\",\n    \"title\": \"Midnight Indigo Ikat Fit & Flare Dress\",\n    \"image_prompt\": \"Flat-lay product render of a women's fit-and-flare dress with short sleeves, V-neckline, knee-length hem, featuring a commercial ikat-inspired print in midnight indigo, soft cream, and muted gold. Isolated on plain white background, high-detail fabric texture, visible stitching, clean finishing, no model or mannequin.\",\n    \"color_palette\": [\"Midnight Indigo\", \"Soft Cream\", \"Muted Gold\"],\n    \"fabrics\": [\"Cotton\", \"Viscose Blend\"],\n    \"prints_patterns\": [\"Ikat-inspired geometric pattern with blurred edges\"],\n    \"garment_type\": \"Dress\",\n    \"silhouette\": \"Fit and Flare\",\n    \"sleeves\": \"Short Sleeves\",\n    \"neckline\": \"V-Neck\",\n    \"length\": \"Knee Length\",\n    \"style_fit\": \"Tailored bodice with flared skirt\",\n    \"trims_and_details\": [\"Invisible side zipper\", \"Topstitching along neckline\", \"Soft lining in bodice\"],\n    \"techpack\": \"Woven cotton-viscose blend with digitally printed ikat pattern; bodice lined; invisible side zipper; short sleeves with clean hem; V-neckline reinforced with facing; skirt panels cut to enhance flare; knee-length; topstitching for durability.\",\n    \"provenance\": \"Inspired by traditional ikat weaving patterns, adapted for digital print to ensure commercial scalability and consistent quality.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985499,
+  "id": "chatcmpl-CKQlnV386eddyH8Fl0ZpRNWOVZkOh",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 340,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 563,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 903
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "design_id": "WFULL001",
+  "title": "White Full-Length A-Line Maxi Dress",
+  "image_prompt": "flat-lay product render of a white full-length A-line maxi dress, soft flowing fabric, subtle tonal texture, short flutter sleeves, V-neckline, fitted waist with delicate lace trim, isolated on plain white background, high-detail fabric texture, visible stitching and trims",
+  "color_palette": [
+    "white",
+    "off-white",
+    "ivory"
+  ],
+  "fabrics": [
+    "cotton voile",
+    "linen blend"
+  ],
+  "prints_patterns": [],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": "short flutter sleeves",
+  "neckline": "V-neckline",
+  "length": "full-length",
+  "style_fit": "fitted at waist, flowing skirt",
+  "trims_and_details": [
+    "delicate lace trim at waist",
+    "invisible side zipper",
+    "narrow hem stitching"
+  ],
+  "techpack": "Full-length A-line maxi dress in white cotton voile with linen blend for structure. Short flutter sleeves, V-neckline, fitted waist with lace trim detail. Invisible side zipper closure. Narrow hem stitching for clean finish. Skirt cut for fluid drape.",
+  "provenance": "Designed from combination of color:white and length:Full-length based on provided trend context."
+}

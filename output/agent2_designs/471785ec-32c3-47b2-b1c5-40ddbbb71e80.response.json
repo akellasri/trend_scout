@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BBJ-001\",\n    \"title\": \"Black & Brown Panelled Bomber Jacket\",\n    \"image_prompt\": \"flat-lay product render of a unisex bomber jacket with alternating black and dark chocolate brown panels, high-detail fabric texture, visible stitching, ribbed cuffs and hem, front zipper closure, isolated on plain white background, no model, no mannequin, apparel-only\",\n    \"color_palette\": [\"black\", \"dark brown\", \"charcoal grey\"],\n    \"fabrics\": [\"cotton twill\", \"polyester blend lining\", \"ribbed knit trim\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"jacket\",\n    \"silhouette\": \"relaxed bomber\",\n    \"sleeves\": \"long sleeves with ribbed cuffs\",\n    \"neckline\": \"crew neckline with ribbed collar\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"front metal zipper\", \"ribbed knit collar, cuffs, and hem\", \"panelled body with alternating colors\", \"two side welt pockets\"],\n    \"techpack\": \"Unisex bomber jacket featuring alternating black and dark brown cotton twill panels, ribbed knit collar/cuffs/hem in charcoal grey, front metal zipper closure, polyester blend lining, two side welt pockets. Hip length, relaxed fit, long sleeves.\",\n    \"provenance\": \"Designed by combining trending black and brown color palette for commercial-ready outerwear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985181,
+  "id": "chatcmpl-CKQgfZ44gWuiMdTJcVw8T9FcFHwWC",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 322,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 561,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 883
+  }
+}

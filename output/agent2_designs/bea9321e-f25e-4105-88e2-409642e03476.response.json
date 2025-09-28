@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"MINI2024-001\",\n    \"title\": \"Classic Mini Shift Dress\",\n    \"image_prompt\": \"Isolated flat-lay product render of a classic mini shift dress, solid pastel blush pink color, short sleeves, crew neckline, above-the-knee length, high-detail fabric texture, visible stitching and trims, plain white background, no model, no mannequin, no human, apparel-only, commercial-ready design\",\n    \"color_palette\": [\"Pastel Blush Pink\", \"Soft Ivory\", \"Muted Coral\"],\n    \"fabrics\": [\"Cotton Twill\", \"Polyester Blend Lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"Dress\",\n    \"silhouette\": \"Shift\",\n    \"sleeves\": \"Short sleeves\",\n    \"neckline\": \"Crew neckline\",\n    \"length\": \"Mini\",\n    \"style_fit\": \"Regular fit\",\n    \"trims_and_details\": [\"Topstitch detailing along hem and sleeves\", \"Invisible back zipper\", \"Matching fabric belt with buckle\"],\n    \"techpack\": \"Mini shift dress with short sleeves and crew neckline, constructed from cotton twill with polyester blend lining. Above-the-knee length, regular fit. Invisible back zipper closure, matching fabric belt with buckle, topstitch detailing along hem and sleeves. Seam allowance 1cm, hem allowance 3cm.\",\n    \"provenance\": \"Inspired by the 'Mini' length trend for Spring/Summer 2024 commercial womenswear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985435,
+  "id": "chatcmpl-CKQklRbmbH43kxi08JtR60OW6U5KJ",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 321,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 379,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 700
+  }
+}

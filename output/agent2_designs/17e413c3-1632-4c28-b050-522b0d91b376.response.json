@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"WF001\",\n    \"title\": \"White Full-Length A-Line Maxi Dress\",\n    \"image_prompt\": \"flat-lay product render of a white full-length A-line maxi dress, sleeveless, V-neckline, lightweight cotton-linen blend fabric, subtle tonal jacquard pattern, delicate lace trim along hem, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"white\", \"off-white\"],\n    \"fabrics\": [\"cotton-linen blend\"],\n    \"prints_patterns\": [\"tonal jacquard\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": [\"sleeveless\"],\n    \"neckline\": \"V-neck\",\n    \"length\": \"full-length\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"lace hem trim\", \"invisible side zipper\", \"self-fabric waist tie\"],\n    \"techpack\": \"Full-length A-line maxi dress in cotton-linen blend with tonal jacquard weave, sleeveless with V-neckline, lace trim at hem, invisible side zipper closure, self-fabric waist tie for adjustable fit. Seam allowances 1cm, hem allowance 3cm, pre-washed fabric for shrinkage control.\",\n    \"provenance\": \"Designed from combo: color:white | length:Full-length\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985249,
+  "id": "chatcmpl-CKQhlrVF713QlvpErob4i0k5KcUub",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 305,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 582,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 887
+  }
+}

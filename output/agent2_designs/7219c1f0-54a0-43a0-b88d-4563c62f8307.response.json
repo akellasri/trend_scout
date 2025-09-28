@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BW001\",\n    \"title\": \"Monochrome Patchwork Kimono Jacket\",\n    \"image_prompt\": \"flat-lay product render of a black and white patchwork kimono-style jacket, isolated on plain white background, high-detail fabric texture, visible stitching, clean edges, front open with belt tie, no model, no mannequin\",\n    \"color_palette\": [\"black\", \"white\"],\n    \"fabrics\": [\"cotton twill\", \"linen blend\"],\n    \"prints_patterns\": [\"geometric patchwork\"],\n    \"garment_type\": \"jacket\",\n    \"silhouette\": \"relaxed fit kimono\",\n    \"sleeves\": \"wide three-quarter sleeves\",\n    \"neckline\": \"open front\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"loose fit\",\n    \"trims_and_details\": [\"self-fabric belt tie\", \"contrast topstitching\", \"patchwork panels\"],\n    \"techpack\": \"Kimono-style jacket with black and white geometric patchwork panels, constructed from cotton twill and linen blend fabrics. Wide three-quarter sleeves, open front with self-fabric belt tie. Contrast topstitching along seams. Hip length, relaxed silhouette.\",\n    \"provenance\": \"Designed based on combination of black and white color trend, inspired by patchwork styles from provided examples.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985161,
+  "id": "chatcmpl-CKQgLybjdFKasCpXJjyCKnKKJOgmy",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 295,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 559,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 854
+  }
+}

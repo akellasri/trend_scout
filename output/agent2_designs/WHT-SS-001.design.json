@@ -1,0 +1,28 @@
+{
+  "design_id": "WHT-SS-001",
+  "title": "White Short Sleeve Linen Blouse",
+  "image_prompt": "flat-lay product render of a women's white short sleeve blouse, made from lightweight linen, tailored fit, crew neckline, subtle tonal stitching, minimalistic design, isolated on plain white background, high-detail fabric texture, visible seams and hems",
+  "color_palette": [
+    "white",
+    "off-white"
+  ],
+  "fabrics": [
+    "linen",
+    "cotton blend"
+  ],
+  "prints_patterns": [],
+  "garment_type": "blouse",
+  "silhouette": "straight",
+  "sleeves": "short sleeve",
+  "neckline": "crew neck",
+  "length": "waist length",
+  "style_fit": "tailored fit",
+  "trims_and_details": [
+    "tonal stitching",
+    "side vents",
+    "back keyhole with button closure"
+  ],
+  "techpack": "White short sleeve blouse in lightweight linen-cotton blend. Crew neckline with clean finish binding. Straight silhouette with tailored fit. Side vents for ease of movement. Back keyhole opening with single button closure. Tonal stitching throughout. Waist length hem with double-fold finish.",
+  "provenance": "Designed from combo: color:white | sleeve:short sleeve",
+  "image_prompt_override": ""
+}

@@ -1,0 +1,14 @@
+{
+  "catalog_count": 1188,
+  "social_count": 222,
+  "catalog_unique_image_urls": 0,
+  "social_unique_image_urls": 221,
+  "image_url_exact_overlap_count": 0,
+  "image_url_exact_overlap_pct_of_social": 0.0,
+  "image_url_exact_overlap_pct_of_catalog": 0.0,
+  "product_url_overlap_count": 0,
+  "sample_overlap_examples_saved": 0,
+  "attribute_pair_samples": 0,
+  "color_jaccard_avg": null,
+  "fabric_jaccard_avg": null
+}

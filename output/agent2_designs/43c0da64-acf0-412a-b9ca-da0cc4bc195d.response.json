@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"WD-SLK-001\",\n    \"title\": \"White Silk Midi Wrap Dress\",\n    \"image_prompt\": \"flat-lay product render of a white silk midi wrap dress, isolated on plain white background, high-detail fabric texture, visible stitching, delicate waist tie belt, subtle sheen, no model, no mannequin, no human, garment-only view\",\n    \"color_palette\": [\"pure white\", \"soft ivory\"],\n    \"fabrics\": [\"100% silk\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"wrap\",\n    \"sleeves\": \"short flutter sleeves\",\n    \"neckline\": \"V-neck\",\n    \"length\": \"midi\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"self-fabric waist tie belt\", \"delicate topstitching along edges\", \"hidden side zipper\"],\n    \"techpack\": \"White silk midi wrap dress with short flutter sleeves, V-neckline, self-fabric waist tie belt, hidden side zipper closure, topstitching along neckline and hem, unlined for lightweight drape, finished with narrow rolled hem.\",\n    \"provenance\": \"Designed from combo: color:white | fabric:silk\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985280,
+  "id": "chatcmpl-CKQiGWhZ3Ks0R9W5uKM48jGrr837K",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 274,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 580,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 854
+  }
+}

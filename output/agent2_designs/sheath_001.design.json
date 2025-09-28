@@ -1,0 +1,28 @@
+{
+  "design_id": "sheath_001",
+  "title": "Classic Sheath Dress with Minimalist Detailing",
+  "image_prompt": "flat-lay product render of a classic sheath dress, knee-length, tailored fit, short cap sleeves, jewel neckline, solid deep navy color, subtle tonal topstitching, invisible back zipper, isolated on plain white background, high-detail fabric texture, visible stitching and trims",
+  "color_palette": [
+    "Deep Navy",
+    "Soft Ivory",
+    "Charcoal Grey"
+  ],
+  "fabrics": [
+    "Cotton Blend",
+    "Spandex"
+  ],
+  "prints_patterns": [],
+  "garment_type": "Dress",
+  "silhouette": "Sheath",
+  "sleeves": "Cap sleeves",
+  "neckline": "Jewel neckline",
+  "length": "Knee-length",
+  "style_fit": "Tailored fit",
+  "trims_and_details": [
+    "Invisible back zipper",
+    "Tonal topstitching",
+    "Fully lined"
+  ],
+  "techpack": "Tailored sheath dress with cap sleeves and jewel neckline. Constructed from cotton blend with spandex for stretch. Knee-length hem, invisible back zipper closure, fully lined interior. Tonal topstitching along seams for subtle detailing.",
+  "provenance": "Inspired by contemporary commercial sheath silhouettes from trending designer collections."
+}

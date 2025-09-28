@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"GW-001\",\n    \"title\": \"Grey & White Colorblock Linen Shirt Dress\",\n    \"image_prompt\": \"flat-lay product render of a women's shirt dress in grey and white colorblock design, isolated on plain white background, high-detail linen texture, visible stitching, front button placket, short cuffed sleeves, pointed collar, mid-thigh length, subtle curved hem, no model, no mannequin, no human, apparel-only\",\n    \"color_palette\": [\"cool grey\", \"optic white\"],\n    \"fabrics\": [\"100% linen\"],\n    \"prints_patterns\": [\"colorblock\"],\n    \"garment_type\": \"shirt dress\",\n    \"silhouette\": \"straight\",\n    \"sleeves\": \"short cuffed sleeves\",\n    \"neckline\": \"pointed collar\",\n    \"length\": \"mid-thigh\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"front button placket with matte white buttons\", \"curved hemline\", \"contrast stitching along colorblock seam\"],\n    \"techpack\": \"Grey and white colorblock shirt dress in 100% linen. Straight silhouette with relaxed fit. Short cuffed sleeves, pointed collar, front button placket with matte white buttons. Mid-thigh length with curved hemline. Contrast stitching along colorblock seam for definition.\",\n    \"provenance\": \"Designed from combination of grey and white color trend, inspired by commercial-ready minimal colorblock apparel.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985130,
+  "id": "chatcmpl-CKQfqCCB1dV6qnRe72mzDKogYXzjW",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 316,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 583,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 899
+  }
+}

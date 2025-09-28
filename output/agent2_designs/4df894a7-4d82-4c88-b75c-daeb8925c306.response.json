@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"WD-EMB-001\",\n    \"title\": \"White Embroidered Cotton Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a white cotton midi dress with delicate tonal floral embroidery across bodice and hem, short puff sleeves, round neckline, fitted waist, A-line skirt, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"white\", \"ivory\", \"soft cream\"],\n    \"fabrics\": [\"cotton voile\", \"cotton lining\"],\n    \"prints_patterns\": [\"tonal floral embroidery\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short puff sleeves\",\n    \"neckline\": \"round neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"fitted bodice with flared skirt\",\n    \"trims_and_details\": [\"invisible side zipper\", \"embroidered hem border\", \"self-fabric waist tie\"],\n    \"techpack\": \"White cotton voile midi dress with tonal floral embroidery on bodice and hem. Short puff sleeves with elasticated cuffs, round neckline finished with bias binding. Fitted waist with self-fabric tie, invisible side zipper closure. Fully lined in lightweight cotton. Hem finished with embroidered border.\",\n    \"provenance\": \"Designed by in-house team combining trending white palette with embroidery detailing for a commercial-ready summer dress.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985244,
+  "id": "chatcmpl-CKQhgHiFZxCPguLLwgGZHZEIsBcV0",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 313,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 582,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 895
+  }
+}

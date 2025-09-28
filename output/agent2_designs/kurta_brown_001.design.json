@@ -1,0 +1,30 @@
+{
+  "design_id": "kurta_brown_001",
+  "title": "Chestnut Handloom Cotton Kurta with Minimal Embroidery",
+  "image_prompt": "flat-lay product render of a brown chestnut kurta, handloom cotton fabric, straight silhouette, full sleeves, band collar neckline, knee-length, minimal tonal embroidery along placket and cuffs, isolated on plain white background, high-detail fabric texture, visible stitching and trims",
+  "color_palette": [
+    "chestnut brown",
+    "warm beige",
+    "antique gold"
+  ],
+  "fabrics": [
+    "handloom cotton"
+  ],
+  "prints_patterns": [
+    "tonal embroidery"
+  ],
+  "garment_type": "kurta",
+  "silhouette": "straight",
+  "sleeves": "full sleeves",
+  "neckline": "band collar",
+  "length": "knee-length",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "tonal thread embroidery on placket and cuffs",
+    "wooden buttons",
+    "side slits"
+  ],
+  "techpack": "Straight silhouette knee-length kurta in chestnut brown handloom cotton. Full sleeves with embroidered cuffs, band collar with tonal embroidered placket, side slits for ease. Wooden buttons closure. Seam finishing with overlock stitch.",
+  "provenance": "Designed from combo: color:brown | garment:kurta",
+  "image_prompt_override": ""
+}

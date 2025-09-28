@@ -1,0 +1,27 @@
+{
+  "design_id": "BLKDRS001",
+  "title": "Classic Black Midi Dress with Subtle Satin Finish",
+  "image_prompt": "flat-lay product render of a commercial-ready black midi dress, isolated on plain white background, high-detail fabric texture, visible stitching, subtle satin sheen, fitted bodice with gentle A-line skirt, short cap sleeves, round neckline, concealed back zipper, minimalistic trims",
+  "color_palette": [
+    "black"
+  ],
+  "fabrics": [
+    "satin",
+    "polyester blend"
+  ],
+  "prints_patterns": [],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": "cap sleeves",
+  "neckline": "round neckline",
+  "length": "midi",
+  "style_fit": "tailored fit",
+  "trims_and_details": [
+    "concealed back zipper",
+    "topstitching along seams",
+    "lined bodice"
+  ],
+  "techpack": "A-line midi dress in black satin-poly blend, cap sleeves, round neckline, tailored fit, concealed back zipper closure, bodice lined with lightweight polyester, topstitching for durability, hem finished with blind stitch.",
+  "provenance": "Designed based on combination of color:black and garment:dress from provided trend context.",
+  "design_text": "Classic Black Midi Dress with Subtle Satin Finish (BLKDRS001)\nColors: black\nFabrics: satin, polyester blend\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: A-line\nSleeves: cap sleeves\nNeckline: round neckline\nLength: midi\nStyle / Fit: t, a, i, l, o, r, e, d,  , f, i, t\nTrims & details: concealed back zipper, topstitching along seams, lined bodice\nTechpack: available"
+}

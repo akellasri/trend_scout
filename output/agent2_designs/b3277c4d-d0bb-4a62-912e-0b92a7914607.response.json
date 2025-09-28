@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BLKDRS001\",\n    \"title\": \"Classic Black Midi Dress with Subtle Satin Finish\",\n    \"image_prompt\": \"flat-lay product render of a commercial-ready black midi dress, isolated on plain white background, high-detail fabric texture, visible stitching, subtle satin sheen, fitted bodice with gentle A-line skirt, short cap sleeves, round neckline, concealed back zipper, minimalistic trims\",\n    \"color_palette\": [\"black\"],\n    \"fabrics\": [\"satin\", \"polyester blend\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"cap sleeves\",\n    \"neckline\": \"round neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"tailored fit\",\n    \"trims_and_details\": [\"concealed back zipper\", \"topstitching along seams\", \"lined bodice\"],\n    \"techpack\": \"A-line midi dress in black satin-poly blend, cap sleeves, round neckline, tailored fit, concealed back zipper closure, bodice lined with lightweight polyester, topstitching for durability, hem finished with blind stitch.\",\n    \"provenance\": \"Designed based on combination of color:black and garment:dress from provided trend context.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985285,
+  "id": "chatcmpl-CKQiL6iNyzBrSyMSXlSKehoBBPMmA",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 282,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 561,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 843
+  }
+}

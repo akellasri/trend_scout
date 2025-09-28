@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"ALN-2024-001\",\n    \"title\": \"Classic A-Line Midi Dress with Contrast Piping\",\n    \"image_prompt\": \"flat-lay product render of a classic A-line midi dress, sleeveless, scoop neckline, soft drape, solid pastel blush pink with white contrast piping along neckline and armholes, high-detail fabric texture, visible stitching and trims, isolated on plain white background\",\n    \"color_palette\": [\"Pastel Blush Pink\", \"White\"],\n    \"fabrics\": [\"Cotton Poplin\", \"Polyester Lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"Dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": [\"Sleeveless\"],\n    \"neckline\": \"Scoop\",\n    \"length\": \"Midi\",\n    \"style_fit\": \"Regular fit\",\n    \"trims_and_details\": [\"White contrast piping\", \"Invisible back zipper\", \"Topstitching along hem\"],\n    \"techpack\": \"A-line midi dress in cotton poplin with polyester lining; sleeveless scoop neckline; white contrast piping at neckline and armholes; invisible back zipper closure; hem finished with topstitching; length from shoulder to hem approx. 110cm.\",\n    \"provenance\": \"Inspired by commercial A-line silhouettes from contemporary womenswear trends.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985510,
+  "id": "chatcmpl-CKQlyTaRzGpbra2AMvhDrtzei5qwz",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 291,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 631,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 922
+  }
+}

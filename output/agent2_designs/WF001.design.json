@@ -1,0 +1,31 @@
+{
+  "design_id": "WF001",
+  "title": "White Full-Length A-Line Maxi Dress",
+  "image_prompt": "flat-lay product render of a white full-length A-line maxi dress, sleeveless, V-neckline, lightweight cotton-linen blend fabric, subtle tonal jacquard pattern, delicate lace trim along hem, isolated on plain white background, high-detail fabric texture, visible stitching and trims",
+  "color_palette": [
+    "white",
+    "off-white"
+  ],
+  "fabrics": [
+    "cotton-linen blend"
+  ],
+  "prints_patterns": [
+    "tonal jacquard"
+  ],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": [
+    "sleeveless"
+  ],
+  "neckline": "V-neck",
+  "length": "full-length",
+  "style_fit": "relaxed fit",
+  "trims_and_details": [
+    "lace hem trim",
+    "invisible side zipper",
+    "self-fabric waist tie"
+  ],
+  "techpack": "Full-length A-line maxi dress in cotton-linen blend with tonal jacquard weave, sleeveless with V-neckline, lace trim at hem, invisible side zipper closure, self-fabric waist tie for adjustable fit. Seam allowances 1cm, hem allowance 3cm, pre-washed fabric for shrinkage control.",
+  "provenance": "Designed from combo: color:white | length:Full-length",
+  "design_text": "White Full-Length A-Line Maxi Dress (WF001)\nColors: white, off-white\nFabrics: cotton-linen blend\nPrints/Patterns: tonal jacquard\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['sleeveless']\nNeckline: V-neck\nLength: full-length\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: lace hem trim, invisible side zipper, self-fabric waist tie\nTechpack: available"
+}

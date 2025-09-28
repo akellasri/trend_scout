@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"COTTONCREW001\",\n    \"title\": \"Classic Cotton Crew Neck Tee\",\n    \"image_prompt\": \"Flat-lay product render of a short-sleeve crew neck t-shirt made from soft cotton fabric, solid color, isolated on plain white background, high-detail fabric texture, visible stitching along hems and neckline, no model, no mannequin, no human, no lifestyle scene\",\n    \"color_palette\": [\"soft white\", \"heather grey\", \"navy blue\"],\n    \"fabrics\": [\"100% cotton jersey\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"t-shirt\",\n    \"silhouette\": \"straight cut\",\n    \"sleeves\": \"short sleeves\",\n    \"neckline\": \"crew neck\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"double-stitched hems\", \"ribbed neckline\", \"shoulder-to-shoulder taping\"],\n    \"techpack\": \"Regular fit crew neck t-shirt in 100% cotton jersey, short sleeves, ribbed neckline, double-stitched hems, shoulder-to-shoulder taping for durability, available in soft white, heather grey, and navy blue.\",\n    \"provenance\": \"Designed by in-house apparel team combining cotton fabric with a classic crew neck style for versatile everyday wear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985270,
+  "id": "chatcmpl-CKQi64O8SICOSZOsa9UVTd8WMjgU9",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 299,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 573,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 872
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "design_id": "BRNCTN001",
+  "title": "Chocolate Brown Cotton Utility Shirt Dress",
+  "image_prompt": "flat-lay product render of a chocolate brown cotton utility shirt dress, short sleeves with rolled cuffs, collared neckline, button-down front with matte brown buttons, two chest patch pockets with flaps, self-fabric waist belt, mid-thigh length, high-detail fabric texture, visible stitching, isolated on plain white background",
+  "color_palette": [
+    "chocolate brown",
+    "matte brass",
+    "warm beige"
+  ],
+  "fabrics": [
+    "100% cotton twill"
+  ],
+  "prints_patterns": [],
+  "garment_type": "shirt dress",
+  "silhouette": "straight with belted waist",
+  "sleeves": "short sleeves with rolled cuffs",
+  "neckline": "classic shirt collar",
+  "length": "mid-thigh",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "matte brown buttons",
+    "self-fabric waist belt",
+    "chest patch pockets with flaps",
+    "double topstitching"
+  ],
+  "techpack": "Utility shirt dress in 100% cotton twill, chocolate brown color. Short rolled-cuff sleeves, classic shirt collar, button-down front with matte brown buttons, two chest patch pockets with flaps, self-fabric waist belt. Straight silhouette with adjustable waist. Mid-thigh length. Double topstitching for durability.",
+  "provenance": "Designed from combo: color:brown | fabric:cotton",
+  "image_prompt_override": ""
+}

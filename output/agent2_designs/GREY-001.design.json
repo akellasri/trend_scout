@@ -1,0 +1,29 @@
+{
+  "design_id": "GREY-001",
+  "title": "Slate Grey Tailored Midi Dress",
+  "image_prompt": "flat-lay product render of a tailored midi dress in slate grey, short sleeves, V-neckline, fitted waist, A-line skirt, high-detail fabric texture, visible stitching, subtle tonal piping, isolated on plain white background",
+  "color_palette": [
+    "Slate Grey",
+    "Charcoal",
+    "Soft Silver"
+  ],
+  "fabrics": [
+    "Cotton Twill",
+    "Polyester Blend Lining"
+  ],
+  "prints_patterns": [],
+  "garment_type": "Dress",
+  "silhouette": "A-line",
+  "sleeves": "Short sleeves",
+  "neckline": "V-neck",
+  "length": "Midi",
+  "style_fit": "Tailored fit",
+  "trims_and_details": [
+    "Tonal piping along neckline",
+    "Invisible side zipper",
+    "Darted bodice for shaping"
+  ],
+  "techpack": "Slate grey cotton twill midi dress with tailored A-line silhouette, short sleeves, V-neckline, fitted waist, invisible side zipper, tonal piping detail, polyester blend lining for comfort.",
+  "provenance": "Inspired by the commercial grey color trend for versatile day-to-evening wear.",
+  "image_prompt_override": ""
+}

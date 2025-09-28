@@ -1,0 +1,749 @@
+[
+  {
+    "design_id": "ALD001",
+    "title": "Ankle-Length Flow Maxi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Ankle-Length Flow Maxi Dress. Ankle-length maxi dress in a soft drapey fabric, flat-lay product render on plain white background, high-detail fabric texture, visible stitching and trims, isolated garment, no model, no mannequin, no human, commercial ready design Colors: deep navy, soft ivory, dusty rose. Fabrics: lightweight rayon, cotton blend lining. Prints/patterns: solid color. Garment type: dress. Silhouette: flowy A-line. Sleeves: short flutter sleeves. Neckline: V-neck. Length: ankle-length. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: self-fabric waist tie, invisible side zipper, narrow hem finish.",
+    "out_file": "renders/ALD001/ALD001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "ALN001",
+    "title": "Classic A-Line Midi Dress with Contrast Piping",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic A-Line Midi Dress with Contrast Piping. Isolated flat-lay product render of a classic A-line midi dress on a plain white background, high-detail fabric texture, visible stitching and contrast piping trims, short sleeves, round neckline, soft drape, commercial ready design, no model, no mannequin, no human, no lifestyle scene Colors: navy blue, white, soft blush. Fabrics: cotton sateen, polyester lining. Garment type: dress. Silhouette: A-line. Sleeves: short sleeves. Neckline: round neckline. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: contrast piping along neckline and sleeve hems, invisible back zipper, side seam pockets.",
+    "out_file": "renders/ALN001/ALN001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BBJKT-001",
+    "title": "Black & Brown Patchwork Utility Jacket",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Black & Brown Patchwork Utility Jacket. flat-lay product render of a commercial-ready utility jacket, combining black and brown panels in a patchwork design, high-detail fabric texture, visible stitching, matte metal buttons, isolated on plain white background, no model, no mannequin, no human, no lifestyle scene Colors: black, chocolate brown, espresso, warm taupe. Fabrics: cotton twill, brushed canvas. Prints/patterns: color-block patchwork. Garment type: jacket. Silhouette: boxy. Sleeves: long sleeves. Neckline: collared. Length: hip-length. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: matte metal buttons, topstitch detailing, utility patch pockets, contrast panel seams.",
+    "out_file": "renders/BBJKT-001/BBJKT-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BDN-001",
+    "title": "Contemporary Bandhani Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Contemporary Bandhani Midi Dress. flat-lay product render of a contemporary midi dress featuring a commercial bandhani-inspired print, isolated on a plain white background, high-detail cotton fabric texture, visible stitching, waist tie detail, short flutter sleeves, round neckline, A-line silhouette, mid-calf length, vibrant color palette with deep indigo, marigold yellow, and ivory accents Colors: deep indigo, marigold yellow, ivory. Fabrics: cotton cambric. Prints/patterns: bandhani-inspired tie-dye with small geometric dot motifs. Garment type: dress. Silhouette: A-line. Sleeves: short flutter sleeves. Neckline: round neckline. Length: midi. Style/fit: r, e, l, a, x, e, d,  , f, i, t,  , w, i, t, h,  , d, e, f, i, n, e, d,  , w, a, i, s, t. Details: self-fabric waist tie, side seam pockets, topstitch detailing along neckline and hem.",
+    "out_file": "renders/BDN-001/BDN-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BLK-MIN-001",
+    "title": "Black Minimalist Tailored Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Black Minimalist Tailored Midi Dress. flat-lay product render of a solid black minimalist tailored midi dress, A-line silhouette, short sleeves, crew neckline, mid-calf length, made from smooth lightweight cotton blend, visible stitching and subtle darts, isolated on plain white background, high-detail fabric texture, no model, no mannequin Colors: black. Fabrics: cotton blend, polyester. Prints/patterns: solid. Garment type: dress. Silhouette: A-line. Sleeves: short sleeves. Neckline: crew neckline. Length: midi. Style/fit: t, a, i, l, o, r, e, d,  , f, i, t. Details: invisible back zipper, subtle waist darts, clean hem finish.",
+    "out_file": "renders/BLK-MIN-001/BLK-MIN-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BLK001",
+    "title": "Midnight Black Tailored Shirt Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Midnight Black Tailored Shirt Dress. flat-lay product render of a women's tailored shirt dress in deep midnight black, made from smooth cotton sateen, featuring a fitted waist, button-down front, long cuffed sleeves, classic shirt collar, knee-length hem, subtle tonal topstitching, and matte black buttons, isolated on a plain white background, high-detail fabric texture, visible stitching and trims Colors: Midnight Black, Charcoal Grey (stitching), Matte Black (buttons). Fabrics: Cotton Sateen, Polyester lining. Garment type: Shirt Dress. Silhouette: Tailored A-line. Sleeves: Long sleeves with buttoned cuffs. Neckline: Classic shirt collar. Length: Knee-length. Style/fit: F, i, t, t, e, d,  , a, t,  , w, a, i, s, t, ,,  , r, e, l, a, x, e, d,  , s, k, i, r, t. Details: Matte black buttons, Tonal topstitching, Waist darts, Buttoned cuffs.",
+    "out_file": "renders/BLK001/BLK001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BLKDRS001",
+    "title": "Black Minimalist Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Black Minimalist Midi Dress. flat-lay product render of a black midi dress, A-line silhouette, short flutter sleeves, V-neckline, lightweight crepe fabric, subtle matte finish, visible stitching and seams, minimal trims, isolated on plain white background, high-detail fabric texture Colors: black, charcoal. Fabrics: lightweight crepe, polyester blend. Garment type: dress. Silhouette: A-line. Sleeves: short flutter sleeves. Neckline: V-neck. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: invisible side zipper, topstitching along neckline, soft lining.",
+    "out_file": "renders/BLKDRS001/BLKDRS001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BLKGRY-001",
+    "title": "Black & Grey Colorblock Utility Jacket",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Black & Grey Colorblock Utility Jacket. flat-lay product render of a unisex utility jacket, colorblocked in matte black and charcoal grey panels, high-detail fabric texture, visible stitching, metal zipper front, flap chest pockets, adjustable cuffs, isolated on plain white background Colors: black, charcoal grey, light grey. Fabrics: cotton twill, polyester blend lining. Prints/patterns: colorblock. Garment type: jacket. Silhouette: boxy. Sleeves: long sleeves. Neckline: stand collar. Length: hip length. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: metal zipper, flap chest pockets, adjustable button cuffs, contrast stitching.",
+    "out_file": "renders/BLKGRY-001/BLKGRY-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BR-EMB-001",
+    "title": "Chocolate Brown Embroidered Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Chocolate Brown Embroidered Midi Dress. flat-lay product render of a chocolate brown midi dress with intricate tonal floral embroidery across bodice and hem, short puff sleeves, sweetheart neckline, fitted waist, A-line silhouette, high-detail fabric texture, visible stitching and trims, isolated on plain white background Colors: chocolate brown, warm beige, gold thread. Fabrics: cotton sateen, polyester lining. Prints/patterns: floral embroidery. Garment type: dress. Silhouette: A-line. Sleeves: short puff sleeves. Neckline: sweetheart. Length: midi. Style/fit: f, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t. Details: tonal floral embroidery, invisible back zipper, waist seam detailing.",
+    "out_file": "renders/BR-EMB-001/BR-EMB-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BR-FL-001",
+    "title": "Chocolate Brown Full-Length A-Line Maxi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Chocolate Brown Full-Length A-Line Maxi Dress. flat-lay product render of a chocolate brown full-length A-line maxi dress, made from lightweight satin with subtle sheen, featuring short flutter sleeves, V-neckline, fitted waist with matching fabric belt, invisible side zipper, high-detail fabric texture, visible stitching and trims, isolated on plain white background Colors: chocolate brown, warm taupe, soft beige. Fabrics: lightweight satin, polyester lining. Garment type: dress. Silhouette: A-line. Sleeves: short flutter sleeves. Neckline: V-neckline. Length: full-length. Style/fit: f, i, t, t, e, d,  , a, t,  , w, a, i, s, t, ,,  , f, l, o, w, i, n, g,  , s, k, i, r, t. Details: matching fabric belt, invisible side zipper, topstitch detailing along neckline and hem.",
+    "out_file": "renders/BR-FL-001/BR-FL-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BR-RD-001",
+    "title": "Rust & Crimson Panelled Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Rust & Crimson Panelled Midi Dress. flat-lay product render of a women's midi dress, panelled design combining deep rust brown and rich crimson red, made from lightweight crepe and satin blend, A-line silhouette, short flutter sleeves, V-neckline, knee-length, fitted waist with decorative buttons, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: rust brown, crimson red, antique gold (trim). Fabrics: lightweight crepe, satin blend. Garment type: dress. Silhouette: A-line. Sleeves: short flutter sleeves. Neckline: V-neckline. Length: knee-length. Style/fit: f, i, t, t, e, d,  , w, a, i, s, t, ,,  , r, e, l, a, x, e, d,  , s, k, i, r, t. Details: antique gold decorative buttons, panelled color-block design, topstitch detailing along panels.",
+    "out_file": "renders/BR-RD-001/BR-RD-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BRGR-001",
+    "title": "Two-Tone Brown & Grey Tailored Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Two-Tone Brown & Grey Tailored Midi Dress. flat-lay product render of a commercial-ready tailored midi dress, color-blocked in warm chocolate brown and cool slate grey, high-detail fabric texture, visible stitching and trims, isolated on plain white background, no model, no mannequin, no human, apparel-only, front view Colors: chocolate brown, slate grey, warm taupe. Fabrics: cotton twill, polyester blend lining. Garment type: dress. Silhouette: A-line. Sleeves: short sleeves. Neckline: boat neckline. Length: midi. Style/fit: t, a, i, l, o, r, e, d,  , f, i, t. Details: contrast color-block panels, invisible back zipper, topstitch detailing along seams.",
+    "out_file": "renders/BRGR-001/BRGR-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BRN-SLD-001",
+    "title": "Minimalist Solid Brown Midi Shirt Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Minimalist Solid Brown Midi Shirt Dress. flat-lay product render of a minimalist solid brown midi shirt dress, collared neckline, short cuffed sleeves, button-down front, self-fabric waist belt, high-detail cotton twill texture, visible stitching, isolated on plain white background Colors: chocolate brown, warm espresso, matte cocoa. Fabrics: cotton twill, polyester blend lining. Prints/patterns: solid. Garment type: dress. Silhouette: A-line. Sleeves: short cuffed sleeves. Neckline: classic shirt collar. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: button-down front, self-fabric waist belt, topstitch detailing, cuffed sleeves.",
+    "out_file": "renders/BRN-SLD-001/BRN-SLD-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BRN001",
+    "title": "Cocoa Brown Tailored Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Cocoa Brown Tailored Midi Dress. flat-lay product render of a tailored midi dress in rich cocoa brown color, made from smooth cotton sateen fabric, fitted bodice with princess seams, short cap sleeves, square neckline, knee-length hem, subtle tonal topstitching, concealed back zipper, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: Cocoa Brown, Warm Taupe, Soft Beige. Fabrics: Cotton Sateen, Polyester Lining. Garment type: Dress. Silhouette: Tailored A-line. Sleeves: Cap sleeves. Neckline: Square neckline. Length: Knee-length. Style/fit: F, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , g, e, n, t, l, e,  , f, l, a, r, e,  , s, k, i, r, t. Details: Concealed back zipper, Tonal topstitching, Princess seams.",
+    "out_file": "renders/BRN001/BRN001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BRNCTN001",
+    "title": "Chocolate Brown Cotton Utility Shirt Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Chocolate Brown Cotton Utility Shirt Dress. flat-lay product render of a chocolate brown cotton utility shirt dress, short sleeves with rolled cuffs, collared neckline, button-down front with matte brown buttons, two chest patch pockets with flaps, self-fabric waist belt, mid-thigh length, high-detail fabric texture, visible stitching, isolated on plain white background Colors: chocolate brown, matte brass, warm beige. Fabrics: 100% cotton twill. Garment type: shirt dress. Silhouette: straight with belted waist. Sleeves: short sleeves with rolled cuffs. Neckline: classic shirt collar. Length: mid-thigh. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: matte brown buttons, self-fabric waist belt, chest patch pockets with flaps, double topstitching.",
+    "out_file": "renders/BRNCTN001/BRNCTN001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BRNDRS001",
+    "title": "Chocolate Brown Midi Wrap Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Chocolate Brown Midi Wrap Dress. Flat-lay product render of a chocolate brown midi wrap dress, short flutter sleeves, V-neckline, self-tie waist belt, soft matte crepe fabric, subtle tonal floral jacquard pattern, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: chocolate brown, warm taupe, soft beige. Fabrics: matte crepe, polyester blend lining. Prints/patterns: tonal floral jacquard. Garment type: dress. Silhouette: wrap. Sleeves: short flutter sleeves. Neckline: V-neckline. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e. Details: self-fabric waist belt, side seam pockets, invisible side zipper, topstitch detailing along neckline and hem.",
+    "out_file": "renders/BRNDRS001/BRNDRS001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BRWH-001",
+    "title": "Brown & White Panelled Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Brown & White Panelled Midi Dress. flat-lay product render of a women's midi dress with alternating vertical panels in warm chocolate brown and crisp white, made from lightweight cotton sateen, short sleeves, round neckline, fitted waist, A-line skirt, visible topstitching, subtle side zipper, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: chocolate brown, crisp white. Fabrics: cotton sateen, polyester lining. Prints/patterns: vertical color-block panels. Garment type: dress. Silhouette: A-line. Sleeves: short sleeves. Neckline: round neckline. Length: midi. Style/fit: f, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t. Details: side zipper, topstitching along panel seams, hidden waist darts.",
+    "out_file": "renders/BRWH-001/BRWH-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BRWNCRW001",
+    "title": "Chocolate Brown Crew Neck Knit Sweater",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Chocolate Brown Crew Neck Knit Sweater. Flat-lay product render of a chocolate brown crew neck knit sweater, isolated on plain white background, high-detail fabric texture, visible ribbed cuffs, hem, and neckline, fine stitching, soft medium-weight knit, no model, no mannequin, no human, no lifestyle scene. Colors: chocolate brown, warm taupe, soft beige. Fabrics: cotton blend knit, acrylic. Garment type: sweater. Silhouette: classic straight. Sleeves: long sleeves. Neckline: crew neck. Length: waist length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: ribbed neckline, ribbed cuffs, ribbed hem, double-stitched seams.",
+    "out_file": "renders/BRWNCRW001/BRWNCRW001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "BW001",
+    "title": "Blue & White Ikat Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Blue & White Ikat Midi Dress. flat-lay product render of a women's midi dress in alternating blue and white ikat pattern, short flutter sleeves, V-neckline, fit-and-flare silhouette, lightweight cotton fabric, visible stitching and trims, isolated on plain white background, high-detail fabric texture Colors: navy blue, white. Fabrics: cotton voile. Prints/patterns: ikat. Garment type: dress. Silhouette: fit-and-flare. Sleeves: short flutter sleeves. Neckline: V-neck. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: self-fabric waist tie, side seam pockets, contrast piping along neckline.",
+    "out_file": "renders/BW001/BW001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "CHIFFON-001",
+    "title": "Soft Pastel Chiffon Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Soft Pastel Chiffon Midi Dress. Isolated flat-lay of a commercial-ready chiffon midi dress on a plain white background, soft pastel gradient in blush pink and lavender, lightweight semi-sheer fabric with visible fine weave texture, short flutter sleeves, V-neckline, fitted waist with gathered skirt, delicate pearl buttons on front placket, high-detail stitching and trims, no model or mannequin, product render style Colors: Blush Pink, Lavender, Soft Ivory. Fabrics: Chiffon, Polyester lining. Prints/patterns: Solid with subtle gradient effect. Garment type: Dress. Silhouette: A-line. Sleeves: Short flutter sleeves. Neckline: V-neck. Length: Midi. Style/fit: F, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, o, w, i, n, g,  , s, k, i, r, t. Details: Pearl buttons, Gathered waist, Invisible side zipper.",
+    "out_file": "renders/CHIFFON-001/CHIFFON-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "CN001",
+    "title": "Classic Crew Neck Cotton Tee",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic Crew Neck Cotton Tee. Flat-lay product render of a classic crew neck short sleeve t-shirt, isolated on plain white background, high-detail cotton fabric texture, visible stitching along neckline, sleeves, and hem, no model, no mannequin, no props Colors: soft heather grey, navy blue, white. Fabrics: 100% combed cotton jersey. Garment type: t-shirt. Silhouette: straight cut. Sleeves: short sleeves. Neckline: crew neck. Length: hip length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: double-needle stitching, self-fabric neck binding, woven brand label at hem.",
+    "out_file": "renders/CN001/CN001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "COLLARED_SS24_001",
+    "title": "Classic Collared Button-Up Blouse",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic Collared Button-Up Blouse. Flat-lay product render of a women's classic collared button-up blouse, short sleeves, tailored fit, in soft pastel blue cotton poplin, white buttons, visible stitching, isolated on plain white background, high-detail fabric texture, crisp collar, clean hems Colors: Pastel Blue, White. Fabrics: Cotton Poplin. Garment type: Blouse. Silhouette: Tailored. Sleeves: Short Sleeves. Neckline: Classic Pointed Collar. Length: Hip Length. Style/fit: R, e, g, u, l, a, r,  , F, i, t. Details: White plastic buttons, Double-stitched seams, Topstitching along collar and placket.",
+    "out_file": "renders/COLLARED_SS24_001/COLLARED_SS24_001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "COT2024-001",
+    "title": "Organic Cotton Patchwork Tunic",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Organic Cotton Patchwork Tunic. flat-lay product render of an organic cotton patchwork tunic, A-line silhouette, 3/4 sleeves, round neckline, knee length, soft pastel color blocks in blush pink, sage green, cream, and muted mustard, visible topstitching, minimal trims, isolated on plain white background, high-detail fabric texture, clear seam lines Colors: blush pink, sage green, cream, muted mustard. Fabrics: organic cotton, cotton poplin. Prints/patterns: patchwork, solid color blocks. Garment type: tunic. Silhouette: A-line. Sleeves: 3/4 length sleeves. Neckline: round neckline. Length: knee length. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: visible topstitching, side slits, contrast binding at neckline.",
+    "out_file": "renders/COT2024-001/COT2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "COTTON-CREW-001",
+    "title": "Classic Cotton Crew Neck Tee",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic Cotton Crew Neck Tee. flat-lay product render of a short-sleeve crew neck t-shirt made from soft cotton jersey, solid color, high-detail fabric texture, visible stitching, isolated on plain white background, no model, no mannequin, no human, commercial-ready apparel product image Colors: soft heather grey, white, navy blue. Fabrics: 100% cotton jersey. Garment type: t-shirt. Silhouette: straight cut. Sleeves: short sleeves. Neckline: crew neck. Length: hip length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: double-needle stitching at hem and sleeves, ribbed neckband.",
+    "out_file": "renders/COTTON-CREW-001/COTTON-CREW-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "CR2024-001",
+    "title": "Cream Satin Midi Dress with Pleated Skirt",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Cream Satin Midi Dress with Pleated Skirt. Isolated flat-lay product render of a cream-colored satin midi dress on a plain white background, high-detail fabric texture, visible stitching, soft pleated skirt, short puff sleeves, round neckline, concealed back zipper, subtle tonal piping along seams, no model, no mannequin, no human, apparel-only. Colors: cream, ivory, warm beige. Fabrics: satin, polyester lining. Garment type: dress. Silhouette: A-line. Sleeves: short puff sleeves. Neckline: round neckline. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: tonal piping, concealed back zipper, soft pleats.",
+    "out_file": "renders/CR2024-001/CR2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "CRW-SLD-001",
+    "title": "Minimalist Solid Crew Neck Tee",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Minimalist Solid Crew Neck Tee. flat-lay product render of a minimalist solid color crew neck short sleeve t-shirt, isolated on plain white background, high-detail cotton jersey texture, visible stitching along hems and neckline, no model, no mannequin, no human, apparel only Colors: soft ivory, charcoal grey, navy blue. Fabrics: 100% combed cotton jersey. Prints/patterns: solid. Garment type: t-shirt. Silhouette: classic straight cut. Sleeves: short sleeves. Neckline: crew neck. Length: hip length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: double-needle stitched hems, self-fabric neck binding.",
+    "out_file": "renders/CRW-SLD-001/CRW-SLD-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "CS2024-001",
+    "title": "Minimalist Linen Coord Set",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Minimalist Linen Coord Set. flat-lay product render of a two-piece coord set consisting of a short-sleeve boxy crop top and high-waisted wide-leg trousers, made from lightweight linen blend, in soft beige and muted sage color blocking, isolated on plain white background, high-detail fabric texture, visible stitching, clean hems, subtle tortoiseshell button accents Colors: soft beige, muted sage, tortoiseshell brown. Fabrics: linen blend, cotton. Garment type: coord set. Silhouette: boxy crop top with wide-leg trousers. Sleeves: short sleeves. Neckline: crew neck. Length: crop top; full-length trousers. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: tortoiseshell buttons on top, concealed zipper on trousers, clean hem finish.",
+    "out_file": "renders/CS2024-001/CS2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "D20240630-001",
+    "title": "Classic 3/4 Sleeve Cotton Kurti",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic 3/4 Sleeve Cotton Kurti. flat-lay product render of a women's kurti with 3/4th sleeves, straight silhouette, round neckline, mid-thigh length, solid dusty rose color, lightweight cotton fabric, subtle tonal stitching, minimal trims, isolated on plain white background, high-detail fabric texture, visible stitching and hems Colors: Dusty Rose, Soft Beige, Muted Indigo. Fabrics: 100% Cotton, Cotton Voile. Garment type: Kurti. Silhouette: Straight. Sleeves: 3/4th sleeves with narrow hem. Neckline: Round neckline. Length: Mid-thigh. Style/fit: R, e, g, u, l, a, r,  , f, i, t. Details: Side slits, Topstitch detailing along neckline and sleeve hem.",
+    "out_file": "renders/D20240630-001/D20240630-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "DF001",
+    "title": "Soft Drape Midi Kaftan Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Soft Drape Midi Kaftan Dress. Isolated flat-lay product render of a draped midi kaftan dress on a plain white background, high-detail fabric texture, visible stitching and trims, flowing silhouette with soft pleats, lightweight woven fabric, wide elbow-length sleeves, V-neckline, self-fabric waist tie, no model or mannequin. Colors: soft sand beige, warm ivory, muted blush pink. Fabrics: lightweight viscose crepe, silk blend. Prints/patterns: solid. Garment type: dress. Silhouette: draped flowing kaftan. Sleeves: wide elbow-length sleeves. Neckline: V-neckline. Length: midi. Style/fit: r, e, l, a, x, e, d,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e. Details: self-fabric waist tie, side slits, narrow rolled hem, topstitch detailing along neckline.",
+    "out_file": "renders/DF001/DF001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "DRESS-GREY-001",
+    "title": "Charcoal Grey Midi Wrap Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Charcoal Grey Midi Wrap Dress. flat-lay product render of a charcoal grey midi wrap dress, soft matte cotton-linen blend fabric, subtle herringbone texture, short flutter sleeves, V-neckline, self-tie waist belt, clean hem, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: charcoal grey, soft dove grey, silver. Fabrics: cotton-linen blend, viscose lining. Prints/patterns: subtle herringbone weave. Garment type: dress. Silhouette: wrap silhouette. Sleeves: short flutter sleeves. Neckline: V-neckline. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e. Details: self-fabric waist belt, topstitch detailing along neckline and hem, hidden side seam pockets.",
+    "out_file": "renders/DRESS-GREY-001/DRESS-GREY-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "DRESS-SLVLS-001",
+    "title": "Sleeveless A-Line Midi Dress with Subtle Floral Jacquard",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Sleeveless A-Line Midi Dress with Subtle Floral Jacquard. Flat-lay product render of a sleeveless A-line midi dress, isolated on plain white background, high-detail fabric texture, visible stitching and trims, soft pastel blush pink base with subtle tonal floral jacquard pattern, scoop neckline, clean finished armholes, concealed back zipper, lightweight drape, commercial-ready presentation Colors: pastel blush pink, soft ivory, muted rose. Fabrics: cotton sateen, polyester jacquard blend. Prints/patterns: tonal floral jacquard. Garment type: dress. Silhouette: A-line. Sleeves: ['sleeveless', 'tank-style straps']. Neckline: scoop. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: concealed back zipper, clean finished armholes, topstitch detailing along neckline and hem.",
+    "out_file": "renders/DRESS-SLVLS-001/DRESS-SLVLS-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "DRESS_SOLID_MINIMALIST_001",
+    "title": "Minimalist Solid Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Minimalist Solid Midi Dress. flat-lay product render of a minimalist solid-color midi dress, sleeveless with subtle A-line silhouette, scoop neckline, clean seams, no embellishments, high-detail fabric texture, visible stitching, isolated on plain white background Colors: soft beige, warm taupe, ivory. Fabrics: lightweight cotton sateen, linen blend. Prints/patterns: solid. Garment type: dress. Silhouette: A-line. Sleeves: ['sleeveless']. Neckline: scoop. Length: midi. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: invisible side zipper, clean hem finish, bias-bound neckline.",
+    "out_file": "renders/DRESS_SOLID_MINIMALIST_001/DRESS_SOLID_MINIMALIST_001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "DRS-2024-001",
+    "title": "Soft A-Line Midi Dress with Puff Sleeves",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Soft A-Line Midi Dress with Puff Sleeves. Isolated flat-lay product render of a soft A-line midi dress with short puff sleeves, sweetheart neckline, pastel blush pink color, lightweight cotton blend fabric, subtle floral print, delicate waist tie, high-detail fabric texture, visible stitching and trims, plain white background, no model, no mannequin, no human, apparel-only Colors: pastel blush pink, soft ivory, muted sage green. Fabrics: cotton blend, lightweight voile lining. Prints/patterns: small-scale floral print. Garment type: dress. Silhouette: A-line. Sleeves: short puff sleeves. Neckline: sweetheart. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , d, e, f, i, n, e, d,  , w, a, i, s, t. Details: self-fabric waist tie, invisible back zipper, topstitching along neckline and hem.",
+    "out_file": "renders/DRS-2024-001/DRS-2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "EMB-2024-001",
+    "title": "Floral Vine Embroidered Tunic",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Floral Vine Embroidered Tunic. high-resolution flat-lay product render of a women's tunic, crafted from lightweight cotton-silk blend, featuring intricate floral vine embroidery in contrasting thread colors across the front panel and cuffs, isolated on a plain white background, high-detail fabric texture, visible stitching and trims, no model, no mannequin, no human elements Colors: ivory, sage green, dusty rose, golden beige. Fabrics: cotton-silk blend. Prints/patterns: floral vine embroidery. Garment type: tunic. Silhouette: straight. Sleeves: three-quarter sleeves. Neckline: boat neck. Length: mid-thigh. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: embroidered front panel, embroidered sleeve cuffs, side slits, contrast piping along neckline.",
+    "out_file": "renders/EMB-2024-001/EMB-2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "ETG001",
+    "title": "Earth Tone Relaxed Kurta Set",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Earth Tone Relaxed Kurta Set. Flat-lay product render of a relaxed-fit kurta set in layered earth tones, isolated on a plain white background, high-detail fabric texture, visible stitching and trims, no model, no mannequin, no human, no lifestyle scene Colors: sand beige, warm taupe, olive green, terracotta. Fabrics: lightweight cotton, linen blend. Prints/patterns: subtle herringbone weave. Garment type: kurta set. Silhouette: straight relaxed. Sleeves: full-length sleeves. Neckline: band collar. Length: mid-thigh kurta, ankle-length trousers. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: wooden buttons, side slits, contrast inner placket.",
+    "out_file": "renders/ETG001/ETG001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "FF001",
+    "title": "Classic Fit-and-Flare Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic Fit-and-Flare Midi Dress. Isolated flat-lay product render of a classic fit-and-flare midi dress on a plain white background, high-detail cotton sateen fabric texture, visible stitching, waist seam, concealed back zipper, short flutter sleeves, scoop neckline, soft pleated skirt flare, clean hems, no model or mannequin. Colors: soft blush pink, ivory, warm taupe. Fabrics: cotton sateen, polyester lining. Garment type: dress. Silhouette: fit-and-flare. Sleeves: short flutter sleeves. Neckline: scoop neckline. Length: midi. Style/fit: t, a, i, l, o, r, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t. Details: concealed back zipper, waist seam, soft pleats, topstitching at neckline and hem.",
+    "out_file": "renders/FF001/FF001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "FL-001",
+    "title": "Minimalist Linen Button-Up Shirt",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Minimalist Linen Button-Up Shirt. flat-lay product render of a minimalist linen button-up shirt, soft beige color, high-detail fabric texture, visible stitching, pearl buttons, isolated on plain white background, no model, no mannequin, no human, apparel-only Colors: soft beige, off-white, light cream. Fabrics: 100% linen. Garment type: shirt. Silhouette: straight cut. Sleeves: long sleeves. Neckline: classic collar. Length: hip length. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: pearl buttons, double-stitched seams, curved hem.",
+    "out_file": "renders/FL-001/FL-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "FL-EMB-001",
+    "title": "Full-Length Embroidered Silk Gown",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Full-Length Embroidered Silk Gown. Isolated flat-lay product render of a full-length gown on a plain white background, crafted from deep navy silk with intricate gold floral embroidery throughout, high-detail fabric texture, visible stitching, ornate trims, no model, no mannequin, no human, apparel-only view. Colors: Deep Navy, Antique Gold, Ivory. Fabrics: Silk, Cotton lining. Prints/patterns: Floral embroidery. Garment type: Gown. Silhouette: A-line. Sleeves: Long sleeves. Neckline: Boat neck. Length: Full-length. Style/fit: T, a, i, l, o, r, e, d,  , f, i, t. Details: Gold thread embroidery, Side zipper closure, Scalloped hem, Inner lining.",
+    "out_file": "renders/FL-EMB-001/FL-EMB-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "FLD-001",
+    "title": "Full-Length Fluid Maxi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Full-Length Fluid Maxi Dress. Isolated flat-lay product render of a full-length maxi dress on a plain white background, high-detail fabric texture, visible stitching and trims, soft drape, sleeveless with subtle waist seam, flowing hemline, commercial ready-to-wear style Colors: deep navy, soft ivory, warm taupe. Fabrics: lightweight crepe, viscose blend lining. Garment type: dress. Silhouette: A-line. Sleeves: sleeveless. Neckline: V-neck. Length: full-length. Style/fit: r, e, l, a, x, e, d,  , f, i, t,  , t, h, r, o, u, g, h,  , b, o, d, y,  , w, i, t, h,  , d, e, f, i, n, e, d,  , w, a, i, s, t. Details: invisible side zipper, self-fabric waist tie, narrow hem finish.",
+    "out_file": "renders/FLD-001/FLD-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "FLR001",
+    "title": "Botanical Bloom Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Botanical Bloom Midi Dress. Flat-lay product render of a midi-length A-line dress with short puff sleeves, featuring a soft floral print in pastel tones, isolated on a plain white background, high-detail fabric texture, visible stitching and trims, no model, no mannequin, no human, no lifestyle scene. Colors: soft blush pink, sage green, ivory, dusty lavender. Fabrics: lightweight cotton voile, cotton lining. Prints/patterns: pastel botanical floral print. Garment type: dress. Silhouette: A-line. Sleeves: short puff sleeves. Neckline: square neckline. Length: midi. Style/fit: r, e, l, a, x, e, d,  , f, i, t,  , w, i, t, h,  , d, e, f, i, n, e, d,  , w, a, i, s, t. Details: self-fabric waist tie, invisible side zipper, delicate piping along neckline.",
+    "out_file": "renders/FLR001/FLR001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "FS001",
+    "title": "Classic Full Sleeve Linen Blouse",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic Full Sleeve Linen Blouse. Isolated flat-lay product render of a women's blouse with full-length sleeves, tailored fit, made from lightweight linen fabric in soft pastel tones, plain white background, high-detail fabric texture, visible stitching, buttons, and cuffs, no model, no mannequin, no human, no lifestyle scene Colors: soft blush pink, ivory white, sage green. Fabrics: lightweight linen, cotton blend. Garment type: blouse. Silhouette: tailored. Sleeves: full sleeves with buttoned cuffs. Neckline: round neck. Length: hip length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: mother-of-pearl buttons, topstitch detailing, buttoned cuffs.",
+    "out_file": "renders/FS001/FS001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "GREY-001",
+    "title": "Slate Grey Tailored Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Slate Grey Tailored Midi Dress. flat-lay product render of a tailored midi dress in slate grey, short sleeves, V-neckline, fitted waist, A-line skirt, high-detail fabric texture, visible stitching, subtle tonal piping, isolated on plain white background Colors: Slate Grey, Charcoal, Soft Silver. Fabrics: Cotton Twill, Polyester Blend Lining. Garment type: Dress. Silhouette: A-line. Sleeves: Short sleeves. Neckline: V-neck. Length: Midi. Style/fit: T, a, i, l, o, r, e, d,  , f, i, t. Details: Tonal piping along neckline, Invisible side zipper, Darted bodice for shaping.",
+    "out_file": "renders/GREY-001/GREY-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "GREYCRN001",
+    "title": "Heather Grey Crew Neck Sweatshirt",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Heather Grey Crew Neck Sweatshirt. flat-lay product render of a heather grey crew neck sweatshirt, isolated on plain white background, high-detail fabric texture, visible stitching, ribbed cuffs and hem, no model, no mannequin, no human, no lifestyle scene Colors: heather grey, charcoal, soft white. Fabrics: cotton fleece, polyester blend. Garment type: sweatshirt. Silhouette: classic straight. Sleeves: long sleeves. Neckline: crew neck. Length: hip length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: ribbed neckline, ribbed cuffs, ribbed hem, double-needle stitching.",
+    "out_file": "renders/GREYCRN001/GREYCRN001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "GREY_SOLID_MINIMALIST_001",
+    "title": "Minimalist Grey Solid Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Minimalist Grey Solid Midi Dress. flat-lay product render of a minimalist solid grey midi dress, A-line silhouette, short sleeves, crew neckline, soft matte cotton fabric, isolated on plain white background, high-detail fabric texture, visible stitching and clean hems, no model, no mannequin, no human, apparel-only Colors: charcoal grey, ash grey, light silver. Fabrics: cotton twill, organic cotton jersey. Prints/patterns: solid. Garment type: dress. Silhouette: A-line. Sleeves: short sleeves. Neckline: crew neckline. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: topstitching along seams, hidden side zipper, clean hem finish.",
+    "out_file": "renders/GREY_SOLID_MINIMALIST_001/GREY_SOLID_MINIMALIST_001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "GW-001",
+    "title": "Grey & White Colorblock Linen Shirt",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Grey & White Colorblock Linen Shirt. flat-lay product render of a long-sleeve button-up shirt with grey and white colorblock panels, isolated on plain white background, high-detail linen texture, visible stitching, buttons and cuffs, no model, no mannequin, no human, no lifestyle scene Colors: cool grey, optic white. Fabrics: lightweight linen, cotton blend. Prints/patterns: colorblock. Garment type: shirt. Silhouette: straight. Sleeves: long sleeves with buttoned cuffs. Neckline: classic shirt collar. Length: hip length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: mother-of-pearl buttons, double-stitched seams, contrast paneling.",
+    "out_file": "renders/GW-001/GW-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "GW001",
+    "title": "Green & White Patchwork Kimono Jacket",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Green & White Patchwork Kimono Jacket. flat-lay product render of a women's kimono-style jacket, patchwork design combining deep forest green and crisp white panels, lightweight linen-cotton blend fabric, visible topstitching, open front with self-tie belt, wide 3/4 sleeves, plain white background, high-detail fabric texture, isolated garment Colors: forest green, crisp white. Fabrics: linen, cotton. Prints/patterns: patchwork. Garment type: jacket. Silhouette: relaxed kimono. Sleeves: wide 3/4 sleeves. Neckline: open front. Length: hip length. Style/fit: l, o, o, s, e,  , f, i, t. Details: self-tie belt, visible topstitching, panelled construction.",
+    "out_file": "renders/GW001/GW001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "HLT001",
+    "title": "Satin Halter Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Satin Halter Midi Dress. Isolated flat-lay product render of a sleeveless satin halter-neck midi dress, A-line silhouette, in soft champagne beige color, high-detail fabric texture with visible stitching and subtle sheen, plain white background, no model, no mannequin, no props. Colors: Champagne Beige, Soft Blush, Midnight Navy. Fabrics: Silk Satin, Polyester Satin Blend. Garment type: Dress. Silhouette: A-line. Sleeves: Sleeveless. Neckline: Halter. Length: Midi. Style/fit: R, e, g, u, l, a, r,  , f, i, t. Details: Invisible back zipper, Self-fabric halter tie, Lined bodice.",
+    "out_file": "renders/HLT001/HLT001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "IKAT-2024-001",
+    "title": "Midnight Indigo Ikat Fit & Flare Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Midnight Indigo Ikat Fit & Flare Dress. flat-lay product render of a women's fit and flare dress with short sleeves, V-neckline, knee-length, featuring a commercial ikat print in midnight indigo, ivory, and muted gold, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: Midnight Indigo, Ivory, Muted Gold. Fabrics: Handwoven Cotton, Cotton Blend. Prints/patterns: Ikat. Garment type: Dress. Silhouette: Fit and Flare. Sleeves: Short Sleeves. Neckline: V-Neck. Length: Knee Length. Style/fit: T, a, i, l, o, r, e, d,  , F, i, t. Details: Invisible side zipper, Soft cotton lining, Topstitch detailing along neckline and hem.",
+    "out_file": "renders/IKAT-2024-001/IKAT-2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "KS-2024-001",
+    "title": "Embroidered Pastel Kurta Set",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Embroidered Pastel Kurta Set. flat-lay product render of a women's kurta set, consisting of a straight-cut pastel mint green kurta with subtle floral embroidery along the hem and cuffs, paired with matching slim-fit trousers, isolated on a plain white background, high-detail fabric texture, visible stitching and trims Colors: pastel mint green, soft ivory, blush pink accents. Fabrics: cotton-silk blend, lightweight voile lining. Prints/patterns: delicate floral embroidery. Garment type: kurta-set. Silhouette: straight cut kurta with slim trousers. Sleeves: three-quarter sleeves. Neckline: round neckline with keyhole detail. Length: mid-thigh kurta length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: embroidered hem and cuffs, fabric-covered buttons at neckline, side slits.",
+    "out_file": "renders/KS-2024-001/KS-2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "KS001",
+    "title": "Midnight Bloom Kimono Sleeve Wrap Top",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Midnight Bloom Kimono Sleeve Wrap Top. Flat-lay product render of a women's wrap top with wide kimono sleeves, deep V-neckline, and self-tie waist belt, made from lightweight crepe fabric in midnight navy with subtle floral jacquard texture, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: Midnight Navy, Soft Ivory, Muted Rose. Fabrics: Lightweight crepe, Jacquard weave. Prints/patterns: Subtle floral jacquard. Garment type: Wrap top. Silhouette: Relaxed wrap silhouette. Sleeves: Wide kimono sleeves. Neckline: Deep V-neck. Length: Hip length. Style/fit: R, e, l, a, x, e, d,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e. Details: Self-fabric waist tie belt, Topstitching along neckline and hem, Side seam loops for belt.",
+    "out_file": "renders/KS001/KS001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "KURTA-2024-001",
+    "title": "Contemporary Linen Blend Kurta",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Contemporary Linen Blend Kurta. flat-lay product render of a contemporary kurta, crafted from linen-cotton blend, soft pastel sage green color, straight silhouette, three-quarter sleeves, mandarin collar neckline, mid-thigh length, minimal side slits, tonal stitching, subtle wooden button placket, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: pastel sage green, off-white, light tan. Fabrics: linen-cotton blend. Garment type: kurta. Silhouette: straight. Sleeves: three-quarter. Neckline: mandarin collar. Length: mid-thigh. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: wooden buttons, tonal stitching, side slits.",
+    "out_file": "renders/KURTA-2024-001/KURTA-2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "kurta_brown_001",
+    "title": "Chestnut Handloom Cotton Kurta with Minimal Embroidery",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Chestnut Handloom Cotton Kurta with Minimal Embroidery. flat-lay product render of a brown chestnut kurta, handloom cotton fabric, straight silhouette, full sleeves, band collar neckline, knee-length, minimal tonal embroidery along placket and cuffs, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: chestnut brown, warm beige, antique gold. Fabrics: handloom cotton. Prints/patterns: tonal embroidery. Garment type: kurta. Silhouette: straight. Sleeves: full sleeves. Neckline: band collar. Length: knee-length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: tonal thread embroidery on placket and cuffs, wooden buttons, side slits.",
+    "out_file": "renders/kurta_brown_001/kurta_brown_001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "LN2024-001",
+    "title": "Classic Relaxed Linen Button-Up Shirt",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic Relaxed Linen Button-Up Shirt. high-resolution flat-lay product render of a men's relaxed-fit linen button-up shirt, pastel sage green color, short sleeves, spread collar, front placket with mother-of-pearl buttons, single chest pocket, visible stitching, isolated on plain white background, high-detail fabric texture, no model, no mannequin, no human, no lifestyle scene Colors: pastel sage green, off-white, light beige. Fabrics: 100% pure linen. Garment type: shirt. Silhouette: relaxed fit. Sleeves: short sleeves. Neckline: spread collar. Length: hip length. Style/fit: c, a, s, u, a, l. Details: mother-of-pearl buttons, single chest pocket, double-needle stitching, curved hem.",
+    "out_file": "renders/LN2024-001/LN2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "MID2024-001",
+    "title": "Classic Midi Wrap Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic Midi Wrap Dress. Isolated flat-lay product render of a classic midi-length wrap dress, soft drape, solid dusty rose color, short flutter sleeves, V-neckline, self-tie waist belt, lightweight woven fabric, visible stitching and trims, plain white background, high-detail fabric texture Colors: Dusty Rose, Soft Blush, Warm Taupe. Fabrics: Lightweight woven rayon, Polyester blend. Garment type: Dress. Silhouette: Wrap. Sleeves: Short flutter sleeves. Neckline: V-neck. Length: Midi. Style/fit: R, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e. Details: Self-fabric waist tie, Topstitching along neckline, Hemmed edges.",
+    "out_file": "renders/MID2024-001/MID2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "MINI2024-001",
+    "title": "Structured Mini Shift Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Structured Mini Shift Dress. Isolated flat-lay product render of a structured mini shift dress on a plain white background, high-detail fabric texture, visible stitching, clean hems, short sleeves, round neckline, above-knee length, solid color with subtle sheen, commercial ready-to-wear style, no model, no mannequin, no human elements. Colors: deep navy, soft ivory, blush pink. Fabrics: cotton twill, polyester blend lining. Garment type: dress. Silhouette: shift. Sleeves: short sleeves. Neckline: round neckline. Length: mini. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: invisible back zipper, topstitch detailing along seams, clean turned hems.",
+    "out_file": "renders/MINI2024-001/MINI2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "MX2024-001",
+    "title": "Flowing Maxi Dress with Tiered Skirt",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Flowing Maxi Dress with Tiered Skirt. Isolated flat-lay product render of a flowing maxi dress with tiered skirt, soft drape, short flutter sleeves, V-neckline, ankle-length hem, solid dusty rose color, lightweight woven fabric, visible stitching and trims, plain white background, high-detail fabric texture, no model, no mannequin, no human elements. Colors: Dusty Rose, Soft Blush, Warm Beige. Fabrics: Lightweight Rayon, Cotton Voile. Garment type: Dress. Silhouette: A-line with tiered skirt. Sleeves: Short flutter sleeves. Neckline: V-neckline. Length: Maxi (ankle-length). Style/fit: R, e, l, a, x, e, d,  , f, i, t. Details: Tiered skirt panels, Self-fabric waist tie, Topstitching along neckline and hem.",
+    "out_file": "renders/MX2024-001/MX2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "NTL-001",
+    "title": "Sandstone Neutral Linen Shirt",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Sandstone Neutral Linen Shirt. flat-lay product render of a neutral-tone long-sleeve linen shirt, sandstone beige color, button-down front, single chest pocket, visible stitching, high-detail fabric texture, isolated on plain white background, no model, no mannequin Colors: sandstone beige, warm taupe, off-white. Fabrics: pure linen. Garment type: shirt. Silhouette: classic straight. Sleeves: long sleeves. Neckline: collared. Length: hip length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: mother-of-pearl buttons, single chest pocket, double-stitched seams.",
+    "out_file": "renders/NTL-001/NTL-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "pastel_group_001",
+    "title": "Pastel Co-ord Set with Soft Pleats",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Pastel Co-ord Set with Soft Pleats. flat-lay product render of a pastel co-ord set consisting of a short-sleeve blouse and a midi skirt, isolated on plain white background, high-detail fabric texture, visible stitching and trims, soft pleated skirt, smooth pastel colors, no model, no mannequin, no human, apparel-only Colors: soft lavender, powder pink, mint green, buttercream yellow. Fabrics: lightweight cotton poplin, soft rayon blend. Prints/patterns: solid pastel tones. Garment type: co-ord set. Silhouette: relaxed blouse with A-line midi skirt. Sleeves: short sleeves. Neckline: round neckline. Length: midi skirt length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: covered buttons on blouse front, soft pleats on skirt, invisible side zipper on skirt.",
+    "out_file": "renders/pastel_group_001/pastel_group_001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "PW001",
+    "title": "Blush & Ivory Patchwork Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Blush & Ivory Patchwork Midi Dress. flat-lay product render of a women's midi dress in blush pink and ivory color-block patchwork, lightweight cotton-linen blend fabric, short puff sleeves, V-neckline, fit-and-flare silhouette, mid-calf length, delicate lace trim along hem and neckline, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: blush pink, ivory white. Fabrics: cotton-linen blend. Prints/patterns: color-block patchwork. Garment type: dress. Silhouette: fit-and-flare. Sleeves: short puff sleeves. Neckline: V-neckline. Length: midi. Style/fit: t, a, i, l, o, r, e, d,  , a, t,  , w, a, i, s, t, ,,  , f, l, a, r, e, d,  , s, k, i, r, t. Details: delicate lace trim at hem and neckline, invisible side zipper, topstitch detailing.",
+    "out_file": "renders/PW001/PW001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "RD001",
+    "title": "Crimson A-Line Midi Dress with Pleated Skirt",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Crimson A-Line Midi Dress with Pleated Skirt. flat-lay product render of a crimson red A-line midi dress, short sleeves, sweetheart neckline, pleated skirt, high-detail fabric texture, visible stitching and trims, isolated on plain white background Colors: crimson red, deep ruby, soft rose. Fabrics: cotton sateen, polyester lining. Garment type: dress. Silhouette: A-line. Sleeves: short sleeves. Neckline: sweetheart neckline. Length: midi. Style/fit: t, a, i, l, o, r, e, d,  , f, i, t,  , a, t,  , b, o, d, i, c, e, ,,  , f, l, a, r, e, d,  , s, k, i, r, t. Details: invisible back zipper, waist seam, knife pleats on skirt, topstitching along neckline.",
+    "out_file": "renders/RD001/RD001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "RW-001",
+    "title": "Crimson & Ivory Panel Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Crimson & Ivory Panel Midi Dress. flat-lay product render of a midi dress with alternating vertical panels in deep crimson red and crisp ivory white, sleeveless, fitted bodice with gentle A-line skirt, scoop neckline, high-detail fabric texture, visible stitching and trims, isolated on plain white background Colors: crimson red, ivory white. Fabrics: cotton sateen, linen blend. Garment type: dress. Silhouette: A-line. Sleeves: sleeveless. Neckline: scoop. Length: midi. Style/fit: t, a, i, l, o, r, e, d,  , f, i, t,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t. Details: contrast vertical paneling, invisible side zipper, topstitch detailing along panel seams.",
+    "out_file": "renders/RW-001/RW-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "SATIN001",
+    "title": "Midnight Bloom Satin Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Midnight Bloom Satin Midi Dress. high-detail flat-lay product render of a satin midi dress, deep navy blue base with subtle floral jacquard pattern, A-line silhouette, short puff sleeves, sweetheart neckline, knee-length, fitted waist, invisible side zipper, delicate piping along neckline, isolated on plain white background, realistic fabric texture and sheen, visible stitching and trims Colors: Deep Navy, Soft Rose, Ivory. Fabrics: Satin, Jacquard Satin Blend. Prints/patterns: Subtle Floral Jacquard. Garment type: Dress. Silhouette: A-line. Sleeves: Short Puff Sleeves. Neckline: Sweetheart. Length: Knee-length. Style/fit: F, i, t, t, e, d,  , a, t,  , w, a, i, s, t, ,,  , f, l, a, r, e, d,  , s, k, i, r, t. Details: Invisible side zipper, Delicate piping along neckline, Fully lined.",
+    "out_file": "renders/SATIN001/SATIN001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "sheath_001",
+    "title": "Classic Sheath Dress with Minimalist Detailing",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic Sheath Dress with Minimalist Detailing. flat-lay product render of a classic sheath dress, knee-length, tailored fit, short cap sleeves, jewel neckline, solid deep navy color, subtle tonal topstitching, invisible back zipper, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: Deep Navy, Soft Ivory, Charcoal Grey. Fabrics: Cotton Blend, Spandex. Garment type: Dress. Silhouette: Sheath. Sleeves: Cap sleeves. Neckline: Jewel neckline. Length: Knee-length. Style/fit: T, a, i, l, o, r, e, d,  , f, i, t. Details: Invisible back zipper, Tonal topstitching, Fully lined.",
+    "out_file": "renders/sheath_001/sheath_001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "SLK-001",
+    "title": "Midnight Bloom Silk Blouse",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Midnight Bloom Silk Blouse. high-detail flat-lay product render of a women's silk blouse, deep midnight blue color with subtle floral jacquard pattern, long sleeves with slight puff at shoulders, mandarin collar neckline, concealed button placket, curved hem, isolated on plain white background, visible fine stitching and silk sheen, no model, no mannequin, no human elements Colors: Midnight Blue, Ivory, Soft Gold. Fabrics: 100% Mulberry Silk. Prints/patterns: Subtle floral jacquard weave. Garment type: Blouse. Silhouette: Tailored. Sleeves: Long sleeves with slight puff at shoulders. Neckline: Mandarin collar. Length: Hip length. Style/fit: R, e, g, u, l, a, r,  , f, i, t. Details: Concealed button placket, Curved hem, Fine topstitching.",
+    "out_file": "renders/SLK-001/SLK-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "SLK-EMB-001",
+    "title": "Regal Silk Embroidered Kurta",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Regal Silk Embroidered Kurta. high-detail flat-lay product render of a women's straight-cut kurta made from lustrous silk, featuring intricate gold floral embroidery across the front panel and cuffs, isolated on a plain white background, visible fine stitching, realistic fabric texture, no model, no mannequin, no human elements Colors: deep maroon, antique gold, warm ivory. Fabrics: silk. Prints/patterns: floral embroidery. Garment type: kurta. Silhouette: straight cut. Sleeves: long sleeves. Neckline: round neckline with keyhole. Length: knee-length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: gold thread embroidery, side slits, fabric-covered buttons at neckline.",
+    "out_file": "renders/SLK-EMB-001/SLK-EMB-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "SLV-MIN-001",
+    "title": "Minimalist Solid Sleeveless Tank Top",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Minimalist Solid Sleeveless Tank Top. flat-lay product render of a minimalist solid-color sleeveless tank top, high-detail cotton jersey texture, visible stitching, clean hem finish, isolated on plain white background, no model, no mannequin, no human, apparel-only Colors: soft ivory, warm beige, charcoal grey. Fabrics: cotton jersey, spandex blend. Prints/patterns: solid. Garment type: tank top. Silhouette: straight cut. Sleeves: sleeveless. Neckline: crew neck. Length: waist length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: double-stitched hem, self-fabric neck binding.",
+    "out_file": "renders/SLV-MIN-001/SLV-MIN-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "SLV-TNK-001",
+    "title": "Minimalist Sleeveless Tank Top",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Minimalist Sleeveless Tank Top. flat-lay product render of a sleeveless tank top, scoop neckline, tailored fit, solid dusty rose color, lightweight cotton jersey fabric, visible stitching, clean hem, isolated on plain white background, high-detail fabric texture Colors: dusty rose, soft beige, charcoal grey. Fabrics: cotton jersey, spandex blend. Garment type: tank top. Silhouette: straight. Sleeves: ['sleeveless']. Neckline: scoop. Length: waist-length. Style/fit: t, a, i, l, o, r, e, d. Details: double-stitched hem, binding at neckline and armholes.",
+    "out_file": "renders/SLV-TNK-001/SLV-TNK-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "SOLMIN-001",
+    "title": "Minimalist Solid A-Line Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Minimalist Solid A-Line Midi Dress. Flat-lay product render of a minimalist solid-color A-line midi dress, sleeveless, scoop neckline, in a soft matte fabric, isolated on a plain white background, high-detail fabric texture, visible stitching and clean hems, no model, no mannequin, no props. Colors: soft beige, warm taupe, charcoal grey. Fabrics: cotton sateen, viscose blend. Prints/patterns: solid. Garment type: dress. Silhouette: A-line. Sleeves: ['sleeveless']. Neckline: scoop. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: invisible side zipper, topstitching along neckline and armholes, clean hem finish.",
+    "out_file": "renders/SOLMIN-001/SOLMIN-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "SQN001",
+    "title": "Square Neck Puff Sleeve Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Square Neck Puff Sleeve Midi Dress. Isolated flat-lay product render of a women's midi dress with a square neckline, puff short sleeves, fitted bodice, and A-line skirt, in soft pastel lavender color, high-detail fabric texture, visible stitching and trims, plain white background, no model, no mannequin, no human, apparel-only. Colors: Pastel Lavender, Soft White, Silver. Fabrics: Cotton Poplin, Spandex Blend Lining. Garment type: Dress. Silhouette: Fitted bodice with A-line skirt. Sleeves: Short puff sleeves. Neckline: Square neck. Length: Midi. Style/fit: R, e, g, u, l, a, r,  , f, i, t. Details: Invisible back zipper, Waist seam, Topstitching along neckline, Soft gathers at sleeve head.",
+    "out_file": "renders/SQN001/SQN001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "SS24-001",
+    "title": "Classic Short Sleeve Linen Blouse",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic Short Sleeve Linen Blouse. flat-lay product render of a women's short sleeve blouse, made from lightweight linen, in soft pastel colors, isolated on a plain white background, high-detail fabric texture, visible stitching, clean hems, minimal trims Colors: soft blush pink, pastel mint, warm ivory. Fabrics: 100% linen. Garment type: blouse. Silhouette: relaxed fit. Sleeves: short sleeve. Neckline: crew neck. Length: hip length. Style/fit: r, e, g, u, l, a, r. Details: topstitching along neckline and hem, small side vents, self-fabric neck binding.",
+    "out_file": "renders/SS24-001/SS24-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "TLR-001",
+    "title": "Tailored Double-Breasted Cropped Jacket",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Tailored Double-Breasted Cropped Jacket. Flat-lay product render of a tailored double-breasted cropped jacket, isolated on a plain white background, high-detail wool blend fabric texture, visible stitching, structured shoulders, peak lapels, front welt pockets, matte horn buttons, clean finishing, no model or mannequin. Colors: charcoal grey, soft black, warm taupe. Fabrics: wool blend suiting, polyester lining. Garment type: jacket. Silhouette: tailored cropped. Sleeves: long set-in sleeves. Neckline: peak lapel. Length: cropped. Style/fit: s, t, r, u, c, t, u, r, e, d,  , f, i, t. Details: matte horn buttons, front welt pockets, inner lining, shoulder pads.",
+    "out_file": "renders/TLR-001/TLR-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "TOP-2024-001",
+    "title": "Minimalist Linen Blend Boxy Top",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Minimalist Linen Blend Boxy Top. flat-lay product render of a minimalist women's boxy top, short sleeves, crew neckline, made from linen-cotton blend fabric, solid dusty sage green color, subtle topstitching details, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: Dusty Sage Green, Soft Ivory, Muted Clay. Fabrics: Linen-Cotton Blend, Lightweight Poplin. Garment type: top. Silhouette: boxy. Sleeves: short sleeves. Neckline: crew neck. Length: hip length. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: topstitching along hem and sleeves, small side vents, self-fabric neck binding.",
+    "out_file": "renders/TOP-2024-001/TOP-2024-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "VN001",
+    "title": "Classic V-Neck Knit Top",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. Classic V-Neck Knit Top. Flat-lay product render of a women's classic V-neck knit top, short sleeves, slim fit silhouette, solid dusty rose color, fine cotton jersey fabric with visible stitching, isolated on plain white background, high-detail fabric texture, clear view of neckline and trims Colors: Dusty Rose, Soft White, Charcoal Grey. Fabrics: Cotton Jersey, Elastane Blend. Garment type: Top. Silhouette: Slim Fit. Sleeves: Short Sleeves. Neckline: V-neck. Length: Hip Length. Style/fit: T, a, i, l, o, r, e, d. Details: Double-stitched hem, Reinforced neckline binding.",
+    "out_file": "renders/VN001/VN001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "WD-EMB-001",
+    "title": "White Embroidered Cotton Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. White Embroidered Cotton Midi Dress. flat-lay product render of a white cotton midi dress with delicate tonal floral embroidery across bodice and hem, short puff sleeves, round neckline, fitted waist, A-line skirt, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: white, ivory. Fabrics: cotton voile, cotton lining. Prints/patterns: tonal floral embroidery. Garment type: dress. Silhouette: A-line. Sleeves: short puff sleeves. Neckline: round neckline. Length: midi. Style/fit: f, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t. Details: embroidered floral motifs, invisible back zipper, narrow waistband, scalloped embroidered hem.",
+    "out_file": "renders/WD-EMB-001/WD-EMB-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "WD-FS-001",
+    "title": "White Full-Sleeve Tailored Shirt",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. White Full-Sleeve Tailored Shirt. Isolated flat-lay product render of a crisp white full-sleeve tailored shirt, high-detail cotton fabric texture, visible stitching, pearl buttons, plain white background, no model, no mannequin, no human, commercial product page style Colors: white, pearl. Fabrics: 100% cotton poplin. Garment type: shirt. Silhouette: tailored. Sleeves: full sleeves. Neckline: classic shirt collar. Length: hip length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: pearl buttons, double-stitched seams, buttoned cuffs, curved hem.",
+    "out_file": "renders/WD-FS-001/WD-FS-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "WD001",
+    "title": "White Linen Midi Dress with Lace Trim",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. White Linen Midi Dress with Lace Trim. flat-lay product render of a white linen midi dress, A-line silhouette, short flutter sleeves, V-neckline, delicate lace trim along hem and sleeve edges, high-detail fabric texture, visible stitching, isolated on plain white background Colors: white, ivory. Fabrics: linen, cotton lace. Garment type: dress. Silhouette: A-line. Sleeves: short flutter sleeves. Neckline: V-neckline. Length: midi. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: lace trim at hem, lace trim at sleeve edges, invisible side zipper, topstitching detail.",
+    "out_file": "renders/WD001/WD001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "WDCTN001",
+    "title": "White Cotton Button-Front Shirt Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. White Cotton Button-Front Shirt Dress. Flat-lay product render of a white cotton shirt dress, isolated on plain white background, high-detail fabric texture, visible stitching, button-front closure, short sleeves, collared neckline, knee-length hem, subtle waist tie belt, clean minimal design, no model or mannequin. Colors: white. Fabrics: cotton. Garment type: dress. Silhouette: shirt dress. Sleeves: short sleeves. Neckline: collared. Length: knee-length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: button-front closure, waist tie belt, topstitching.",
+    "out_file": "renders/WDCTN001/WDCTN001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "WFULL001",
+    "title": "White Full-Length A-Line Maxi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. White Full-Length A-Line Maxi Dress. flat-lay product render of a white full-length A-line maxi dress, soft flowing fabric, subtle tonal texture, short flutter sleeves, V-neckline, fitted waist with delicate lace trim, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: white, off-white, ivory. Fabrics: cotton voile, linen blend. Garment type: dress. Silhouette: A-line. Sleeves: short flutter sleeves. Neckline: V-neckline. Length: full-length. Style/fit: f, i, t, t, e, d,  , a, t,  , w, a, i, s, t, ,,  , f, l, o, w, i, n, g,  , s, k, i, r, t. Details: delicate lace trim at waist, invisible side zipper, narrow hem stitching.",
+    "out_file": "renders/WFULL001/WFULL001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "WHCRN001",
+    "title": "White Crew Neck Cotton Tee",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. White Crew Neck Cotton Tee. Isolated flat-lay product render of a white crew neck short sleeve t-shirt, high-detail cotton fabric texture, visible stitching along hems and neckline, plain white background, no model, no mannequin, commercial-ready apparel product shot Colors: white. Fabrics: 100% cotton jersey. Garment type: t-shirt. Silhouette: classic straight cut. Sleeves: short sleeves. Neckline: crew neck. Length: hip length. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: double-stitched hems, reinforced neckline ribbing.",
+    "out_file": "renders/WHCRN001/WHCRN001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "WHT-MIN-001",
+    "title": "White Minimalist Linen Shift Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. White Minimalist Linen Shift Dress. flat-lay product render of a solid white minimalist shift dress, lightweight linen fabric, short sleeves, crew neckline, knee-length, relaxed fit, clean seams, subtle topstitching, isolated on plain white background, high-detail fabric texture, visible stitching and trims Colors: pure white. Fabrics: lightweight linen, cotton blend lining. Prints/patterns: solid. Garment type: dress. Silhouette: shift. Sleeves: short sleeves. Neckline: crew neckline. Length: knee-length. Style/fit: r, e, l, a, x, e, d,  , f, i, t. Details: hidden side zipper, topstitching along hem and neckline, minimalist clean-finish hems.",
+    "out_file": "renders/WHT-MIN-001/WHT-MIN-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "WHT-SS-001",
+    "title": "White Short Sleeve Linen Blouse",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. White Short Sleeve Linen Blouse. flat-lay product render of a women's white short sleeve blouse, made from lightweight linen, tailored fit, crew neckline, subtle tonal stitching, minimalistic design, isolated on plain white background, high-detail fabric texture, visible seams and hems Colors: white, off-white. Fabrics: linen, cotton blend. Garment type: blouse. Silhouette: straight. Sleeves: short sleeve. Neckline: crew neck. Length: waist length. Style/fit: t, a, i, l, o, r, e, d,  , f, i, t. Details: tonal stitching, side vents, back keyhole with button closure.",
+    "out_file": "renders/WHT-SS-001/WHT-SS-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "WHT001",
+    "title": "White Linen A-Line Midi Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. White Linen A-Line Midi Dress. flat-lay product render of a pure white linen A-line midi dress, short flutter sleeves, round neckline, subtle tonal stitching, concealed side zipper, isolated on plain white background, high-detail fabric texture, visible seams and trims Colors: pure white, soft ivory, pearl. Fabrics: 100% linen, cotton lining. Garment type: dress. Silhouette: A-line. Sleeves: short flutter sleeves. Neckline: round neckline. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: concealed side zipper, tonal topstitching, soft cotton lining, narrow hem finish.",
+    "out_file": "renders/WHT001/WHT001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  },
+  {
+    "design_id": "WSK-001",
+    "title": "White Silk Midi Wrap Dress",
+    "variant": "flatlay",
+    "prompt": "Flat-lay apparel-only product render. NO MODEL, NO MANNEQUIN, NO HUMAN. Photorealistic PNG, isolated on plain white background. White Silk Midi Wrap Dress. Isolated flat-lay product render of a white silk midi wrap dress on a plain white background, high-detail fabric texture with subtle sheen, visible stitching, self-tie waist belt, short flutter sleeves, V-neckline, clean hem finish, no model or mannequin. Colors: white, pearl, ivory. Fabrics: silk. Garment type: dress. Silhouette: wrap. Sleeves: short flutter sleeves. Neckline: V-neck. Length: midi. Style/fit: r, e, g, u, l, a, r,  , f, i, t. Details: self-tie waist belt, inner tie fastening, topstitching along edges.",
+    "out_file": "renders/WSK-001/WSK-001__flatlay.png",
+    "size": "1024x1024",
+    "n": 1
+  }
+]

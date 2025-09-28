@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"CHIFFON_001\",\n    \"title\": \"Soft Pastel Chiffon Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a women's midi dress made from lightweight chiffon fabric, soft pastel gradient in blush pink and lavender, A-line silhouette, short flutter sleeves, V-neckline, knee-length, elasticated waist with thin self-fabric tie belt, delicate pearl button placket at front, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"blush pink\", \"lavender\", \"soft ivory\"],\n    \"fabrics\": [\"chiffon\", \"lightweight polyester lining\"],\n    \"prints_patterns\": [\"soft gradient ombre\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short flutter sleeves\",\n    \"neckline\": \"V-neckline\",\n    \"length\": \"knee-length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"pearl buttons\", \"self-fabric tie belt\", \"elasticated waist\", \"delicate topstitching\"],\n    \"techpack\": \"Lightweight chiffon outer with polyester lining; A-line midi dress; short flutter sleeves; V-neckline with pearl button placket; elasticated waist with self-fabric tie belt; gradient ombre print; knee-length hem; overlocked internal seams; narrow hem finish.\",\n    \"provenance\": \"Inspired by the chiffon trend from contemporary Indian couture references, adapted into a commercial midi dress format.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985374,
+  "id": "chatcmpl-CKQjminXVOLoSBAucAKpxniXVCz07",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 339,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 609,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 948
+  }
+}

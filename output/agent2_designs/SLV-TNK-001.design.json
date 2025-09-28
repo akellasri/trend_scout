@@ -1,0 +1,30 @@
+{
+  "design_id": "SLV-TNK-001",
+  "title": "Minimalist Sleeveless Tank Top",
+  "image_prompt": "flat-lay product render of a sleeveless tank top, scoop neckline, slightly relaxed fit, solid dusty rose color, lightweight cotton jersey fabric, fine ribbed binding at neckline and armholes, isolated on plain white background, high-detail fabric texture, visible stitching and trims",
+  "color_palette": [
+    "Dusty Rose",
+    "Soft White",
+    "Charcoal Grey"
+  ],
+  "fabrics": [
+    "Cotton Jersey",
+    "Spandex Blend"
+  ],
+  "prints_patterns": [],
+  "garment_type": "Tank Top",
+  "silhouette": "Straight",
+  "sleeves": [
+    "Sleeveless"
+  ],
+  "neckline": "Scoop",
+  "length": "Hip Length",
+  "style_fit": "Relaxed",
+  "trims_and_details": [
+    "Ribbed binding at neckline and armholes",
+    "Double-needle hem stitching"
+  ],
+  "techpack": "Sleeveless tank top with scoop neckline, constructed in 180gsm cotton jersey with 5% spandex for stretch. Ribbed binding at neckline and armholes in matching color. Hip length with double-needle hem. Relaxed fit for comfort.",
+  "provenance": "Inspired by commercial sleeveless/tank trend examples provided.",
+  "design_text": "Minimalist Sleeveless Tank Top (SLV-TNK-001)\nColors: Dusty Rose, Soft White, Charcoal Grey\nFabrics: Cotton Jersey, Spandex Blend\nPrints/Patterns: none\nGarment Type: Tank Top\nSilhouette: Straight\nSleeves: ['Sleeveless']\nNeckline: Scoop\nLength: Hip Length\nStyle / Fit: R, e, l, a, x, e, d\nTrims & details: Ribbed binding at neckline and armholes, Double-needle hem stitching\nTechpack: available"
+}

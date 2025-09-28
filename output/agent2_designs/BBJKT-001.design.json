@@ -1,0 +1,32 @@
+{
+  "design_id": "BBJKT-001",
+  "title": "Black & Brown Patchwork Utility Jacket",
+  "image_prompt": "flat-lay product render of a commercial-ready utility jacket, combining black and brown panels in a patchwork design, high-detail fabric texture, visible stitching, matte metal buttons, isolated on plain white background, no model, no mannequin, no human, no lifestyle scene",
+  "color_palette": [
+    "black",
+    "chocolate brown",
+    "espresso",
+    "warm taupe"
+  ],
+  "fabrics": [
+    "cotton twill",
+    "brushed canvas"
+  ],
+  "prints_patterns": [
+    "color-block patchwork"
+  ],
+  "garment_type": "jacket",
+  "silhouette": "boxy",
+  "sleeves": "long sleeves",
+  "neckline": "collared",
+  "length": "hip-length",
+  "style_fit": "relaxed fit",
+  "trims_and_details": [
+    "matte metal buttons",
+    "topstitch detailing",
+    "utility patch pockets",
+    "contrast panel seams"
+  ],
+  "techpack": "Hip-length boxy utility jacket with black and brown cotton twill panels arranged in patchwork. Long sleeves with buttoned cuffs, collared neckline, front button closure, and four front patch pockets. Topstitching in matching thread for durability. Matte metal buttons in antique finish.",
+  "provenance": "Designed from combination of black and brown color trend, inspired by patchwork outerwear styles."
+}

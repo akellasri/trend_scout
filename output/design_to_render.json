@@ -1,0 +1,426 @@
+{
+  "ALD001": {
+    "design_file": "output/agent2_designs/ALD001.design.modified.design.json",
+    "render": "renders/ALD001__flatlay.png"
+  },
+  "ALN-2024-001": {
+    "design_file": "output/agent2_designs/ALN-2024-001.design.json",
+    "render": null
+  },
+  "ALN001": {
+    "design_file": "output/agent2_designs/ALN001.design.json",
+    "render": "renders/ALN001__flatlay.png"
+  },
+  "BBJ-001": {
+    "design_file": "output/agent2_designs/BBJ-001.design.json",
+    "render": null
+  },
+  "BBJKT-001": {
+    "design_file": "output/agent2_designs/BBJKT-001.design.json",
+    "render": null
+  },
+  "BDN-001": {
+    "design_file": "output/agent2_designs/BDN-001.design.json",
+    "render": null
+  },
+  "BLK-MIN-001": {
+    "design_file": "output/agent2_designs/BLK-MIN-001.design.json",
+    "render": null
+  },
+  "BLK001": {
+    "design_file": "output/agent2_designs/BLK001.design.json",
+    "render": null
+  },
+  "BLKDRS001": {
+    "design_file": "output/agent2_designs/BLKDRS001.design.json",
+    "render": null
+  },
+  "BLKGRY-001": {
+    "design_file": "output/agent2_designs/BLKGRY-001.design.json",
+    "render": null
+  },
+  "BLKMINI001": {
+    "design_file": "output/agent2_designs/BLKMINI001.design.json",
+    "render": null
+  },
+  "BLWH-001": {
+    "design_file": "output/agent2_designs/BLWH-001.design.json",
+    "render": null
+  },
+  "BR-EMB-001": {
+    "design_file": "output/agent2_designs/BR-EMB-001.design.json",
+    "render": "renders/BR-EMB-001__flatlay.png"
+  },
+  "BR-FL-001": {
+    "design_file": "output/agent2_designs/BR-FL-001.design.json",
+    "render": null
+  },
+  "BR-RD-001": {
+    "design_file": "output/agent2_designs/BR-RD-001.design.json",
+    "render": null
+  },
+  "BR-RED-001": {
+    "design_file": "output/agent2_designs/BR-RED-001.design.json",
+    "render": null
+  },
+  "BRGR-001": {
+    "design_file": "output/agent2_designs/BRGR-001.design.json",
+    "render": null
+  },
+  "BRN-KURTA-001": {
+    "design_file": "output/agent2_designs/BRN-KURTA-001.design.json",
+    "render": null
+  },
+  "BRN-SLD-001": {
+    "design_file": "output/agent2_designs/BRN-SLD-001.design.json",
+    "render": null
+  },
+  "BRN001": {
+    "design_file": "output/agent2_designs/BRN001.design.json",
+    "render": null
+  },
+  "BRNCTN-001": {
+    "design_file": "output/agent2_designs/BRNCTN-001.design.json",
+    "render": null
+  },
+  "BRNCTN001": {
+    "design_file": "output/agent2_designs/BRNCTN001.design.json",
+    "render": null
+  },
+  "BRNDRS001": {
+    "design_file": "output/agent2_designs/BRNDRS001.design.json",
+    "render": "renders/BRNDRS001__flatlay.png"
+  },
+  "BRWH-001": {
+    "design_file": "output/agent2_designs/BRWH-001.design.json",
+    "render": null
+  },
+  "BRWNCRW001": {
+    "design_file": "output/agent2_designs/BRWNCRW001.design.json",
+    "render": null
+  },
+  "BW001": {
+    "design_file": "output/agent2_designs/BW001.design.json",
+    "render": null
+  },
+  "CHIFFON-001": {
+    "design_file": "output/agent2_designs/CHIFFON-001.design.json",
+    "render": null
+  },
+  "CHIFFON_001": {
+    "design_file": "output/agent2_designs/CHIFFON_001.design.json",
+    "render": null
+  },
+  "CN001": {
+    "design_file": "output/agent2_designs/CN001.design.json",
+    "render": null
+  },
+  "COLLARED_SS24_001": {
+    "design_file": "output/agent2_designs/COLLARED_SS24_001.design.json",
+    "render": null
+  },
+  "COT2024-001": {
+    "design_file": "output/agent2_designs/COT2024-001.design.json",
+    "render": null
+  },
+  "COTTON-CREW-001": {
+    "design_file": "output/agent2_designs/COTTON-CREW-001.design.json",
+    "render": null
+  },
+  "COTTONCREW001": {
+    "design_file": "output/agent2_designs/COTTONCREW001.design.json",
+    "render": null
+  },
+  "CR2024-001": {
+    "design_file": "output/agent2_designs/CR2024-001.design.json",
+    "render": null
+  },
+  "CRW-SLD-001": {
+    "design_file": "output/agent2_designs/CRW-SLD-001.design.json",
+    "render": null
+  },
+  "CS001": {
+    "design_file": "output/agent2_designs/CS001.design.json",
+    "render": null
+  },
+  "CS2024-001": {
+    "design_file": "output/agent2_designs/CS2024-001.design.json",
+    "render": null
+  },
+  "D20240630-001": {
+    "design_file": "output/agent2_designs/D20240630-001.design.json",
+    "render": null
+  },
+  "DF001": {
+    "design_file": "output/agent2_designs/DF001.design.json",
+    "render": null
+  },
+  "DRESS-GREY-001": {
+    "design_file": "output/agent2_designs/DRESS-GREY-001.design.json",
+    "render": null
+  },
+  "DRESS-SLVLS-001": {
+    "design_file": "output/agent2_designs/DRESS-SLVLS-001.design.json",
+    "render": "renders/DRESS-SLVLS-001__flatlay.png"
+  },
+  "DRESS_SOLID_MINIMALIST_001": {
+    "design_file": "output/agent2_designs/DRESS_SOLID_MINIMALIST_001.design.json",
+    "render": null
+  },
+  "DRS-2024-001": {
+    "design_file": "output/agent2_designs/DRS-2024-001.design.json",
+    "render": null
+  },
+  "DSN-3QSLV-001": {
+    "design_file": "output/agent2_designs/DSN-3QSLV-001.design.json",
+    "render": null
+  },
+  "EMB-2024-001": {
+    "design_file": "output/agent2_designs/EMB-2024-001.design.json",
+    "render": "renders/EMB-2024-001__flatlay.png"
+  },
+  "ETG001": {
+    "design_file": "output/agent2_designs/ETG001.design.json",
+    "render": null
+  },
+  "FF001": {
+    "design_file": "output/agent2_designs/FF001.design.json",
+    "render": null
+  },
+  "FL-001": {
+    "design_file": "output/agent2_designs/FL-001.design.json",
+    "render": null
+  },
+  "FL-EMB-001": {
+    "design_file": "output/agent2_designs/FL-EMB-001.design.json",
+    "render": null
+  },
+  "FL001": {
+    "design_file": "output/agent2_designs/FL001.design.json",
+    "render": null
+  },
+  "FLD-001": {
+    "design_file": "output/agent2_designs/FLD-001.design.json",
+    "render": null
+  },
+  "FLR001": {
+    "design_file": "output/agent2_designs/FLR001.design.json",
+    "render": "renders/FLR001__flatlay.png"
+  },
+  "FS001": {
+    "design_file": "output/agent2_designs/FS001.design.json",
+    "render": null
+  },
+  "GREY-001": {
+    "design_file": "output/agent2_designs/GREY-001.design.json",
+    "render": null
+  },
+  "GREYCRN001": {
+    "design_file": "output/agent2_designs/GREYCRN001.design.json",
+    "render": null
+  },
+  "GREY_SOLID_MINIMALIST_001": {
+    "design_file": "output/agent2_designs/GREY_SOLID_MINIMALIST_001.design.json",
+    "render": null
+  },
+  "GRY-001": {
+    "design_file": "output/agent2_designs/GRY-001.design.json",
+    "render": null
+  },
+  "GRYCRW001": {
+    "design_file": "output/agent2_designs/GRYCRW001.design.json",
+    "render": null
+  },
+  "GW-001": {
+    "design_file": "output/agent2_designs/GW-001.design.json",
+    "render": null
+  },
+  "GW001": {
+    "design_file": "output/agent2_designs/GW001.design.json",
+    "render": null
+  },
+  "HLT001": {
+    "design_file": "output/agent2_designs/HLT001.design.json",
+    "render": "renders/HLT001__flatlay.png"
+  },
+  "IKAT-2024-001": {
+    "design_file": "output/agent2_designs/IKAT-2024-001.design.json",
+    "render": "renders/IKAT-2024-001__flatlay.png"
+  },
+  "KS-2024-001": {
+    "design_file": "output/agent2_designs/KS-2024-001.design.json",
+    "render": null
+  },
+  "KS001": {
+    "design_file": "output/agent2_designs/KS001.design.json",
+    "render": null
+  },
+  "KURTA-2024-001": {
+    "design_file": "output/agent2_designs/KURTA-2024-001.design.json",
+    "render": null
+  },
+  "LINEN-SS24-001": {
+    "design_file": "output/agent2_designs/LINEN-SS24-001.design.json",
+    "render": null
+  },
+  "LN2024-001": {
+    "design_file": "output/agent2_designs/LN2024-001.design.json",
+    "render": null
+  },
+  "MID2024-001": {
+    "design_file": "output/agent2_designs/MID2024-001.design.json",
+    "render": null
+  },
+  "MINI2024-001": {
+    "design_file": "output/agent2_designs/MINI2024-001.design.json",
+    "render": null
+  },
+  "MX2024-001": {
+    "design_file": "output/agent2_designs/MX2024-001.design.json",
+    "render": null
+  },
+  "NTL-001": {
+    "design_file": "output/agent2_designs/NTL-001.design.json",
+    "render": "renders/NTL-001__flatlay.png"
+  },
+  "PW001": {
+    "design_file": "output/agent2_designs/PW001.design.json",
+    "render": null
+  },
+  "RD001": {
+    "design_file": "output/agent2_designs/RD001.design.json",
+    "render": null
+  },
+  "RW-001": {
+    "design_file": "output/agent2_designs/RW-001.design.json",
+    "render": null
+  },
+  "SATIN001": {
+    "design_file": "output/agent2_designs/SATIN001.design.json",
+    "render": "renders/SATIN001__flatlay.png"
+  },
+  "SATIN2024-001": {
+    "design_file": "output/agent2_designs/SATIN2024-001.design.json",
+    "render": null
+  },
+  "SHTH001": {
+    "design_file": "output/agent2_designs/SHTH001.design.json",
+    "render": null
+  },
+  "SLK-001": {
+    "design_file": "output/agent2_designs/SLK-001.design.json",
+    "render": null
+  },
+  "SLK-EMB-001": {
+    "design_file": "output/agent2_designs/SLK-EMB-001.design.json",
+    "render": null
+  },
+  "SLK001": {
+    "design_file": "output/agent2_designs/SLK001.design.json",
+    "render": null
+  },
+  "SLV-MIN-001": {
+    "design_file": "output/agent2_designs/SLV-MIN-001.design.json",
+    "render": null
+  },
+  "SLV-TNK-001": {
+    "design_file": "output/agent2_designs/SLV-TNK-001.design.json",
+    "render": null
+  },
+  "SOLMIN-001": {
+    "design_file": "output/agent2_designs/SOLMIN-001.design.json",
+    "render": null
+  },
+  "SQN001": {
+    "design_file": "output/agent2_designs/SQN001.design.json",
+    "render": null
+  },
+  "SS24-001": {
+    "design_file": "output/agent2_designs/SS24-001.design.json",
+    "render": null
+  },
+  "TLR-001": {
+    "design_file": "output/agent2_designs/TLR-001.design.json",
+    "render": null
+  },
+  "TOP-2024-001": {
+    "design_file": "output/agent2_designs/TOP-2024-001.design.json",
+    "render": null
+  },
+  "VN001": {
+    "design_file": "output/agent2_designs/VN001.design.json",
+    "render": null
+  },
+  "WD-CN-001": {
+    "design_file": "output/agent2_designs/WD-CN-001.design.json",
+    "render": null
+  },
+  "WD-EMB-001": {
+    "design_file": "output/agent2_designs/WD-EMB-001.design.json",
+    "render": null
+  },
+  "WD-FS-001": {
+    "design_file": "output/agent2_designs/WD-FS-001.design.json",
+    "render": null
+  },
+  "WD-SLK-001": {
+    "design_file": "output/agent2_designs/WD-SLK-001.design.json",
+    "render": null
+  },
+  "WD001": {
+    "design_file": "output/agent2_designs/WD001.design.json",
+    "render": null
+  },
+  "WDCTN001": {
+    "design_file": "output/agent2_designs/WDCTN001.design.json",
+    "render": null
+  },
+  "WF001": {
+    "design_file": "output/agent2_designs/WF001.design.json",
+    "render": null
+  },
+  "WFULL001": {
+    "design_file": "output/agent2_designs/WFULL001.design.json",
+    "render": null
+  },
+  "WHCRN001": {
+    "design_file": "output/agent2_designs/WHCRN001.design.json",
+    "render": null
+  },
+  "WHT-MIN-001": {
+    "design_file": "output/agent2_designs/WHT-MIN-001.design.json",
+    "render": null
+  },
+  "WHT-SS-001": {
+    "design_file": "output/agent2_designs/WHT-SS-001.design.json",
+    "render": null
+  },
+  "WHT001": {
+    "design_file": "output/agent2_designs/WHT001.design.json",
+    "render": null
+  },
+  "WHTSS001": {
+    "design_file": "output/agent2_designs/WHTSS001.design.json",
+    "render": null
+  },
+  "WSK-001": {
+    "design_file": "output/agent2_designs/WSK-001.design.json",
+    "render": null
+  },
+  "embroidery_print_001": {
+    "design_file": "output/agent2_designs/embroidery_print_001.design.json",
+    "render": null
+  },
+  "kurta_brown_001": {
+    "design_file": "output/agent2_designs/kurta_brown_001.design.json",
+    "render": null
+  },
+  "pastel_group_001": {
+    "design_file": "output/agent2_designs/pastel_group_001.design.json",
+    "render": null
+  },
+  "sheath_001": {
+    "design_file": "output/agent2_designs/sheath_001.design.json",
+    "render": "renders/sheath_001__flatlay.png"
+  }
+}

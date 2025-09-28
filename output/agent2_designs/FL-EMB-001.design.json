@@ -1,0 +1,32 @@
+{
+  "design_id": "FL-EMB-001",
+  "title": "Full-Length Embroidered Silk Gown",
+  "image_prompt": "high-resolution flat-lay product render of a full-length gown, crafted from deep navy silk with intricate gold floral embroidery throughout, isolated on a plain white background, high-detail fabric texture, visible stitching, ornate gold trims along hem and cuffs, no model, no mannequin",
+  "color_palette": [
+    "deep navy",
+    "antique gold",
+    "ivory"
+  ],
+  "fabrics": [
+    "silk satin",
+    "cotton lining"
+  ],
+  "prints_patterns": [
+    "floral embroidery"
+  ],
+  "garment_type": "gown",
+  "silhouette": "A-line",
+  "sleeves": "long sleeves",
+  "neckline": "boat neck",
+  "length": "full-length",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "gold thread embroidery",
+    "scalloped hem",
+    "side zipper closure",
+    "embroidered cuffs"
+  ],
+  "techpack": "Full-length A-line gown in silk satin with cotton lining, featuring all-over floral embroidery in gold thread, boat neckline, long sleeves with embroidered cuffs, scalloped hem, side zipper closure. Seam allowances 1cm, embroidery density medium for durability.",
+  "provenance": "Designed by in-house team inspired by traditional Indian embroidery and contemporary eveningwear trends.",
+  "design_text": "Full-Length Embroidered Silk Gown (FL-EMB-001)\nColors: deep navy, antique gold, ivory\nFabrics: silk satin, cotton lining\nPrints/Patterns: floral embroidery\nGarment Type: gown\nSilhouette: A-line\nSleeves: long sleeves\nNeckline: boat neck\nLength: full-length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: gold thread embroidery, scalloped hem, side zipper closure, embroidered cuffs\nTechpack: available"
+}

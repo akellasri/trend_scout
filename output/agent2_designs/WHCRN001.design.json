@@ -1,0 +1,25 @@
+{
+  "design_id": "WHCRN001",
+  "title": "White Crew Neck Cotton Tee",
+  "image_prompt": "Isolated flat-lay product render of a white crew neck short sleeve t-shirt, high-detail cotton fabric texture, visible stitching along hems and neckline, plain white background, no model, no mannequin, commercial-ready apparel product shot",
+  "color_palette": [
+    "white"
+  ],
+  "fabrics": [
+    "100% cotton jersey"
+  ],
+  "prints_patterns": [],
+  "garment_type": "t-shirt",
+  "silhouette": "classic straight cut",
+  "sleeves": "short sleeves",
+  "neckline": "crew neck",
+  "length": "hip length",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "double-stitched hems",
+    "reinforced neckline ribbing"
+  ],
+  "techpack": "Crew neck short sleeve t-shirt in white cotton jersey, regular fit, hip length, double-stitched hems, ribbed neckline, pre-shrunk fabric, standard size range XS-XL.",
+  "provenance": "Designed from combo: color:white | neck:Crew neck",
+  "image_prompt_override": ""
+}

@@ -1,0 +1,29 @@
+{
+  "design_id": "FF001",
+  "title": "Classic Fit-and-Flare Midi Dress",
+  "image_prompt": "Isolated flat-lay product render of a classic fit-and-flare midi dress on a plain white background, high-detail fabric texture, visible stitching, waist seam, concealed zipper at back, short sleeves, scoop neckline, smooth cotton sateen fabric, soft drape skirt, commercial ready design, no model, no mannequin, no human, no lifestyle scene",
+  "color_palette": [
+    "navy blue",
+    "soft ivory",
+    "blush pink"
+  ],
+  "fabrics": [
+    "cotton sateen",
+    "polyester lining"
+  ],
+  "prints_patterns": [],
+  "garment_type": "dress",
+  "silhouette": "fit-and-flare",
+  "sleeves": "short sleeves",
+  "neckline": "scoop neckline",
+  "length": "midi",
+  "style_fit": "tailored bodice with flared skirt",
+  "trims_and_details": [
+    "concealed back zipper",
+    "waist seam",
+    "topstitching along neckline and hem"
+  ],
+  "techpack": "Bodice: fitted with darts, waist seam at natural waist, skirt: 6-panel flared midi length, short set-in sleeves, scoop neckline finished with facing, concealed zipper at center back, hem finished with blind stitch, cotton sateen shell with polyester lining.",
+  "provenance": "Inspired by commercial fit-and-flare silhouettes from Mogra Designs examples",
+  "design_text": "Classic Fit-and-Flare Midi Dress (FF001)\nColors: navy blue, soft ivory, blush pink\nFabrics: cotton sateen, polyester lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: fit-and-flare\nSleeves: short sleeves\nNeckline: scoop neckline\nLength: midi\nStyle / Fit: t, a, i, l, o, r, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: concealed back zipper, waist seam, topstitching along neckline and hem\nTechpack: available"
+}

@@ -1,0 +1,28 @@
+{
+  "design_id": "WSK-001",
+  "title": "White Silk Midi Wrap Dress",
+  "image_prompt": "Isolated flat-lay product render of a white silk midi wrap dress on a plain white background, high-detail fabric texture with subtle sheen, visible stitching, self-tie waist belt, short flutter sleeves, V-neckline, clean hem finish, no model or mannequin.",
+  "color_palette": [
+    "white",
+    "pearl",
+    "ivory"
+  ],
+  "fabrics": [
+    "silk"
+  ],
+  "prints_patterns": [],
+  "garment_type": "dress",
+  "silhouette": "wrap",
+  "sleeves": "short flutter sleeves",
+  "neckline": "V-neck",
+  "length": "midi",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "self-tie waist belt",
+    "inner tie fastening",
+    "topstitching along edges"
+  ],
+  "techpack": "White silk midi wrap dress with short flutter sleeves, V-neckline, self-tie waist belt, inner tie fastening, clean hem finish. Fabric: 100% silk, lightweight with natural sheen. Construction: French seams, topstitching along neckline and sleeve edges.",
+  "provenance": "Designed from combo: color:white | fabric:silk",
+  "image_prompt_override": ""
+}

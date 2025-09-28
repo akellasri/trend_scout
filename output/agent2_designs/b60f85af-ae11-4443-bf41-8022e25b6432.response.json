@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"SOLMIN-001\",\n    \"title\": \"Minimalist Solid A-Line Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a minimalist solid-color A-line midi dress, sleeveless with clean round neckline, soft drape, high-detail fabric texture, visible stitching and subtle topstitching, isolated on plain white background, no model, no mannequin, no human, commercial ready-to-wear style\",\n    \"color_palette\": [\"soft beige\", \"warm taupe\", \"charcoal grey\"],\n    \"fabrics\": [\"lightweight cotton twill\", \"viscose blend lining\"],\n    \"prints_patterns\": [\"solid\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": [\"sleeveless\"],\n    \"neckline\": \"round\",\n    \"length\": \"midi\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"invisible side zipper\", \"topstitch detailing along hem\", \"self-fabric waist tie\"],\n    \"techpack\": \"A-line midi dress in solid lightweight cotton twill with viscose blend lining. Sleeveless, round neckline, invisible side zipper closure, self-fabric waist tie for adjustable fit. Topstitch detailing along hem and neckline. Seam allowance 1cm, hem allowance 3cm.\",\n    \"provenance\": \"Designed based on solids/minimalist trend for commercial ready-to-wear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985483,
+  "id": "chatcmpl-CKQlX3OGFZvZmUwXHxM8eYmsbRLI2",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 556,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 874
+  }
+}

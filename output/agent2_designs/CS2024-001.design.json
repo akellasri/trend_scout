@@ -1,0 +1,28 @@
+{
+  "design_id": "CS2024-001",
+  "title": "Minimalist Linen Coord Set",
+  "image_prompt": "flat-lay product render of a two-piece coord set consisting of a short-sleeve boxy crop top and high-waisted wide-leg trousers, made from lightweight linen blend, in soft beige and muted sage color blocking, isolated on plain white background, high-detail fabric texture, visible stitching, clean hems, subtle tortoiseshell button accents",
+  "color_palette": [
+    "soft beige",
+    "muted sage",
+    "tortoiseshell brown"
+  ],
+  "fabrics": [
+    "linen blend",
+    "cotton"
+  ],
+  "prints_patterns": [],
+  "garment_type": "coord set",
+  "silhouette": "boxy crop top with wide-leg trousers",
+  "sleeves": "short sleeves",
+  "neckline": "crew neck",
+  "length": "crop top; full-length trousers",
+  "style_fit": "relaxed fit",
+  "trims_and_details": [
+    "tortoiseshell buttons on top",
+    "concealed zipper on trousers",
+    "clean hem finish"
+  ],
+  "techpack": "Two-piece set: Top - boxy crop silhouette, short sleeves, crew neckline, tortoiseshell button closure at back. Trousers - high-waisted, wide-leg, concealed side zipper, clean hem. Fabric: lightweight linen blend with cotton for breathability. Color blocking in soft beige and muted sage.",
+  "provenance": "Inspired by current coord set trend for commercial ready-to-wear summer collections."
+}

@@ -1,0 +1,30 @@
+{
+  "design_id": "BW001",
+  "title": "Monochrome Patchwork Kimono Jacket",
+  "image_prompt": "flat-lay product render of a black and white patchwork kimono-style jacket, isolated on plain white background, high-detail fabric texture, visible stitching, clean edges, front open with belt tie, no model, no mannequin",
+  "color_palette": [
+    "black",
+    "white"
+  ],
+  "fabrics": [
+    "cotton twill",
+    "linen blend"
+  ],
+  "prints_patterns": [
+    "geometric patchwork"
+  ],
+  "garment_type": "jacket",
+  "silhouette": "relaxed fit kimono",
+  "sleeves": "wide three-quarter sleeves",
+  "neckline": "open front",
+  "length": "hip length",
+  "style_fit": "loose fit",
+  "trims_and_details": [
+    "self-fabric belt tie",
+    "contrast topstitching",
+    "patchwork panels"
+  ],
+  "techpack": "Kimono-style jacket with black and white geometric patchwork panels, constructed from cotton twill and linen blend fabrics. Wide three-quarter sleeves, open front with self-fabric belt tie. Contrast topstitching along seams. Hip length, relaxed silhouette.",
+  "provenance": "Designed based on combination of black and white color trend, inspired by patchwork styles from provided examples.",
+  "design_text": "Monochrome Patchwork Kimono Jacket (BW001)\nColors: black, white\nFabrics: cotton twill, linen blend\nPrints/Patterns: geometric patchwork\nGarment Type: jacket\nSilhouette: relaxed fit kimono\nSleeves: wide three-quarter sleeves\nNeckline: open front\nLength: hip length\nStyle / Fit: l, o, o, s, e,  , f, i, t\nTrims & details: self-fabric belt tie, contrast topstitching, patchwork panels\nTechpack: available"
+}

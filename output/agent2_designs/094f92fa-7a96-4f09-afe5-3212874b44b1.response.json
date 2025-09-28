@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"WDCTN001\",\n    \"title\": \"White Cotton A-Line Midi Dress\",\n    \"image_prompt\": \"Flat-lay product render of a white cotton A-line midi dress, short sleeves, crew neckline, subtle tonal stitching, minimalistic design, isolated on plain white background, high-detail fabric texture, visible seams and hems, no model or mannequin.\",\n    \"color_palette\": [\"white\", \"off-white\"],\n    \"fabrics\": [\"100% cotton\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short sleeves\",\n    \"neckline\": \"crew neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"tonal stitching\", \"invisible side zipper\", \"clean hem finish\"],\n    \"techpack\": \"White cotton A-line midi dress with short sleeves and crew neckline. Regular fit with invisible side zipper closure. Tonal stitching throughout, clean hem finish. Fabric: 100% cotton, pre-shrunk. Recommended GSM: 150-180.\",\n    \"provenance\": \"Designed from combo: color:white | fabric:cotton\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985172,
+  "id": "chatcmpl-CKQgWWWA3bwsgr7p0sm6DoerRRrzY",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 270,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 582,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 852
+  }
+}

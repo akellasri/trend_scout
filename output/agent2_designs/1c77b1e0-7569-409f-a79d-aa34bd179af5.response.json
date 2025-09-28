@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"COT2024-001\",\n    \"title\": \"Organic Cotton A-Line Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of an organic cotton A-line midi dress, short puff sleeves, square neckline, soft pastel color blocking in blush pink and ivory, high-detail fabric texture, visible stitching and trims, isolated on plain white background\",\n    \"color_palette\": [\"Blush Pink\", \"Ivory\", \"Soft Sage\"],\n    \"fabrics\": [\"Organic Cotton Poplin\"],\n    \"prints_patterns\": [\"Solid Color Blocking\"],\n    \"garment_type\": \"Dress\",\n    \"silhouette\": \"A-Line\",\n    \"sleeves\": \"Short Puff Sleeves\",\n    \"neckline\": \"Square Neckline\",\n    \"length\": \"Midi\",\n    \"style_fit\": \"Relaxed Fit\",\n    \"trims_and_details\": [\"Contrast topstitching\", \"Side seam pockets\", \"Invisible back zipper\"],\n    \"techpack\": \"Organic cotton poplin A-line midi dress with short puff sleeves, square neckline, contrast topstitching, side seam pockets, and invisible back zipper. Color blocked panels in blush pink and ivory with soft sage accents. Seam allowance 1cm, pre-shrunk fabric, overlocked internal seams.\",\n    \"provenance\": \"Inspired by the commercial viability and comfort of cotton fabrics, designed for breathable everyday wear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985353,
+  "id": "chatcmpl-CKQjRK2R1SoiKKnbxMGyZRMqEWMFt",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 301,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 573,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 874
+  }
+}

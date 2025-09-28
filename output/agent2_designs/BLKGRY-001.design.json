@@ -1,0 +1,31 @@
+{
+  "design_id": "BLKGRY-001",
+  "title": "Black & Grey Colorblock Utility Shirt",
+  "image_prompt": "flat-lay product render of a long-sleeve button-up utility shirt, colorblocked in deep black and charcoal grey panels, isolated on plain white background, high-detail cotton twill texture, visible stitching, matte black buttons, double chest pockets with flaps, straight hem, no model, no mannequin",
+  "color_palette": [
+    "black",
+    "charcoal grey",
+    "light grey (stitching)"
+  ],
+  "fabrics": [
+    "cotton twill"
+  ],
+  "prints_patterns": [
+    "colorblock"
+  ],
+  "garment_type": "shirt",
+  "silhouette": "straight",
+  "sleeves": "long sleeves",
+  "neckline": "collared",
+  "length": "hip length",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "matte black buttons",
+    "double chest pockets with flaps",
+    "contrast topstitching in light grey",
+    "buttoned cuffs"
+  ],
+  "techpack": "Front: two-tone colorblock panels with black on right front and charcoal grey on left front, matching back panel arrangement; double chest pockets with flap closures; matte black buttons along center front placket; long sleeves with buttoned cuffs; straight hem; contrast light grey topstitching throughout for definition.",
+  "provenance": "Designed by combining trending black and grey color palette into a commercial utility shirt silhouette.",
+  "design_text": "Black & Grey Colorblock Utility Shirt (BLKGRY-001)\nColors: black, charcoal grey, light grey (stitching)\nFabrics: cotton twill\nPrints/Patterns: colorblock\nGarment Type: shirt\nSilhouette: straight\nSleeves: long sleeves\nNeckline: collared\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: matte black buttons, double chest pockets with flaps, contrast topstitching in light grey, buttoned cuffs\nTechpack: available"
+}

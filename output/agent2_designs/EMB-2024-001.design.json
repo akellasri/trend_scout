@@ -1,0 +1,31 @@
+{
+  "design_id": "EMB-2024-001",
+  "title": "Floral Vine Embroidered Tunic",
+  "image_prompt": "high-resolution flat-lay product render of a women's tunic, crafted from lightweight cotton-silk blend, featuring intricate floral vine embroidery in contrasting thread colors across the front panel and cuffs, isolated on a plain white background, high-detail fabric texture, visible stitching and trims, no model, no mannequin, no human elements",
+  "color_palette": [
+    "ivory",
+    "sage green",
+    "dusty rose",
+    "golden beige"
+  ],
+  "fabrics": [
+    "cotton-silk blend"
+  ],
+  "prints_patterns": [
+    "floral vine embroidery"
+  ],
+  "garment_type": "tunic",
+  "silhouette": "straight",
+  "sleeves": "three-quarter sleeves",
+  "neckline": "boat neck",
+  "length": "mid-thigh",
+  "style_fit": "relaxed fit",
+  "trims_and_details": [
+    "embroidered front panel",
+    "embroidered sleeve cuffs",
+    "side slits",
+    "contrast piping along neckline"
+  ],
+  "techpack": "Front panel and sleeve cuffs to feature machine embroidery with floral vine motif in 3 thread colors; base fabric cotton-silk blend, 120gsm; neckline finished with contrast piping; side slits reinforced with bar-tack stitching; garment length 32 inches; sleeve length 18 inches; straight silhouette with relaxed fit.",
+  "provenance": "Inspired by contemporary Indian embroidery trends, adapted for commercial tunic wear with manufacturable machine embroidery techniques."
+}

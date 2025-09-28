@@ -1,0 +1,28 @@
+{
+  "design_id": "BR-RD-001",
+  "title": "Rust & Crimson Panelled Midi Dress",
+  "image_prompt": "flat-lay product render of a women's midi dress, panelled design combining deep rust brown and rich crimson red, made from lightweight crepe and satin blend, A-line silhouette, short flutter sleeves, V-neckline, knee-length, fitted waist with decorative buttons, isolated on plain white background, high-detail fabric texture, visible stitching and trims",
+  "color_palette": [
+    "rust brown",
+    "crimson red",
+    "antique gold (trim)"
+  ],
+  "fabrics": [
+    "lightweight crepe",
+    "satin blend"
+  ],
+  "prints_patterns": [],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": "short flutter sleeves",
+  "neckline": "V-neckline",
+  "length": "knee-length",
+  "style_fit": "fitted waist, relaxed skirt",
+  "trims_and_details": [
+    "antique gold decorative buttons",
+    "panelled color-block design",
+    "topstitch detailing along panels"
+  ],
+  "techpack": "Panelled midi dress with alternating rust brown and crimson red crepe/satin panels. Short flutter sleeves in satin, V-neckline with facing, fitted waist with antique gold buttons at center front, invisible side zipper, knee-length hem with narrow double-fold finish.",
+  "provenance": "Designed by combining trending brown and red tones from provided references into a commercial-ready midi dress concept."
+}

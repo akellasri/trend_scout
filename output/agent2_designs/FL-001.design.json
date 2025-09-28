@@ -1,0 +1,44 @@
+{
+  "design_id": "FL-001",
+  "title": "Minimalist Linen Button-Up Shirt",
+  "image_prompt": "flat-lay product render of a minimalist linen button-up shirt, soft beige color, high-detail fabric texture, visible stitching, pearl buttons, isolated on plain white background, no model, no mannequin, no human, apparel-only",
+  "color_palette": [
+    "soft beige",
+    "off-white",
+    "light cream"
+  ],
+  "fabrics": [
+    "100% linen"
+  ],
+  "prints_patterns": [],
+  "garment_type": "shirt",
+  "silhouette": "straight cut",
+  "sleeves": "long sleeves",
+  "neckline": "classic collar",
+  "length": "hip length",
+  "style_fit": "relaxed fit",
+  "trims_and_details": [
+    "pearl buttons",
+    "double-stitched seams",
+    "curved hem"
+  ],
+  "techpack": {
+    "measurements": {
+      "chest": "54 cm",
+      "shoulder": "45 cm",
+      "sleeve_length": "62 cm",
+      "shirt_length": "72 cm"
+    },
+    "fabric_weight": "150 gsm",
+    "care_instructions": [
+      "machine wash cold",
+      "line dry",
+      "iron on low heat"
+    ],
+    "construction_notes": [
+      "double-stitched seams for durability",
+      "reinforced collar stand"
+    ]
+  },
+  "provenance": "Designed in Italy, manufactured in Portugal"
+}

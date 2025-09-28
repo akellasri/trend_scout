@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"FLD-001\",\n    \"title\": \"Full-Length Fluid Maxi Dress\",\n    \"image_prompt\": \"Isolated flat-lay product render of a full-length maxi dress on a plain white background, high-detail fabric texture, visible stitching, soft drape, subtle sheen, sleeveless with a halter neckline, A-line silhouette, concealed back zipper, minimal trims, commercial-ready design\",\n    \"color_palette\": [\"deep navy\", \"soft ivory\", \"dusty rose\"],\n    \"fabrics\": [\"lightweight silk blend\", \"viscose lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": [],\n    \"neckline\": \"halter\",\n    \"length\": \"full-length\",\n    \"style_fit\": \"relaxed fit through body with gentle waist shaping\",\n    \"trims_and_details\": [\"concealed back zipper\", \"narrow self-fabric waist tie\", \"clean finished hem\"],\n    \"techpack\": \"Full-length A-line maxi dress with halter neckline, sleeveless, lightweight silk blend shell with viscose lining, concealed back zipper closure, self-fabric waist tie, clean finished hem; total length approx. 58 inches from shoulder to hem.\",\n    \"provenance\": \"Inspired by the 'Full-length' trend in lengths category; designed for commercial production with timeless silhouette and versatile color palette.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985424,
+  "id": "chatcmpl-CKQka2byPqy2lRVOe5coLxD5SSzD8",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 309,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 381,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 690
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"GRY-001\",\n    \"title\": \"Slate Grey Relaxed Fit Shirt Dress\",\n    \"image_prompt\": \"flat-lay product render of a slate grey relaxed fit shirt dress, isolated on plain white background, high-detail fabric texture, visible stitching, matte finish buttons, soft drape, short sleeves, collared neckline, mid-thigh length, commercial ready design\",\n    \"color_palette\": [\"Slate Grey\", \"Charcoal\", \"Soft Silver\"],\n    \"fabrics\": [\"Cotton Poplin\", \"Linen Blend\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"Shirt Dress\",\n    \"silhouette\": \"Relaxed A-line\",\n    \"sleeves\": \"Short Sleeves\",\n    \"neckline\": \"Classic Shirt Collar\",\n    \"length\": \"Mid-Thigh\",\n    \"style_fit\": \"Relaxed Fit\",\n    \"trims_and_details\": [\"Matte finish buttons in matching grey\", \"Single chest pocket\", \"Topstitch detailing along seams\", \"Curved hemline\"],\n    \"techpack\": \"Slate grey shirt dress in cotton poplin with linen blend for breathability, short sleeves, classic shirt collar, matte grey buttons, single chest pocket, curved hemline, relaxed A-line silhouette, mid-thigh length, topstitch detailing for durability.\",\n    \"provenance\": \"Inspired by the commercial trend of grey tones for versatile everyday wear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985338,
+  "id": "chatcmpl-CKQjCpCdukofUYy7fFQBokMOQNhEA",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 307,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 585,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 892
+  }
+}

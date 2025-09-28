@@ -1,0 +1,758 @@
+[
+  {
+    "design_id": "ALD001",
+    "title": "Ankle-Length Fluid Maxi Dress",
+    "design_text": "Ankle-Length Fluid Maxi Dress (ALD001)\nColors: soft sage green, warm ivory, muted blush\nFabrics: lightweight rayon, cotton blend lining\nPrints/Patterns: solid color\nGarment Type: dress\nSilhouette: A-line\nSleeves: short flutter sleeves\nNeckline: V-neck\nLength: ankle-length\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t,  , t, h, r, o, u, g, h,  , b, o, d, y, ,,  , g, e, n, t, l, y,  , f, i, t, t, e, d,  , a, t,  , w, a, i, s, t\nTrims & details: concealed side zipper, narrow self-fabric waist tie, topstitching along neckline and hem\nTechpack: available",
+    "design_path": "output/agent2_designs/ALD001.design.json",
+    "render_path": "renders/ALD001__flatlay.png"
+  },
+  {
+    "design_id": "ALD001",
+    "title": "Ankle-Length Olive Linen Maxi Dress",
+    "design_text": "Ankle-Length Olive Linen Maxi Dress (ALD001) Colors: olive green Fabrics: linen, cotton blend lining Prints: solid color Garment: dress Silhouette: A-line Sleeves: short puff sleeves Neckline: square neck Length: ankle-length Style/Fit: relaxed fit through body, gently fitted at waist Trims: concealed side zipper, narrow self-fabric waist tie, topstitching along neckline and hem",
+    "design_path": "output/agent2_designs/ALD001.design.modified.design.json",
+    "render_path": "renders/ALD001__flatlay.png"
+  },
+  {
+    "design_id": "ALD001",
+    "title": "Ankle-Length Olive Linen Maxi Dress",
+    "design_text": "Ankle-Length Olive Linen Maxi Dress (ALD001) Colors: olive green Fabrics: linen, cotton blend lining Prints: solid color Garment: dress Silhouette: A-line Sleeves: short puff sleeves Neckline: square neck Length: ankle-length Style/Fit: relaxed fit through body, gently fitted at waist Trims: concealed side zipper, narrow self-fabric waist tie, topstitching along neckline and hem",
+    "design_path": "output/agent2_designs/ALD001.modified.design.json",
+    "render_path": "renders/ALD001__flatlay.png"
+  },
+  {
+    "design_id": "ALN-2024-001",
+    "title": "Classic A-Line Midi Dress with Contrast Piping",
+    "design_text": "Classic A-Line Midi Dress with Contrast Piping (ALN-2024-001)\nColors: Pastel Blush Pink, White\nFabrics: Cotton Poplin, Polyester Lining\nPrints/Patterns: none\nGarment Type: Dress\nSilhouette: A-line\nSleeves: ['Sleeveless']\nNeckline: Scoop\nLength: Midi\nStyle / Fit: R, e, g, u, l, a, r,  , f, i, t\nTrims & details: White contrast piping, Invisible back zipper, Topstitching along hem\nTechpack: available",
+    "design_path": "output/agent2_designs/ALN-2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "ALN001",
+    "title": "Classic A-Line Midi Dress with Contrast Piping",
+    "design_text": "Classic A-Line Midi Dress with Contrast Piping — navy blue, white, soft blush",
+    "design_path": "output/agent2_designs/ALN001.design.json",
+    "render_path": "renders/ALN001__flatlay.png"
+  },
+  {
+    "design_id": "BBJ-001",
+    "title": "Black & Brown Panelled Bomber Jacket",
+    "design_text": "Black & Brown Panelled Bomber Jacket (BBJ-001)\nColors: black, dark brown, charcoal grey\nFabrics: cotton twill, polyester blend lining, ribbed knit trim\nPrints/Patterns: none\nGarment Type: jacket\nSilhouette: relaxed bomber\nSleeves: long sleeves with ribbed cuffs\nNeckline: crew neckline with ribbed collar\nLength: hip length\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: front metal zipper, ribbed knit collar, cuffs, and hem, panelled body with alternating colors, two side welt pockets\nTechpack: available",
+    "design_path": "output/agent2_designs/BBJ-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BBJKT-001",
+    "title": "Black & Brown Patchwork Utility Jacket",
+    "design_text": "Black & Brown Patchwork Utility Jacket — black, chocolate brown, espresso, warm taupe",
+    "design_path": "output/agent2_designs/BBJKT-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BDN-001",
+    "title": "Modern Bandhani Midi Dress",
+    "design_text": "Modern Bandhani Midi Dress (BDN-001)\nColors: deep indigo, crimson red, warm ivory, mustard yellow\nFabrics: lightweight cotton, cotton voile\nPrints/Patterns: bandhani tie-dye motif with evenly spaced dot clusters and geometric arrangements\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['short sleeves']\nNeckline: round neckline\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , s, l, i, g, h, t,  , f, l, a, r, e\nTrims & details: self-fabric waist tie belt, topstitch detailing along hem and neckline, concealed side zipper\nTechpack: available",
+    "design_path": "output/agent2_designs/BDN-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BLK-MIN-001",
+    "title": "Black Minimalist Tailored Midi Dress",
+    "design_text": "Black Minimalist Tailored Midi Dress — black",
+    "design_path": "output/agent2_designs/BLK-MIN-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BLK001",
+    "title": "Midnight Noir Tailored Shirt Dress",
+    "design_text": "Midnight Noir Tailored Shirt Dress (BLK001)\nColors: midnight black, charcoal grey accents\nFabrics: cotton poplin, polyester blend\nPrints/Patterns: none\nGarment Type: shirt dress\nSilhouette: tailored A-line\nSleeves: long sleeves with buttoned cuffs\nNeckline: classic shirt collar\nLength: knee-length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e\nTrims & details: matte black buttons, self-fabric waist tie belt, double-stitched seams\nTechpack: available",
+    "design_path": "output/agent2_designs/BLK001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BLKDRS001",
+    "title": "Classic Black Midi Dress with Subtle Satin Finish",
+    "design_text": "Classic Black Midi Dress with Subtle Satin Finish (BLKDRS001)\nColors: black\nFabrics: satin, polyester blend\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: A-line\nSleeves: cap sleeves\nNeckline: round neckline\nLength: midi\nStyle / Fit: t, a, i, l, o, r, e, d,  , f, i, t\nTrims & details: concealed back zipper, topstitching along seams, lined bodice\nTechpack: available",
+    "design_path": "output/agent2_designs/BLKDRS001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BLKGRY-001",
+    "title": "Black & Grey Colorblock Utility Shirt",
+    "design_text": "Black & Grey Colorblock Utility Shirt (BLKGRY-001)\nColors: black, charcoal grey, light grey (stitching)\nFabrics: cotton twill\nPrints/Patterns: colorblock\nGarment Type: shirt\nSilhouette: straight\nSleeves: long sleeves\nNeckline: collared\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: matte black buttons, double chest pockets with flaps, contrast topstitching in light grey, buttoned cuffs\nTechpack: available",
+    "design_path": "output/agent2_designs/BLKGRY-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BLKMINI001",
+    "title": "Black Minimalist Solid Midi Dress",
+    "design_text": "Black Minimalist Solid Midi Dress (BLKMINI001)\nColors: black\nFabrics: cotton twill, spandex blend\nPrints/Patterns: solid\nGarment Type: dress\nSilhouette: A-line\nSleeves: short sleeves\nNeckline: crew neckline\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: invisible back zipper, topstitching along neckline and hem, clean finished seams\nTechpack: available",
+    "design_path": "output/agent2_designs/BLKMINI001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BLWH-001",
+    "title": "Blue & White Nautical Stripe Midi Dress",
+    "design_text": "Blue & White Nautical Stripe Midi Dress (BLWH-001)\nColors: navy blue, white\nFabrics: cotton poplin, spandex blend\nPrints/Patterns: horizontal stripes\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['sleeveless']\nNeckline: scoop\nLength: midi\nStyle / Fit: f, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: concealed side zipper, topstitching along neckline and armholes, striped pattern alignment at seams\nTechpack: available",
+    "design_path": "output/agent2_designs/BLWH-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BR-EMB-001",
+    "title": "Chestnut Embroidered Midi Dress",
+    "design_text": "Chestnut Embroidered Midi Dress (BR-EMB-001)\nColors: chestnut brown, warm beige, gold thread\nFabrics: cotton sateen, polyester lining\nPrints/Patterns: floral embroidery\nGarment Type: dress\nSilhouette: A-line\nSleeves: short puff sleeves\nNeckline: sweetheart\nLength: midi\nStyle / Fit: f, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: tonal floral embroidery, invisible back zipper, waist seam piping\nTechpack: available",
+    "design_path": "output/agent2_designs/BR-EMB-001.design.json",
+    "render_path": "renders/BR-EMB-001__flatlay.png"
+  },
+  {
+    "design_id": "BR-FL-001",
+    "title": "Chocolate Brown Full-Length A-Line Maxi Dress",
+    "design_text": "Chocolate Brown Full-Length A-Line Maxi Dress (BR-FL-001)\nColors: chocolate brown, espresso, warm taupe\nFabrics: cotton sateen, polyester blend lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['cap sleeves']\nNeckline: scoop\nLength: full-length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: matching fabric belt, concealed side zipper, topstitch detailing along seams\nTechpack: available",
+    "design_path": "output/agent2_designs/BR-FL-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BR-RD-001",
+    "title": "Rust & Crimson Panelled Midi Dress",
+    "design_text": "Rust & Crimson Panelled Midi Dress — rust brown, crimson red, antique gold (trim)",
+    "design_path": "output/agent2_designs/BR-RD-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BR-RED-001",
+    "title": "Rust & Crimson Panelled Midi Dress",
+    "design_text": "Rust & Crimson Panelled Midi Dress (BR-RED-001)\nColors: rust brown, crimson red, antique gold (buttons)\nFabrics: lightweight crepe, cotton lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: panelled A-line\nSleeves: short flutter sleeves\nNeckline: V-neckline\nLength: midi\nStyle / Fit: f, i, t, t, e, d,  , w, a, i, s, t, ,,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: antique gold decorative buttons, contrast panel stitching, invisible side zipper\nTechpack: available",
+    "design_path": "output/agent2_designs/BR-RED-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BRGR-001",
+    "title": "Two-Tone Brown & Grey Tailored Midi Dress",
+    "design_text": "Two-Tone Brown & Grey Tailored Midi Dress (BRGR-001)\nColors: chocolate brown, slate grey, warm taupe\nFabrics: cotton sateen, polyester blend lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: fit-and-flare\nSleeves: short sleeves\nNeckline: round neckline\nLength: midi\nStyle / Fit: t, a, i, l, o, r, e, d,  , f, i, t\nTrims & details: concealed back zipper, color-block paneling, topstitch detailing\nTechpack: available",
+    "design_path": "output/agent2_designs/BRGR-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BRN-KURTA-001",
+    "title": "Chestnut Brown Handloom Cotton Kurta",
+    "design_text": "Chestnut Brown Handloom Cotton Kurta (BRN-KURTA-001)\nColors: chestnut brown, warm taupe, beige\nFabrics: handloom cotton, cotton jacquard\nPrints/Patterns: tone-on-tone jacquard weave\nGarment Type: kurta\nSilhouette: straight\nSleeves: long sleeves\nNeckline: band collar\nLength: knee-length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: wooden buttons, side slits, contrast inner facing\nTechpack: available",
+    "design_path": "output/agent2_designs/BRN-KURTA-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BRN-SLD-001",
+    "title": "Minimalist Solid Brown Midi Dress",
+    "design_text": "Minimalist Solid Brown Midi Dress (BRN-SLD-001)\nColors: chocolate brown, warm taupe, espresso\nFabrics: cotton twill, polyester blend lining\nPrints/Patterns: solid\nGarment Type: dress\nSilhouette: A-line\nSleeves: short sleeves\nNeckline: crew neckline\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: invisible back zipper, topstitching along neckline and hem, self-fabric waist belt\nTechpack: available",
+    "design_path": "output/agent2_designs/BRN-SLD-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BRN001",
+    "title": "Mocha Satin Midi Wrap Dress",
+    "design_text": "Mocha Satin Midi Wrap Dress (BRN001)\nColors: mocha brown, warm taupe, soft beige\nFabrics: satin, polyester blend lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: wrap\nSleeves: long bishop sleeves\nNeckline: V-neck\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e\nTrims & details: self-fabric waist tie belt, covered buttons on cuffs, topstitching along neckline and hem\nTechpack: available",
+    "design_path": "output/agent2_designs/BRN001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BRNCTN-001",
+    "title": "Classic Brown Cotton Utility Shirt",
+    "design_text": "Classic Brown Cotton Utility Shirt (BRNCTN-001)\nColors: chocolate brown, matte dark brown, warm beige stitching\nFabrics: 100% cotton twill\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: straight\nSleeves: long sleeves with buttoned cuffs\nNeckline: classic shirt collar\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: double chest pockets with button flaps, matte brown buttons, contrast beige topstitching, buttoned cuffs, reinforced shoulder seams\nTechpack: available",
+    "design_path": "output/agent2_designs/BRNCTN-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BRNCTN001",
+    "title": "Chocolate Brown Cotton Utility Shirt Dress",
+    "design_text": "Chocolate Brown Cotton Utility Shirt Dress — chocolate brown, matte brass, warm beige",
+    "design_path": "output/agent2_designs/BRNCTN001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BRNDRS001",
+    "title": "Chocolate Brown Midi Wrap Dress",
+    "design_text": "Chocolate Brown Midi Wrap Dress (BRNDRS001)\nColors: chocolate brown, warm taupe, soft beige\nFabrics: lightweight crepe, polyester blend lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: wrap\nSleeves: short flutter sleeves\nNeckline: V-neckline\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e\nTrims & details: self-fabric waist tie belt, topstitch detailing along edges, hidden side zipper\nTechpack: available",
+    "design_path": "output/agent2_designs/BRNDRS001.design.json",
+    "render_path": "renders/BRNDRS001__flatlay.png"
+  },
+  {
+    "design_id": "BRWH-001",
+    "title": "Brown & White Colorblock Linen Shirt Dress",
+    "design_text": "Brown & White Colorblock Linen Shirt Dress (BRWH-001)\nColors: warm chocolate brown, soft ivory white\nFabrics: linen, cotton blend\nPrints/Patterns: colorblock\nGarment Type: shirt dress\nSilhouette: A-line\nSleeves: short sleeves\nNeckline: classic shirt collar\nLength: mid-length\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e\nTrims & details: mother-of-pearl buttons, self-fabric waist tie belt, double topstitching on seams\nTechpack: available",
+    "design_path": "output/agent2_designs/BRWH-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BRWNCRW001",
+    "title": "Chestnut Crew Neck Knit Sweater",
+    "design_text": "Chestnut Crew Neck Knit Sweater (BRWNCRW001)\nColors: chestnut brown, warm cocoa, soft beige\nFabrics: organic cotton, merino wool blend\nPrints/Patterns: none\nGarment Type: sweater\nSilhouette: classic straight\nSleeves: long sleeves\nNeckline: crew neck\nLength: waist length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: ribbed neckline, ribbed cuffs, ribbed waistband, double-stitched seams\nTechpack: available",
+    "design_path": "output/agent2_designs/BRWNCRW001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "BW001",
+    "title": "Monochrome Patchwork Kimono Jacket",
+    "design_text": "Monochrome Patchwork Kimono Jacket (BW001)\nColors: black, white\nFabrics: cotton twill, linen blend\nPrints/Patterns: geometric patchwork\nGarment Type: jacket\nSilhouette: relaxed fit kimono\nSleeves: wide three-quarter sleeves\nNeckline: open front\nLength: hip length\nStyle / Fit: l, o, o, s, e,  , f, i, t\nTrims & details: self-fabric belt tie, contrast topstitching, patchwork panels\nTechpack: available",
+    "design_path": "output/agent2_designs/BW001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "CHIFFON-001",
+    "title": "Soft Pastel Chiffon Midi Dress",
+    "design_text": "Soft Pastel Chiffon Midi Dress — Blush Pink, Lavender, Soft Ivory",
+    "design_path": "output/agent2_designs/CHIFFON-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "CHIFFON_001",
+    "title": "Soft Pastel Chiffon Midi Dress",
+    "design_text": "Soft Pastel Chiffon Midi Dress (CHIFFON_001)\nColors: blush pink, lavender, soft ivory\nFabrics: chiffon, lightweight polyester lining\nPrints/Patterns: soft gradient ombre\nGarment Type: dress\nSilhouette: A-line\nSleeves: short flutter sleeves\nNeckline: V-neckline\nLength: knee-length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: pearl buttons, self-fabric tie belt, elasticated waist, delicate topstitching\nTechpack: available",
+    "design_path": "output/agent2_designs/CHIFFON_001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "CN001",
+    "title": "Classic Crew Neck Cotton Tee",
+    "design_text": "Classic Crew Neck Cotton Tee (CN001)\nColors: soft heather grey, navy blue, white\nFabrics: 100% combed cotton jersey\nPrints/Patterns: none\nGarment Type: t-shirt\nSilhouette: straight cut\nSleeves: short sleeves\nNeckline: crew neck\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: double-needle stitching at hem and sleeves, ribbed neckline, reinforced shoulder seams\nTechpack: available",
+    "design_path": "output/agent2_designs/CN001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "COLLARED_SS24_001",
+    "title": "Classic Collared Linen Shirt",
+    "design_text": "Classic Collared Linen Shirt (COLLARED_SS24_001)\nColors: soft ivory, warm sand, sky blue\nFabrics: 100% linen, cotton-linen blend\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: straight cut\nSleeves: short sleeves\nNeckline: pointed collar\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: mother-of-pearl buttons, double topstitching, side vents\nTechpack: available",
+    "design_path": "output/agent2_designs/COLLARED_SS24_001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "COT2024-001",
+    "title": "Organic Cotton A-Line Midi Dress",
+    "design_text": "Organic Cotton A-Line Midi Dress (COT2024-001)\nColors: Blush Pink, Ivory, Soft Sage\nFabrics: Organic Cotton Poplin\nPrints/Patterns: Solid Color Blocking\nGarment Type: Dress\nSilhouette: A-Line\nSleeves: Short Puff Sleeves\nNeckline: Square Neckline\nLength: Midi\nStyle / Fit: R, e, l, a, x, e, d,  , F, i, t\nTrims & details: Contrast topstitching, Side seam pockets, Invisible back zipper\nTechpack: available",
+    "design_path": "output/agent2_designs/COT2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "COTTON-CREW-001",
+    "title": "Classic Cotton Crew Neck Tee",
+    "design_text": "Classic Cotton Crew Neck Tee — soft heather grey, white, navy blue",
+    "design_path": "output/agent2_designs/COTTON-CREW-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "COTTONCREW001",
+    "title": "Classic Cotton Crew Neck Tee",
+    "design_text": "Classic Cotton Crew Neck Tee (COTTONCREW001)\nColors: soft white, heather grey, navy blue\nFabrics: 100% cotton jersey\nPrints/Patterns: none\nGarment Type: t-shirt\nSilhouette: straight cut\nSleeves: short sleeves\nNeckline: crew neck\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: double-stitched hems, ribbed neckline, shoulder-to-shoulder taping\nTechpack: available",
+    "design_path": "output/agent2_designs/COTTONCREW001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "CR2024-001",
+    "title": "Cream Satin Midi Dress with Pleated Skirt",
+    "design_text": "Cream Satin Midi Dress with Pleated Skirt (CR2024-001)\nColors: cream, ivory, warm beige\nFabrics: satin, polyester lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: A-line\nSleeves: short flutter sleeves\nNeckline: V-neck\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: pleated skirt, concealed side zipper, tonal topstitching\nTechpack: available",
+    "design_path": "output/agent2_designs/CR2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "CRW-SLD-001",
+    "title": "Minimalist Solid Crew Neck Tee",
+    "design_text": "Minimalist Solid Crew Neck Tee (CRW-SLD-001)\nColors: soft white, charcoal grey, navy blue\nFabrics: 100% combed cotton jersey\nPrints/Patterns: solid\nGarment Type: t-shirt\nSilhouette: classic straight cut\nSleeves: short sleeves\nNeckline: crew neck\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: double-needle stitching at hems, reinforced neckline ribbing\nTechpack: available",
+    "design_path": "output/agent2_designs/CRW-SLD-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "CS001",
+    "title": "Minimalist Linen Coord Set",
+    "design_text": "Minimalist Linen Coord Set (CS001)\nColors: soft beige, warm sand, off-white\nFabrics: 100% linen, linen-cotton blend for trousers lining\nPrints/Patterns: none\nGarment Type: coord set\nSilhouette: boxy crop top with relaxed wide-leg trousers\nSleeves: short sleeves\nNeckline: crew neck\nLength: crop top length for top, full length for trousers\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: coconut shell buttons, matching fabric belt, topstitched seams, hidden zipper on trousers\nTechpack: available",
+    "design_path": "output/agent2_designs/CS001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "CS2024-001",
+    "title": "Minimalist Linen Coord Set",
+    "design_text": "Minimalist Linen Coord Set — soft beige, muted sage, tortoiseshell brown",
+    "design_path": "output/agent2_designs/CS2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "D20240630-001",
+    "title": "Classic 3/4 Sleeve Cotton Kurti",
+    "design_text": "Classic 3/4 Sleeve Cotton Kurti — Dusty Rose, Soft Beige, Muted Indigo",
+    "design_path": "output/agent2_designs/D20240630-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "DF001",
+    "title": "Soft Drape Midi Kaftan Dress",
+    "design_text": "Soft Drape Midi Kaftan Dress (DF001)\nColors: soft blush pink, warm sand beige, muted sage green\nFabrics: rayon, silk blend\nPrints/Patterns: solid with subtle tonal texture\nGarment Type: dress\nSilhouette: draped flowing kaftan\nSleeves: wide elbow-length sleeves\nNeckline: V-neckline\nLength: midi\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e\nTrims & details: self-fabric waist tie belt, narrow rolled hem, topstitching along neckline\nTechpack: available",
+    "design_path": "output/agent2_designs/DF001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "DRESS-GREY-001",
+    "title": "Charcoal Grey Midi Wrap Dress",
+    "design_text": "Charcoal Grey Midi Wrap Dress (DRESS-GREY-001)\nColors: charcoal grey, soft silver, graphite\nFabrics: cotton-linen blend, viscose lining\nPrints/Patterns: subtle herringbone weave\nGarment Type: dress\nSilhouette: wrap\nSleeves: short flutter sleeves\nNeckline: V-neckline\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t\nTrims & details: self-fabric waist tie, topstitch detailing along neckline and hem, hidden side zipper\nTechpack: available",
+    "design_path": "output/agent2_designs/DRESS-GREY-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "DRESS-SLVLS-001",
+    "title": "Sleeveless A-Line Midi Dress with Botanical Print",
+    "design_text": "Sleeveless A-Line Midi Dress with Botanical Print (DRESS-SLVLS-001)\nColors: sage green, soft cream, dusty rose, warm taupe\nFabrics: cotton sateen, lining: lightweight cotton voile\nPrints/Patterns: botanical floral print\nGarment Type: dress\nSilhouette: A-line\nSleeves: sleeveless/tank\nNeckline: scoop\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: invisible back zipper, self-fabric waist tie, topstitching along neckline and armholes\nTechpack: available",
+    "design_path": "output/agent2_designs/DRESS-SLVLS-001.design.json",
+    "render_path": "renders/DRESS-SLVLS-001__flatlay.png"
+  },
+  {
+    "design_id": "DRESS_SOLID_MINIMALIST_001",
+    "title": "Minimalist Solid Midi Dress",
+    "design_text": "Minimalist Solid Midi Dress (DRESS_SOLID_MINIMALIST_001)\nColors: soft beige, warm taupe, ivory\nFabrics: cotton sateen, linen blend\nPrints/Patterns: solid\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['sleeveless']\nNeckline: scoop\nLength: midi\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: invisible side zipper, topstitching along neckline and armholes, clean hem finish\nTechpack: available",
+    "design_path": "output/agent2_designs/DRESS_SOLID_MINIMALIST_001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "DRS-2024-001",
+    "title": "Soft A-Line Midi Dress with Puff Sleeves",
+    "design_text": "Soft A-Line Midi Dress with Puff Sleeves (DRS-2024-001)\nColors: pastel blush pink, soft ivory, muted sage green\nFabrics: cotton blend, lightweight voile lining\nPrints/Patterns: small-scale floral print\nGarment Type: dress\nSilhouette: A-line\nSleeves: short puff sleeves\nNeckline: sweetheart\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: invisible back zipper, waist seam, topstitching along neckline, soft gathered sleeve cuffs\nTechpack: available",
+    "design_path": "output/agent2_designs/DRS-2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "DSN-3QSLV-001",
+    "title": "Classic 3/4th Sleeve Cotton Kurti",
+    "design_text": "Classic 3/4th Sleeve Cotton Kurti (DSN-3QSLV-001)\nColors: Dusty Rose, Soft Beige, Warm White\nFabrics: 100% Cotton\nPrints/Patterns: none\nGarment Type: Kurti\nSilhouette: Straight\nSleeves: 3/4th sleeves\nNeckline: Round\nLength: Hip-length\nStyle / Fit: R, e, g, u, l, a, r,  , f, i, t\nTrims & details: Side slits, Contrast piping at neckline, Single button keyhole at back\nTechpack: available",
+    "design_path": "output/agent2_designs/DSN-3QSLV-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "EMB-2024-001",
+    "title": "Floral Vine Embroidered Tunic",
+    "design_text": "Floral Vine Embroidered Tunic — ivory, sage green, dusty rose, golden beige",
+    "design_path": "output/agent2_designs/EMB-2024-001.design.json",
+    "render_path": "renders/EMB-2024-001__flatlay.png"
+  },
+  {
+    "design_id": "embroidery_print_001",
+    "title": "Floral Vine Embroidered Tunic",
+    "design_text": "Floral Vine Embroidered Tunic (embroidery_print_001)\nColors: ivory, deep emerald, burnished gold, rose pink\nFabrics: cotton-silk blend\nPrints/Patterns: floral vine embroidery\nGarment Type: tunic\nSilhouette: straight\nSleeves: three-quarter length\nNeckline: boat neck\nLength: mid-thigh\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: embroidered front panel, embroidered sleeve cuffs, side slits, contrast piping along neckline\nTechpack: available",
+    "design_path": "output/agent2_designs/embroidery_print_001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "ETG001",
+    "title": "Earth Tone Relaxed Co-ord Set",
+    "design_text": "Earth Tone Relaxed Co-ord Set (ETG001)\nColors: sand beige, terracotta, olive green, warm taupe\nFabrics: organic cotton twill, linen blend\nPrints/Patterns: solid with subtle slub texture\nGarment Type: co-ord set\nSilhouette: relaxed fit\nSleeves: long sleeves with buttoned cuffs\nNeckline: classic shirt collar\nLength: shirt: hip length, trousers: full length\nStyle / Fit: l, o, o, s, e,  , a, n, d,  , b, r, e, a, t, h, a, b, l, e\nTrims & details: tonal buttons, double-stitched seams, side pockets on trousers, curved hem on shirt\nTechpack: available",
+    "design_path": "output/agent2_designs/ETG001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "FF001",
+    "title": "Classic Fit-and-Flare Midi Dress",
+    "design_text": "Classic Fit-and-Flare Midi Dress (FF001)\nColors: navy blue, soft ivory, blush pink\nFabrics: cotton sateen, polyester lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: fit-and-flare\nSleeves: short sleeves\nNeckline: scoop neckline\nLength: midi\nStyle / Fit: t, a, i, l, o, r, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: concealed back zipper, waist seam, topstitching along neckline and hem\nTechpack: available",
+    "design_path": "output/agent2_designs/FF001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "FL-001",
+    "title": "Minimalist Linen Button-Up Shirt",
+    "design_text": "Minimalist Linen Button-Up Shirt — soft beige, off-white, light cream",
+    "design_path": "output/agent2_designs/FL-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "FL-EMB-001",
+    "title": "Full-Length Embroidered Silk Gown",
+    "design_text": "Full-Length Embroidered Silk Gown (FL-EMB-001)\nColors: deep navy, antique gold, ivory\nFabrics: silk satin, cotton lining\nPrints/Patterns: floral embroidery\nGarment Type: gown\nSilhouette: A-line\nSleeves: long sleeves\nNeckline: boat neck\nLength: full-length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: gold thread embroidery, scalloped hem, side zipper closure, embroidered cuffs\nTechpack: available",
+    "design_path": "output/agent2_designs/FL-EMB-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "FL001",
+    "title": "Minimalist Linen Button-Up Shirt",
+    "design_text": "Minimalist Linen Button-Up Shirt (FL001)\nColors: off-white, pearl, light beige\nFabrics: 100% linen\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: straight\nSleeves: long sleeves\nNeckline: classic shirt collar\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: pearlescent buttons, double-stitched seams, curved hem\nTechpack: available",
+    "design_path": "output/agent2_designs/FL001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "FLD-001",
+    "title": "Full-Length Fluid Maxi Dress",
+    "design_text": "Full-Length Fluid Maxi Dress (FLD-001)\nColors: deep navy, soft ivory, dusty rose\nFabrics: lightweight silk blend, viscose lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: A-line\nSleeves: []\nNeckline: halter\nLength: full-length\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t,  , t, h, r, o, u, g, h,  , b, o, d, y,  , w, i, t, h,  , g, e, n, t, l, e,  , w, a, i, s, t,  , s, h, a, p, i, n, g\nTrims & details: concealed back zipper, narrow self-fabric waist tie, clean finished hem\nTechpack: available",
+    "design_path": "output/agent2_designs/FLD-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "FLR001",
+    "title": "Botanical Bloom Midi Dress",
+    "design_text": "Botanical Bloom Midi Dress (FLR001)\nColors: pastel pink, sage green, buttercream, soft lavender, warm beige\nFabrics: lightweight cotton voile, cotton lining\nPrints/Patterns: botanical floral print with scattered blossoms and foliage\nGarment Type: dress\nSilhouette: A-line\nSleeves: short flutter sleeves\nNeckline: scoop neckline\nLength: midi\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: invisible side zipper, narrow self-fabric waist tie, topstitching along neckline and hem\nTechpack: available",
+    "design_path": "output/agent2_designs/FLR001.design.json",
+    "render_path": "renders/FLR001__flatlay.png"
+  },
+  {
+    "design_id": "FS001",
+    "title": "Classic Full Sleeve Blouse",
+    "design_text": "Classic Full Sleeve Blouse (FS001)\nColors: Dusty Rose, Soft Beige, Ivory White\nFabrics: Lightweight Cotton Poplin, Silk Blend\nPrints/Patterns: none\nGarment Type: Blouse\nSilhouette: Tailored\nSleeves: Full sleeves with buttoned cuffs\nNeckline: Crew neck\nLength: Hip length\nStyle / Fit: R, e, g, u, l, a, r,  , f, i, t\nTrims & details: Mother-of-pearl buttons, Double topstitching, Buttoned cuffs\nTechpack: available",
+    "design_path": "output/agent2_designs/FS001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "GREY-001",
+    "title": "Slate Grey Tailored Midi Dress",
+    "design_text": "Slate Grey Tailored Midi Dress — Slate Grey, Charcoal, Soft Silver",
+    "design_path": "output/agent2_designs/GREY-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "GREYCRN001",
+    "title": "Heather Grey Crew Neck Sweatshirt",
+    "design_text": "Heather Grey Crew Neck Sweatshirt — heather grey, charcoal, soft white",
+    "design_path": "output/agent2_designs/GREYCRN001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "GREY_SOLID_MINIMALIST_001",
+    "title": "Minimalist Grey Solid Midi Dress",
+    "design_text": "Minimalist Grey Solid Midi Dress (GREY_SOLID_MINIMALIST_001)\nColors: charcoal grey, ash grey, light silver\nFabrics: cotton poplin, organic cotton\nPrints/Patterns: solid\nGarment Type: dress\nSilhouette: A-line\nSleeves: short sleeves\nNeckline: crew neckline\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: topstitching along seams, hidden side zipper, clean hem finish\nTechpack: available",
+    "design_path": "output/agent2_designs/GREY_SOLID_MINIMALIST_001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "GRY-001",
+    "title": "Slate Grey Relaxed Fit Shirt Dress",
+    "design_text": "Slate Grey Relaxed Fit Shirt Dress (GRY-001)\nColors: Slate Grey, Charcoal, Soft Silver\nFabrics: Cotton Poplin, Linen Blend\nPrints/Patterns: none\nGarment Type: Shirt Dress\nSilhouette: Relaxed A-line\nSleeves: Short Sleeves\nNeckline: Classic Shirt Collar\nLength: Mid-Thigh\nStyle / Fit: R, e, l, a, x, e, d,  , F, i, t\nTrims & details: Matte finish buttons in matching grey, Single chest pocket, Topstitch detailing along seams, Curved hemline\nTechpack: available",
+    "design_path": "output/agent2_designs/GRY-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "GRYCRW001",
+    "title": "Heather Grey Crew Neck Sweatshirt",
+    "design_text": "Heather Grey Crew Neck Sweatshirt (GRYCRW001)\nColors: heather grey, light grey, charcoal\nFabrics: cotton fleece, polyester blend\nPrints/Patterns: none\nGarment Type: sweatshirt\nSilhouette: classic straight\nSleeves: long sleeves\nNeckline: crew neck\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: ribbed neckline, ribbed cuffs, ribbed hem, double-needle stitching\nTechpack: available",
+    "design_path": "output/agent2_designs/GRYCRW001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "GW-001",
+    "title": "Grey & White Colorblock Linen Shirt Dress",
+    "design_text": "Grey & White Colorblock Linen Shirt Dress (GW-001)\nColors: cool grey, optic white\nFabrics: 100% linen\nPrints/Patterns: colorblock\nGarment Type: shirt dress\nSilhouette: straight\nSleeves: short cuffed sleeves\nNeckline: pointed collar\nLength: mid-thigh\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: front button placket with matte white buttons, curved hemline, contrast stitching along colorblock seam\nTechpack: available",
+    "design_path": "output/agent2_designs/GW-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "GW001",
+    "title": "Green & White Patchwork Linen Shirt Dress",
+    "design_text": "Green & White Patchwork Linen Shirt Dress (GW001)\nColors: forest green, white\nFabrics: 100% linen\nPrints/Patterns: patchwork blocks\nGarment Type: shirt dress\nSilhouette: A-line\nSleeves: short cuffed sleeves\nNeckline: classic shirt collar\nLength: mid-calf\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e\nTrims & details: button front placket, self-fabric waist tie belt, patch pockets, contrast stitching\nTechpack: available",
+    "design_path": "output/agent2_designs/GW001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "HLT001",
+    "title": "Satin Halter Midi Dress",
+    "design_text": "Satin Halter Midi Dress (HLT001)\nColors: Champagne Beige, Soft Blush Pink, Midnight Navy\nFabrics: Silk Satin, Polyester Satin Blend\nPrints/Patterns: none\nGarment Type: Dress\nSilhouette: A-line\nSleeves: Sleeveless\nNeckline: Halter\nLength: Midi\nStyle / Fit: R, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , s, l, i, g, h, t,  , w, a, i, s, t,  , s, h, a, p, i, n, g\nTrims & details: Invisible back zipper, Self-fabric halter tie, Lined bodice, Topstitching along hem\nTechpack: available",
+    "design_path": "output/agent2_designs/HLT001.design.json",
+    "render_path": "renders/HLT001__flatlay.png"
+  },
+  {
+    "design_id": "IKAT-2024-001",
+    "title": "Midnight Indigo Ikat Fit & Flare Dress",
+    "design_text": "Midnight Indigo Ikat Fit & Flare Dress (IKAT-2024-001)\nColors: Midnight Indigo, Soft Cream, Muted Gold\nFabrics: Cotton, Viscose Blend\nPrints/Patterns: Ikat-inspired geometric pattern with blurred edges\nGarment Type: Dress\nSilhouette: Fit and Flare\nSleeves: Short Sleeves\nNeckline: V-Neck\nLength: Knee Length\nStyle / Fit: T, a, i, l, o, r, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: Invisible side zipper, Topstitching along neckline, Soft lining in bodice\nTechpack: available",
+    "design_path": "output/agent2_designs/IKAT-2024-001.design.json",
+    "render_path": "renders/IKAT-2024-001__flatlay.png"
+  },
+  {
+    "design_id": "KS-2024-001",
+    "title": "Embroidered Pastel Kurta Set",
+    "design_text": "Embroidered Pastel Kurta Set (KS-2024-001)\nColors: pastel mint green, soft ivory, blush pink accents\nFabrics: cotton-silk blend, lightweight cotton lining\nPrints/Patterns: delicate floral embroidery\nGarment Type: kurta-set\nSilhouette: straight-cut kurta with tapered pants\nSleeves: three-quarter sleeves\nNeckline: round neckline with keyhole slit\nLength: mid-thigh kurta length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: embroidered neckline and hem, side slits, fabric-covered buttons at keyhole\nTechpack: available",
+    "design_path": "output/agent2_designs/KS-2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "KS001",
+    "title": "Midnight Bloom Kimono Sleeve Wrap Top",
+    "design_text": "Midnight Bloom Kimono Sleeve Wrap Top (KS001)\nColors: midnight navy, soft ivory, muted rose\nFabrics: lightweight rayon, polyester jacquard blend\nPrints/Patterns: subtle floral jacquard\nGarment Type: wrap top\nSilhouette: relaxed wrap\nSleeves: kimono sleeve\nNeckline: deep V-neck\nLength: hip length\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: self-fabric waist tie, topstitching along neckline, clean-finished hem\nTechpack: available",
+    "design_path": "output/agent2_designs/KS001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "KURTA-2024-001",
+    "title": "Contemporary Linen Blend Kurta",
+    "design_text": "Contemporary Linen Blend Kurta (KURTA-2024-001)\nColors: pastel sage green, warm beige, soft ivory\nFabrics: linen-cotton blend\nPrints/Patterns: none\nGarment Type: kurta\nSilhouette: straight\nSleeves: three-quarter\nNeckline: mandarin collar\nLength: mid-thigh\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: wooden buttons, tonal stitching, side slits\nTechpack: available",
+    "design_path": "output/agent2_designs/KURTA-2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "kurta_brown_001",
+    "title": "Chestnut Handloom Cotton Kurta with Minimal Embroidery",
+    "design_text": "Chestnut Handloom Cotton Kurta with Minimal Embroidery — chestnut brown, warm beige, antique gold",
+    "design_path": "output/agent2_designs/kurta_brown_001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "LINEN-SS24-001",
+    "title": "Classic Pure Linen Short Sleeve Shirt",
+    "design_text": "Classic Pure Linen Short Sleeve Shirt (LINEN-SS24-001)\nColors: Safari Green, Natural Beige, Pastel Pink, Off-White\nFabrics: 100% Pure Linen\nPrints/Patterns: none\nGarment Type: Shirt\nSilhouette: Straight cut\nSleeves: Short sleeves\nNeckline: Classic shirt collar\nLength: Hip length\nStyle / Fit: R, e, g, u, l, a, r,  , f, i, t\nTrims & details: Pearlized buttons, Double-stitched seams, Curved hemline, Single chest pocket\nTechpack: available",
+    "design_path": "output/agent2_designs/LINEN-SS24-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "LN2024-001",
+    "title": "Classic Relaxed Linen Button-Up Shirt",
+    "design_text": "Classic Relaxed Linen Button-Up Shirt — pastel sage green, off-white, light beige",
+    "design_path": "output/agent2_designs/LN2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "MID2024-001",
+    "title": "Classic Midi Wrap Dress",
+    "design_text": "Classic Midi Wrap Dress (MID2024-001)\nColors: Dusty Rose, Soft Blush, Warm Taupe\nFabrics: Lightweight Crepe, Polyester Blend\nPrints/Patterns: none\nGarment Type: Dress\nSilhouette: Wrap\nSleeves: Short Flutter Sleeves\nNeckline: V-Neck\nLength: Midi\nStyle / Fit: R, e, g, u, l, a, r,  , F, i, t\nTrims & details: Self-tie waist belt, Topstitching along edges, Hidden side zipper\nTechpack: available",
+    "design_path": "output/agent2_designs/MID2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "MINI2024-001",
+    "title": "Classic Mini Shift Dress",
+    "design_text": "Classic Mini Shift Dress (MINI2024-001)\nColors: Pastel Blush Pink, Soft Ivory, Muted Coral\nFabrics: Cotton Twill, Polyester Blend Lining\nPrints/Patterns: none\nGarment Type: Dress\nSilhouette: Shift\nSleeves: Short sleeves\nNeckline: Crew neckline\nLength: Mini\nStyle / Fit: R, e, g, u, l, a, r,  , f, i, t\nTrims & details: Topstitch detailing along hem and sleeves, Invisible back zipper, Matching fabric belt with buckle\nTechpack: available",
+    "design_path": "output/agent2_designs/MINI2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "MX2024-001",
+    "title": "Flowing Maxi Dress with Tiered Skirt",
+    "design_text": "Flowing Maxi Dress with Tiered Skirt (MX2024-001)\nColors: dusty rose, soft blush, warm beige\nFabrics: lightweight chiffon, polyester lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: A-line tiered\nSleeves: short flutter sleeves\nNeckline: V-neckline\nLength: maxi\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: tiered skirt panels, invisible back zipper, narrow waistband seam\nTechpack: available",
+    "design_path": "output/agent2_designs/MX2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "NTL-001",
+    "title": "Sandstone Neutral Linen Shirt",
+    "design_text": "Sandstone Neutral Linen Shirt (NTL-001)\nColors: sandstone beige, warm ivory, taupe\nFabrics: pure linen\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: classic straight cut\nSleeves: long sleeves with buttoned cuffs\nNeckline: spread collar\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: mother-of-pearl buttons, single chest patch pocket, double-needle topstitching\nTechpack: available",
+    "design_path": "output/agent2_designs/NTL-001.design.json",
+    "render_path": "renders/NTL-001__flatlay.png"
+  },
+  {
+    "design_id": "pastel_group_001",
+    "title": "Pastel Co-ord Set with Soft Pleats",
+    "design_text": "Pastel Co-ord Set with Soft Pleats (pastel_group_001)\nColors: soft lavender, powder pink, mint green, buttercream yellow\nFabrics: lightweight cotton poplin, silk blend, polyester lining\nPrints/Patterns: solid pastel tones\nGarment Type: co-ord set\nSilhouette: relaxed blouse with A-line midi skirt\nSleeves: short sleeves\nNeckline: round neckline\nLength: midi skirt length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t,  , b, l, o, u, s, e, ,,  , h, i, g, h, -, w, a, i, s, t,  , s, k, i, r, t\nTrims & details: fabric-covered buttons, soft pleats, invisible side zipper on skirt\nTechpack: available",
+    "design_path": "output/agent2_designs/pastel_group_001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "PW001",
+    "title": "Blush & Ivory Patchwork Midi Dress",
+    "design_text": "Blush & Ivory Patchwork Midi Dress (PW001)\nColors: blush pink, ivory white\nFabrics: lightweight cotton, linen blend\nPrints/Patterns: patchwork, solid color blocks\nGarment Type: dress\nSilhouette: fit-and-flare\nSleeves: short puff sleeves\nNeckline: V-neck\nLength: midi\nStyle / Fit: t, a, i, l, o, r, e, d,  , a, t,  , w, a, i, s, t,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: contrast topstitching, side seam pockets, invisible back zipper\nTechpack: available",
+    "design_path": "output/agent2_designs/PW001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "RD001",
+    "title": "Crimson Classic Midi Dress",
+    "design_text": "Crimson Classic Midi Dress (RD001)\nColors: crimson red, deep ruby, soft rose\nFabrics: cotton sateen, polyester lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: A-line\nSleeves: short flutter sleeves\nNeckline: sweetheart\nLength: midi\nStyle / Fit: f, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: matching fabric belt, concealed back zipper, topstitch detailing along seams\nTechpack: available",
+    "design_path": "output/agent2_designs/RD001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "RW-001",
+    "title": "Crimson & Ivory Panel Midi Dress",
+    "design_text": "Crimson & Ivory Panel Midi Dress (RW-001)\nColors: crimson red, ivory white\nFabrics: cotton sateen, polyester lining\nPrints/Patterns: vertical color-block panels\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['cap sleeves']\nNeckline: round\nLength: midi\nStyle / Fit: f, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: concealed side zipper, topstitch detailing along panel seams, fully lined bodice\nTechpack: available",
+    "design_path": "output/agent2_designs/RW-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "SATIN001",
+    "title": "Midnight Bloom Satin Midi Dress",
+    "design_text": "Midnight Bloom Satin Midi Dress — Deep Navy, Soft Rose, Ivory",
+    "design_path": "output/agent2_designs/SATIN001.design.json",
+    "render_path": "renders/SATIN001__flatlay.png"
+  },
+  {
+    "design_id": "SATIN2024-001",
+    "title": "Midnight Satin Wrap Blouse",
+    "design_text": "Midnight Satin Wrap Blouse (SATIN2024-001)\nColors: Midnight Blue, Pearl White, Silver Grey\nFabrics: 100% Silk Satin\nPrints/Patterns: none\nGarment Type: blouse\nSilhouette: wrap\nSleeves: long sleeves with slight puff at shoulder\nNeckline: V-neck\nLength: waist-length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t,  , t, i, e\nTrims & details: self-fabric waist tie, pearl button cuffs, topstitch detailing along neckline\nTechpack: available",
+    "design_path": "output/agent2_designs/SATIN2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "sheath_001",
+    "title": "Classic Sheath Dress with Minimalist Detailing",
+    "design_text": "Classic Sheath Dress with Minimalist Detailing — Deep Navy, Soft Ivory, Charcoal Grey",
+    "design_path": "output/agent2_designs/sheath_001.design.json",
+    "render_path": "renders/sheath_001__flatlay.png"
+  },
+  {
+    "design_id": "SHTH001",
+    "title": "Classic Sheath Dress with Minimalist Detailing",
+    "design_text": "Classic Sheath Dress with Minimalist Detailing (SHTH001)\nColors: Deep Navy, Charcoal Grey, Soft Ivory\nFabrics: Stretch Cotton Blend, Polyester Lining\nPrints/Patterns: none\nGarment Type: Dress\nSilhouette: Sheath\nSleeves: Sleeveless\nNeckline: Jewel\nLength: Knee-length\nStyle / Fit: T, a, i, l, o, r, e, d,  , f, i, t\nTrims & details: Concealed back zipper, Dart seams for shaping, Topstitch detailing\nTechpack: available",
+    "design_path": "output/agent2_designs/SHTH001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "SLK-001",
+    "title": "Midnight Bloom Silk Blouse",
+    "design_text": "Midnight Bloom Silk Blouse — Midnight Blue, Ivory, Soft Gold",
+    "design_path": "output/agent2_designs/SLK-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "SLK-EMB-001",
+    "title": "Regal Silk Embroidered Midi Dress",
+    "design_text": "Regal Silk Embroidered Midi Dress (SLK-EMB-001)\nColors: deep royal blue, gold, ivory\nFabrics: silk\nPrints/Patterns: floral embroidery\nGarment Type: dress\nSilhouette: A-line\nSleeves: short flutter sleeves\nNeckline: sweetheart\nLength: knee-length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: gold thread embroidery, invisible side zipper, silk lining, scalloped hem\nTechpack: available",
+    "design_path": "output/agent2_designs/SLK-EMB-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "SLK001",
+    "title": "Midnight Bloom Silk Blouse",
+    "design_text": "Midnight Bloom Silk Blouse (SLK001)\nColors: Midnight Blue, Ivory, Soft Gold\nFabrics: 100% Mulberry Silk\nPrints/Patterns: Floral Jacquard\nGarment Type: Blouse\nSilhouette: Relaxed fit with slight taper at waist\nSleeves: Long sleeves with buttoned cuffs\nNeckline: Mandarin collar\nLength: Hip length\nStyle / Fit: R, e, g, u, l, a, r,  , f, i, t\nTrims & details: Pearl buttons, Jacquard weave, Double-stitched seams, Side slits\nTechpack: available",
+    "design_path": "output/agent2_designs/SLK001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "SLV-MIN-001",
+    "title": "Minimalist Solid Sleeveless Tank Top",
+    "design_text": "Minimalist Solid Sleeveless Tank Top (SLV-MIN-001)\nColors: soft ivory, warm beige, charcoal grey\nFabrics: organic cotton jersey, modal blend\nPrints/Patterns: solid\nGarment Type: tank top\nSilhouette: straight cut\nSleeves: ['sleeveless']\nNeckline: crew neck\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: double-stitched hems, self-fabric neck binding\nTechpack: available",
+    "design_path": "output/agent2_designs/SLV-MIN-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "SLV-TNK-001",
+    "title": "Minimalist Sleeveless Tank Top",
+    "design_text": "Minimalist Sleeveless Tank Top (SLV-TNK-001)\nColors: Dusty Rose, Soft White, Charcoal Grey\nFabrics: Cotton Jersey, Spandex Blend\nPrints/Patterns: none\nGarment Type: Tank Top\nSilhouette: Straight\nSleeves: ['Sleeveless']\nNeckline: Scoop\nLength: Hip Length\nStyle / Fit: R, e, l, a, x, e, d\nTrims & details: Ribbed binding at neckline and armholes, Double-needle hem stitching\nTechpack: available",
+    "design_path": "output/agent2_designs/SLV-TNK-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "SOLMIN-001",
+    "title": "Minimalist Solid A-Line Midi Dress",
+    "design_text": "Minimalist Solid A-Line Midi Dress (SOLMIN-001)\nColors: soft beige, warm taupe, charcoal grey\nFabrics: lightweight cotton twill, viscose blend lining\nPrints/Patterns: solid\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['sleeveless']\nNeckline: round\nLength: midi\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: invisible side zipper, topstitch detailing along hem, self-fabric waist tie\nTechpack: available",
+    "design_path": "output/agent2_designs/SOLMIN-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "SQN001",
+    "title": "Square Neck Puff Sleeve Midi Dress",
+    "design_text": "Square Neck Puff Sleeve Midi Dress (SQN001)\nColors: Pastel Lavender, Soft White, Muted Rose\nFabrics: Cotton Poplin, Linen Blend\nPrints/Patterns: none\nGarment Type: Dress\nSilhouette: A-line\nSleeves: Short puff sleeves\nNeckline: Square neck\nLength: Midi\nStyle / Fit: F, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: Invisible back zipper, Waist seam, Topstitching along neckline, Lightly gathered sleeve head\nTechpack: available",
+    "design_path": "output/agent2_designs/SQN001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "SS24-001",
+    "title": "Classic Short Sleeve Linen Shirt",
+    "design_text": "Classic Short Sleeve Linen Shirt (SS24-001)\nColors: soft sky blue, pastel peach, off-white\nFabrics: 100% linen\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: straight cut\nSleeves: short sleeve\nNeckline: classic shirt collar\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: pearl buttons, double-stitched seams, curved hemline\nTechpack: available",
+    "design_path": "output/agent2_designs/SS24-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "TLR-001",
+    "title": "Tailored Double-Breasted Cropped Jacket",
+    "design_text": "Tailored Double-Breasted Cropped Jacket (TLR-001)\nColors: charcoal grey, matte black, warm taupe\nFabrics: wool blend suiting, polyester lining\nPrints/Patterns: none\nGarment Type: jacket\nSilhouette: structured tailored cropped\nSleeves: long set-in sleeves\nNeckline: peak lapel\nLength: cropped\nStyle / Fit: s, l, i, m,  , f, i, t\nTrims & details: matte horn buttons, welt pockets, inner lining, topstitch detailing\nTechpack: available",
+    "design_path": "output/agent2_designs/TLR-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "TOP-2024-001",
+    "title": "Minimalist Linen Blend Boxy Top",
+    "design_text": "Minimalist Linen Blend Boxy Top (TOP-2024-001)\nColors: Dusty Sage Green, Off-White, Soft Beige\nFabrics: Linen-Cotton Blend\nPrints/Patterns: none\nGarment Type: top\nSilhouette: boxy\nSleeves: short sleeves\nNeckline: crew neck\nLength: hip length\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: side slits, topstitch detailing, self-fabric neck binding\nTechpack: available",
+    "design_path": "output/agent2_designs/TOP-2024-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "VN001",
+    "title": "Classic V-Neck Knit Top",
+    "design_text": "Classic V-Neck Knit Top (VN001)\nColors: Dusty Rose, Soft White, Charcoal Grey\nFabrics: Cotton Jersey, Elastane Blend\nPrints/Patterns: none\nGarment Type: Top\nSilhouette: Slim Fit\nSleeves: Short Sleeves\nNeckline: V-neck\nLength: Hip Length\nStyle / Fit: T, a, i, l, o, r, e, d\nTrims & details: Double-needle stitching at hems, Reinforced neckline binding\nTechpack: available",
+    "design_path": "output/agent2_designs/VN001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WD-CN-001",
+    "title": "White Crew Neck Cotton Tee",
+    "design_text": "White Crew Neck Cotton Tee (WD-CN-001)\nColors: white, light grey (stitching)\nFabrics: 100% combed cotton jersey\nPrints/Patterns: none\nGarment Type: t-shirt\nSilhouette: classic straight cut\nSleeves: short sleeves\nNeckline: crew neck\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: double-needle stitching at hem and sleeves, ribbed crew neckline, reinforced shoulder seams\nTechpack: available",
+    "design_path": "output/agent2_designs/WD-CN-001.design.json",
+    "render_path": "renders/WD-CN-001__flatlay.png"
+  },
+  {
+    "design_id": "WD-EMB-001",
+    "title": "White Embroidered Cotton Midi Dress",
+    "design_text": "White Embroidered Cotton Midi Dress (WD-EMB-001)\nColors: white, ivory, soft cream\nFabrics: cotton voile, cotton lining\nPrints/Patterns: tonal floral embroidery\nGarment Type: dress\nSilhouette: A-line\nSleeves: short puff sleeves\nNeckline: round neckline\nLength: midi\nStyle / Fit: f, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: invisible side zipper, embroidered hem border, self-fabric waist tie\nTechpack: available",
+    "design_path": "output/agent2_designs/WD-EMB-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WD-FS-001",
+    "title": "White Full-Sleeve Tailored Shirt",
+    "design_text": "White Full-Sleeve Tailored Shirt (WD-FS-001)\nColors: white, pearl\nFabrics: 100% cotton poplin\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: tailored fit\nSleeves: full sleeves\nNeckline: classic pointed collar\nLength: hip length\nStyle / Fit: s, l, i, m,  , f, i, t\nTrims & details: pearl buttons, double-stitched seams, buttoned cuffs, reinforced collar stand\nTechpack: available",
+    "design_path": "output/agent2_designs/WD-FS-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WD-SLK-001",
+    "title": "White Silk Midi Wrap Dress",
+    "design_text": "White Silk Midi Wrap Dress (WD-SLK-001)\nColors: pure white, soft ivory\nFabrics: 100% silk\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: wrap\nSleeves: short flutter sleeves\nNeckline: V-neck\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: self-fabric waist tie belt, delicate topstitching along edges, hidden side zipper\nTechpack: available",
+    "design_path": "output/agent2_designs/WD-SLK-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WD001",
+    "title": "White Minimalist Linen Shift Dress",
+    "design_text": "White Minimalist Linen Shift Dress (WD001)\nColors: pure white\nFabrics: lightweight linen, cotton blend lining\nPrints/Patterns: solid\nGarment Type: dress\nSilhouette: shift\nSleeves: short sleeves\nNeckline: crew neckline\nLength: knee-length\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: topstitching, hidden side zipper, clean hem finish\nTechpack: available",
+    "design_path": "output/agent2_designs/WD001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WDCTN001",
+    "title": "White Cotton A-Line Midi Dress",
+    "design_text": "White Cotton A-Line Midi Dress (WDCTN001)\nColors: white, off-white\nFabrics: 100% cotton\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: A-line\nSleeves: short sleeves\nNeckline: crew neckline\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: tonal stitching, invisible side zipper, clean hem finish\nTechpack: available",
+    "design_path": "output/agent2_designs/WDCTN001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WF001",
+    "title": "White Full-Length A-Line Maxi Dress",
+    "design_text": "White Full-Length A-Line Maxi Dress (WF001)\nColors: white, off-white\nFabrics: cotton-linen blend\nPrints/Patterns: tonal jacquard\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['sleeveless']\nNeckline: V-neck\nLength: full-length\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: lace hem trim, invisible side zipper, self-fabric waist tie\nTechpack: available",
+    "design_path": "output/agent2_designs/WF001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WFULL001",
+    "title": "White Full-Length A-Line Maxi Dress",
+    "design_text": "White Full-Length A-Line Maxi Dress — white, off-white, ivory",
+    "design_path": "output/agent2_designs/WFULL001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WHCRN001",
+    "title": "White Crew Neck Cotton Tee",
+    "design_text": "White Crew Neck Cotton Tee — white",
+    "design_path": "output/agent2_designs/WHCRN001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WHT-MIN-001",
+    "title": "White Minimalist Linen Shift Dress",
+    "design_text": "White Minimalist Linen Shift Dress — pure white",
+    "design_path": "output/agent2_designs/WHT-MIN-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WHT-SS-001",
+    "title": "White Short Sleeve Linen Blouse",
+    "design_text": "White Short Sleeve Linen Blouse — white, off-white",
+    "design_path": "output/agent2_designs/WHT-SS-001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WHT001",
+    "title": "Ivory Minimalist Linen Midi Dress",
+    "design_text": "Ivory Minimalist Linen Midi Dress (WHT001)\nColors: ivory white, soft cream, pearl\nFabrics: 100% linen, cotton lining\nPrints/Patterns: none\nGarment Type: dress\nSilhouette: A-line\nSleeves: short flutter sleeves\nNeckline: round neckline\nLength: midi\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: concealed side zipper, tonal topstitching, soft cotton lining\nTechpack: available",
+    "design_path": "output/agent2_designs/WHT001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WHTSS001",
+    "title": "White Short Sleeve Linen Button-Up Shirt",
+    "design_text": "White Short Sleeve Linen Button-Up Shirt (WHTSS001)\nColors: white, pearl\nFabrics: 100% linen\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: classic straight\nSleeves: short sleeve\nNeckline: collared\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: pearl buttons, double-stitched seams, curved hem\nTechpack: available",
+    "design_path": "output/agent2_designs/WHTSS001.design.json",
+    "render_path": null
+  },
+  {
+    "design_id": "WSK-001",
+    "title": "White Silk Midi Wrap Dress",
+    "design_text": "White Silk Midi Wrap Dress — white, pearl, ivory",
+    "design_path": "output/agent2_designs/WSK-001.design.json",
+    "render_path": null
+  }
+]

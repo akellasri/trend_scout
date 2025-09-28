@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"SATIN2024-001\",\n    \"title\": \"Midnight Satin Wrap Blouse\",\n    \"image_prompt\": \"high-resolution flat-lay product render of a women's wrap blouse made from lustrous midnight blue satin, isolated on a plain white background, showing detailed fabric sheen, precise stitching, self-fabric waist tie, and subtle pearl button cuffs, no model, no mannequin, apparel-only\",\n    \"color_palette\": [\"Midnight Blue\", \"Pearl White\", \"Silver Grey\"],\n    \"fabrics\": [\"100% Silk Satin\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"blouse\",\n    \"silhouette\": \"wrap\",\n    \"sleeves\": \"long sleeves with slight puff at shoulder\",\n    \"neckline\": \"V-neck\",\n    \"length\": \"waist-length\",\n    \"style_fit\": \"regular fit with adjustable waist tie\",\n    \"trims_and_details\": [\"self-fabric waist tie\", \"pearl button cuffs\", \"topstitch detailing along neckline\"],\n    \"techpack\": \"Wrap blouse in silk satin with V-neck, long puff sleeves, pearl button cuffs, self-fabric waist tie, waist-length hem. Seam allowance 1cm, bias binding at neckline, double-stitched side seams.\",\n    \"provenance\": \"Inspired by the satin trend for 2024, designed for commercial womenswear with emphasis on lustrous fabric and versatile styling.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985369,
+  "id": "chatcmpl-CKQjhSNikZxASMF6NBlf8Oif1z8Lj",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 310,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 634,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 944
+  }
+}

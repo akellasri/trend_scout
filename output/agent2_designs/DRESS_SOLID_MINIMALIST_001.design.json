@@ -1,0 +1,33 @@
+{
+  "design_id": "DRESS_SOLID_MINIMALIST_001",
+  "title": "Minimalist Solid Midi Dress",
+  "image_prompt": "flat-lay product render of a minimalist solid-color midi dress, sleeveless, A-line silhouette, scoop neckline, soft matte fabric texture, visible stitching and clean hems, isolated on plain white background, high-detail fabric rendering, no model, no mannequin",
+  "color_palette": [
+    "soft beige",
+    "warm taupe",
+    "ivory"
+  ],
+  "fabrics": [
+    "cotton sateen",
+    "linen blend"
+  ],
+  "prints_patterns": [
+    "solid"
+  ],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": [
+    "sleeveless"
+  ],
+  "neckline": "scoop",
+  "length": "midi",
+  "style_fit": "relaxed fit",
+  "trims_and_details": [
+    "invisible side zipper",
+    "topstitching along neckline and armholes",
+    "clean hem finish"
+  ],
+  "techpack": "A-line midi dress in solid cotton sateen with linen blend for breathability. Sleeveless with scoop neckline, invisible side zipper closure, topstitching details, and clean hem finish. Designed for a relaxed fit with minimalistic aesthetic.",
+  "provenance": "Designed from combination of garment:dress and print:solids/minimalist based on provided trend context.",
+  "design_text": "Minimalist Solid Midi Dress (DRESS_SOLID_MINIMALIST_001)\nColors: soft beige, warm taupe, ivory\nFabrics: cotton sateen, linen blend\nPrints/Patterns: solid\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['sleeveless']\nNeckline: scoop\nLength: midi\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: invisible side zipper, topstitching along neckline and armholes, clean hem finish\nTechpack: available"
+}

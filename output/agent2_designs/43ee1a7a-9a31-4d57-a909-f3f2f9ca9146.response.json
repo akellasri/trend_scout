@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"DRESS-SLVLS-001\",\n    \"title\": \"Sleeveless A-Line Midi Dress with Botanical Print\",\n    \"image_prompt\": \"flat-lay product render of a sleeveless A-line midi dress, soft drape, scoop neckline, botanical floral print in muted tones, lightweight cotton sateen fabric, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"sage green\", \"soft cream\", \"dusty rose\", \"warm taupe\"],\n    \"fabrics\": [\"cotton sateen\", \"lining: lightweight cotton voile\"],\n    \"prints_patterns\": [\"botanical floral print\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"sleeveless/tank\",\n    \"neckline\": \"scoop\",\n    \"length\": \"midi\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"invisible back zipper\", \"self-fabric waist tie\", \"topstitching along neckline and armholes\"],\n    \"techpack\": \"Sleeveless A-line midi dress in cotton sateen with botanical floral print. Scoop neckline finished with bias binding. Invisible zipper closure at center back. Self-fabric waist tie attached at side seams. Fully lined with lightweight cotton voile. Hem finished with double fold stitch.\",\n    \"provenance\": \"Designed by combining garment:dress and sleeve:Sleeveless/Tank from provided trend attributes.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985324,
+  "id": "chatcmpl-CKQiyMED6jkaYj9c8dxRla1SicYGp",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 321,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 580,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 901
+  }
+}

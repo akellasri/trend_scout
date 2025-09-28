@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"CS001\",\n    \"title\": \"Minimalist Linen Coord Set\",\n    \"image_prompt\": \"flat-lay product render of a two-piece coord set consisting of a short-sleeve boxy crop top and high-waisted wide-leg trousers, isolated on plain white background, high-detail linen texture, visible stitching, clean hems, subtle coconut shell buttons on top, matching fabric belt on trousers\",\n    \"color_palette\": [\"soft beige\", \"warm sand\", \"off-white\"],\n    \"fabrics\": [\"100% linen\", \"linen-cotton blend for trousers lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"coord set\",\n    \"silhouette\": \"boxy crop top with relaxed wide-leg trousers\",\n    \"sleeves\": \"short sleeves\",\n    \"neckline\": \"crew neck\",\n    \"length\": \"crop top length for top, full length for trousers\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"coconut shell buttons\", \"matching fabric belt\", \"topstitched seams\", \"hidden zipper on trousers\"],\n    \"techpack\": \"Two-piece coord set: Top - boxy crop silhouette, short sleeves, crew neckline, front button closure with coconut shell buttons, crop length, topstitched seams. Trousers - high-waisted, wide-leg, full length, matching fabric belt with belt loops, hidden side zipper, linen-cotton blend lining for comfort.\",\n    \"provenance\": \"Inspired by the 'coord set' trend, designed for commercial summer wear with breathable fabrics and minimal detailing.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985397,
+  "id": "chatcmpl-CKQk9SiwItXJOLuRHkCOl2eVxdyV5",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 344,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 383,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 727
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BRN-KURTA-001\",\n    \"title\": \"Chestnut Brown Handloom Cotton Kurta\",\n    \"image_prompt\": \"flat-lay product render of a chestnut brown handloom cotton kurta, straight silhouette, long sleeves, band collar neckline, knee-length, subtle tone-on-tone jacquard weave, wooden button placket, side slits, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"chestnut brown\", \"warm taupe\", \"beige\"],\n    \"fabrics\": [\"handloom cotton\", \"cotton jacquard\"],\n    \"prints_patterns\": [\"tone-on-tone jacquard weave\"],\n    \"garment_type\": \"kurta\",\n    \"silhouette\": \"straight\",\n    \"sleeves\": \"long sleeves\",\n    \"neckline\": \"band collar\",\n    \"length\": \"knee-length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"wooden buttons\", \"side slits\", \"contrast inner facing\"],\n    \"techpack\": \"Chestnut brown handloom cotton kurta with straight silhouette, knee-length, long sleeves, band collar neckline, tone-on-tone jacquard weave, wooden button placket, side slits for ease of movement, contrast inner facing at collar and placket. Seam allowances 1cm, overlocked edges, double topstitch on side seams.\",\n    \"provenance\": \"Designed from combo: color:brown | garment:kurta\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985319,
+  "id": "chatcmpl-CKQitTMZ0xp2uRRwWbhNC8WuGVUIE",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 333,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 606,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 939
+  }
+}

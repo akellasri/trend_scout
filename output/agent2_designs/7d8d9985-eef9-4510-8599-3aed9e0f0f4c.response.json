@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BRGR-001\",\n    \"title\": \"Two-Tone Brown & Grey Tailored Midi Dress\",\n    \"image_prompt\": \"high-resolution flat-lay product render of a tailored midi dress, color-blocked in warm chocolate brown and cool slate grey, isolated on plain white background, high-detail fabric texture, visible stitching, subtle darts, concealed zipper at back, short sleeves, round neckline, mid-calf length, clean hems, no model, no mannequin\",\n    \"color_palette\": [\"chocolate brown\", \"slate grey\", \"warm taupe\"],\n    \"fabrics\": [\"cotton sateen\", \"polyester blend lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"fit-and-flare\",\n    \"sleeves\": \"short sleeves\",\n    \"neckline\": \"round neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"tailored fit\",\n    \"trims_and_details\": [\"concealed back zipper\", \"color-block paneling\", \"topstitch detailing\"],\n    \"techpack\": \"Tailored midi dress with fit-and-flare silhouette, constructed from cotton sateen with polyester lining. Color-blocked panels in brown and grey, short sleeves, round neckline, concealed zipper at back, mid-calf length. Clean finished hems and topstitch detailing for durability.\",\n    \"provenance\": \"Designed by combining trending brown and grey color palette for commercial-ready apparel.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985156,
+  "id": "chatcmpl-CKQgGgp0Djzb4QVpYwD9THgh3ZvYD",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 320,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 604,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 924
+  }
+}

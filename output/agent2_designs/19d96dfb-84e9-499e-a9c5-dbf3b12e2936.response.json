@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BLWH-001\",\n    \"title\": \"Blue & White Nautical Stripe Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a women's midi dress in alternating horizontal blue and white stripes, sleeveless, fitted bodice with A-line skirt, scoop neckline, high-detail cotton fabric texture, visible stitching and concealed side zipper, isolated on plain white background\",\n    \"color_palette\": [\"navy blue\", \"white\"],\n    \"fabrics\": [\"cotton poplin\", \"spandex blend\"],\n    \"prints_patterns\": [\"horizontal stripes\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": [\"sleeveless\"],\n    \"neckline\": \"scoop\",\n    \"length\": \"midi\",\n    \"style_fit\": \"fitted bodice with flared skirt\",\n    \"trims_and_details\": [\"concealed side zipper\", \"topstitching along neckline and armholes\", \"striped pattern alignment at seams\"],\n    \"techpack\": \"A-line midi dress with horizontal navy blue and white stripes, sleeveless, scoop neckline, fitted bodice, flared skirt, concealed side zipper, cotton poplin with slight stretch for comfort, stripe matching at seams, hem finished with double topstitch.\",\n    \"provenance\": \"Designed by combining blue and white color palette inspired by nautical themes for a commercial-ready summer dress.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985196,
+  "id": "chatcmpl-CKQguqFIhhRBCJSfEvmU3qUdcZrBL",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 309,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 601,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 910
+  }
+}

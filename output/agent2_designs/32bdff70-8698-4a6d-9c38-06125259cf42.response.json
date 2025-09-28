@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BDN-001\",\n    \"title\": \"Modern Bandhani Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a commercial midi dress with modern bandhani-inspired print, isolated on plain white background, high-detail cotton fabric texture, visible stitching, waist tie belt, short sleeves, round neckline, A-line silhouette, no model, no mannequin, no human, no lifestyle scene\",\n    \"color_palette\": [\"deep indigo\", \"crimson red\", \"warm ivory\", \"mustard yellow\"],\n    \"fabrics\": [\"lightweight cotton\", \"cotton voile\"],\n    \"prints_patterns\": [\"bandhani tie-dye motif with evenly spaced dot clusters and geometric arrangements\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": [\"short sleeves\"],\n    \"neckline\": \"round neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"regular fit with slight flare\",\n    \"trims_and_details\": [\"self-fabric waist tie belt\", \"topstitch detailing along hem and neckline\", \"concealed side zipper\"],\n    \"techpack\": \"Lightweight cotton voile midi dress with A-line silhouette, short sleeves, round neckline, and self-fabric waist tie belt. Bandhani-inspired print applied via screen print for consistency. Concealed side zipper for closure. Topstitch detailing at hem and neckline. Length from shoulder to hem: 110 cm.\",\n    \"provenance\": \"Inspired by traditional Indian bandhani tie-dye techniques, adapted into a modern, manufacturable screen-printed pattern for commercial production.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985493,
+  "id": "chatcmpl-CKQlhtJUXnnzWDUtst8VGaZIQm3Wa",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 348,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 605,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 953
+  }
+}

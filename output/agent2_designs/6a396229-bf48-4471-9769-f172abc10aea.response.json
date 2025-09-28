@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"KS001\",\n    \"title\": \"Midnight Bloom Kimono Sleeve Wrap Top\",\n    \"image_prompt\": \"flat-lay product render of a women's wrap top with wide kimono sleeves, deep V-neckline, midnight navy base color with subtle floral jacquard texture, self-tie waist belt, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"midnight navy\", \"soft ivory\", \"muted rose\"],\n    \"fabrics\": [\"lightweight rayon\", \"polyester jacquard blend\"],\n    \"prints_patterns\": [\"subtle floral jacquard\"],\n    \"garment_type\": \"wrap top\",\n    \"silhouette\": \"relaxed wrap\",\n    \"sleeves\": \"kimono sleeve\",\n    \"neckline\": \"deep V-neck\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"self-fabric waist tie\", \"topstitching along neckline\", \"clean-finished hem\"],\n    \"techpack\": \"Wrap top with wide kimono sleeves cut in one piece with bodice, deep V-neckline finished with facing, self-fabric waist tie attached at side seams, hip length, lightweight rayon/poly jacquard blend, subtle floral texture, topstitching for durability.\",\n    \"provenance\": \"Inspired by traditional kimono sleeve trend adapted for contemporary commercial womenswear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985552,
+  "id": "chatcmpl-CKQmeG0P7JoAcTDqYZPSXWkmZFCjU",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 315,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 573,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 888
+  }
+}

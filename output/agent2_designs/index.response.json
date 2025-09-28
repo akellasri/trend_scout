@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"FL001\",\n    \"title\": \"Minimalist Linen Button-Up Shirt\",\n    \"image_prompt\": \"high-resolution flat-lay product render of a minimalist linen button-up shirt, soft off-white color, isolated on plain white background, high-detail fabric texture, visible stitching, pearlescent buttons, neatly arranged sleeves and collar, no model, no mannequin, no human, no lifestyle scene\",\n    \"color_palette\": [\"off-white\", \"pearl\", \"light beige\"],\n    \"fabrics\": [\"100% linen\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"shirt\",\n    \"silhouette\": \"straight\",\n    \"sleeves\": \"long sleeves\",\n    \"neckline\": \"classic shirt collar\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"pearlescent buttons\", \"double-stitched seams\", \"curved hem\"],\n    \"techpack\": {\n      \"measurements\": {\n        \"chest\": \"54 cm\",\n        \"waist\": \"52 cm\",\n        \"length\": \"72 cm\",\n        \"sleeve_length\": \"60 cm\"\n      },\n      \"fabric_weight\": \"150 gsm\",\n      \"care_instructions\": [\"machine wash cold\", \"do not bleach\", \"line dry\", \"warm iron\"]\n    },\n    \"provenance\": \"Designed in Italy, manufactured in Portugal\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985120,
+  "id": "chatcmpl-CKQfgtCsnvcw6yKu8mn2suNQul2Fn",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 310,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 202,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 512
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "design_id": "BDN-001",
+  "title": "Modern Bandhani Midi Dress",
+  "image_prompt": "flat-lay product render of a commercial midi dress with modern bandhani-inspired print, isolated on plain white background, high-detail cotton fabric texture, visible stitching, waist tie belt, short sleeves, round neckline, A-line silhouette, no model, no mannequin, no human, no lifestyle scene",
+  "color_palette": [
+    "deep indigo",
+    "crimson red",
+    "warm ivory",
+    "mustard yellow"
+  ],
+  "fabrics": [
+    "lightweight cotton",
+    "cotton voile"
+  ],
+  "prints_patterns": [
+    "bandhani tie-dye motif with evenly spaced dot clusters and geometric arrangements"
+  ],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": [
+    "short sleeves"
+  ],
+  "neckline": "round neckline",
+  "length": "midi",
+  "style_fit": "regular fit with slight flare",
+  "trims_and_details": [
+    "self-fabric waist tie belt",
+    "topstitch detailing along hem and neckline",
+    "concealed side zipper"
+  ],
+  "techpack": "Lightweight cotton voile midi dress with A-line silhouette, short sleeves, round neckline, and self-fabric waist tie belt. Bandhani-inspired print applied via screen print for consistency. Concealed side zipper for closure. Topstitch detailing at hem and neckline. Length from shoulder to hem: 110 cm.",
+  "provenance": "Inspired by traditional Indian bandhani tie-dye techniques, adapted into a modern, manufacturable screen-printed pattern for commercial production.",
+  "design_text": "Modern Bandhani Midi Dress (BDN-001)\nColors: deep indigo, crimson red, warm ivory, mustard yellow\nFabrics: lightweight cotton, cotton voile\nPrints/Patterns: bandhani tie-dye motif with evenly spaced dot clusters and geometric arrangements\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['short sleeves']\nNeckline: round neckline\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , s, l, i, g, h, t,  , f, l, a, r, e\nTrims & details: self-fabric waist tie belt, topstitch detailing along hem and neckline, concealed side zipper\nTechpack: available"
+}

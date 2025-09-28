@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"DSN-3QSLV-001\",\n    \"title\": \"Classic 3/4th Sleeve Cotton Kurti\",\n    \"image_prompt\": \"Flat-lay product render of a women's kurti with 3/4th sleeves, straight silhouette, made from lightweight cotton fabric, solid dusty rose color, round neckline, hip-length, minimal trims, isolated on plain white background, high-detail fabric texture, visible stitching and clean finishing, no model, no mannequin, no human elements.\",\n    \"color_palette\": [\"Dusty Rose\", \"Soft Beige\", \"Warm White\"],\n    \"fabrics\": [\"100% Cotton\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"Kurti\",\n    \"silhouette\": \"Straight\",\n    \"sleeves\": \"3/4th sleeves\",\n    \"neckline\": \"Round\",\n    \"length\": \"Hip-length\",\n    \"style_fit\": \"Regular fit\",\n    \"trims_and_details\": [\"Side slits\", \"Contrast piping at neckline\", \"Single button keyhole at back\"],\n    \"techpack\": \"Lightweight cotton kurti with 3/4th sleeves, straight silhouette, round neckline with contrast piping, side slits for ease of movement, single button keyhole closure at back. Seam allowances 1cm, overlocked internal seams, double-stitched hems.\",\n    \"provenance\": \"Inspired by trending 3/4th sleeve styles in contemporary ethnic wear; adapted for commercial production with breathable cotton and minimal trims.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985547,
+  "id": "chatcmpl-CKQmZZtIJlRXYcK8LyJIja4djEVpI",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 328,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 561,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 889
+  }
+}

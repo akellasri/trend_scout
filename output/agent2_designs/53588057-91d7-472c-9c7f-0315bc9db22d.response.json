@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"SHTH001\",\n    \"title\": \"Classic Sheath Dress with Minimalist Detailing\",\n    \"image_prompt\": \"high-resolution flat-lay product render of a classic sheath dress, sleeveless, jewel neckline, knee-length, tailored fit, solid deep navy color, subtle stretch woven fabric texture, visible stitching, concealed back zipper, isolated on plain white background, no model, no mannequin, apparel-only, high-detail fabric and trims\",\n    \"color_palette\": [\"Deep Navy\", \"Charcoal Grey\", \"Soft Ivory\"],\n    \"fabrics\": [\"Stretch Cotton Blend\", \"Polyester Lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"Dress\",\n    \"silhouette\": \"Sheath\",\n    \"sleeves\": \"Sleeveless\",\n    \"neckline\": \"Jewel\",\n    \"length\": \"Knee-length\",\n    \"style_fit\": \"Tailored fit\",\n    \"trims_and_details\": [\"Concealed back zipper\", \"Dart seams for shaping\", \"Topstitch detailing\"],\n    \"techpack\": \"Sheath dress with tailored fit, sleeveless, jewel neckline, knee-length hem. Fabric: stretch cotton blend with polyester lining. Construction: dart seams at bust and waist, concealed back zipper closure, clean-finished hem. Color: deep navy primary with optional charcoal grey and soft ivory variants.\",\n    \"provenance\": \"Inspired by contemporary commercial sheath silhouettes from trending collections.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985526,
+  "id": "chatcmpl-CKQmElKb3kOFjSSiQ2e2TEBJwmjLj",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 312,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 572,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 884
+  }
+}

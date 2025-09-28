@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"SLV-MIN-001\",\n    \"title\": \"Minimalist Solid Sleeveless Tank Top\",\n    \"image_prompt\": \"flat-lay product render of a minimalist solid-color sleeveless tank top, isolated on plain white background, high-detail fabric texture, visible stitching and clean hems, no model, no mannequin, no human, no lifestyle scene\",\n    \"color_palette\": [\"soft ivory\", \"warm beige\", \"charcoal grey\"],\n    \"fabrics\": [\"organic cotton jersey\", \"modal blend\"],\n    \"prints_patterns\": [\"solid\"],\n    \"garment_type\": \"tank top\",\n    \"silhouette\": \"straight cut\",\n    \"sleeves\": [\"sleeveless\"],\n    \"neckline\": \"crew neck\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"double-stitched hems\", \"self-fabric neck binding\"],\n    \"techpack\": \"Sleeveless tank top in organic cotton jersey with modal blend for softness; crew neck with self-fabric binding; straight cut silhouette; hip length; double-stitched hems for durability; available in soft ivory, warm beige, and charcoal grey solid colors.\",\n    \"provenance\": \"Designed based on combination of minimalist solid print and sleeveless/tank style from provided examples.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985299,
+  "id": "chatcmpl-CKQiZluLEiU9DdsuivJOfRjQjImBS",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 288,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 562,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 850
+  }
+}

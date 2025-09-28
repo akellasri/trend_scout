@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"CR2024-001\",\n    \"title\": \"Cream Satin Midi Dress with Pleated Skirt\",\n    \"image_prompt\": \"Isolated flat-lay product render of a cream-colored satin midi dress, A-line silhouette, short flutter sleeves, V-neckline, pleated skirt, subtle tonal stitching, concealed side zipper, on a plain white background, high-detail fabric texture and visible trims\",\n    \"color_palette\": [\"cream\", \"ivory\", \"warm beige\"],\n    \"fabrics\": [\"satin\", \"polyester lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short flutter sleeves\",\n    \"neckline\": \"V-neck\",\n    \"length\": \"midi\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"pleated skirt\", \"concealed side zipper\", \"tonal topstitching\"],\n    \"techpack\": \"A-line midi dress in cream satin with short flutter sleeves and V-neckline. Pleated skirt panels, concealed side zipper on left seam, polyester lining for comfort. Tonal stitching throughout. Hem finished with blind stitch.\",\n    \"provenance\": \"Inspired by the trending 'cream' color palette for commercial womenswear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985343,
+  "id": "chatcmpl-CKQjHF6uTHZMXk2EhiTq60hQCBHGR",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 286,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 644,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 930
+  }
+}

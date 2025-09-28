@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"GW001\",\n    \"title\": \"Green & White Patchwork Linen Shirt Dress\",\n    \"image_prompt\": \"flat-lay product render of a women's shirt dress in alternating green and white patchwork panels, isolated on plain white background, high-detail linen texture, visible stitching, button placket, waist tie belt, short cuffed sleeves, collared neckline, mid-calf length, commercial-ready apparel presentation\",\n    \"color_palette\": [\"forest green\", \"white\"],\n    \"fabrics\": [\"100% linen\"],\n    \"prints_patterns\": [\"patchwork blocks\"],\n    \"garment_type\": \"shirt dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short cuffed sleeves\",\n    \"neckline\": \"classic shirt collar\",\n    \"length\": \"mid-calf\",\n    \"style_fit\": \"relaxed fit with adjustable waist tie\",\n    \"trims_and_details\": [\"button front placket\", \"self-fabric waist tie belt\", \"patch pockets\", \"contrast stitching\"],\n    \"techpack\": \"A-line shirt dress constructed from alternating green and white linen panels in patchwork layout. Features short cuffed sleeves, classic shirt collar, button front placket, self-fabric waist tie belt, and patch pockets. Contrast stitching highlights panel seams. Mid-calf length hem with clean finish.\",\n    \"provenance\": \"Designed by combining trending green and white color palette with patchwork inspiration from provided examples.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985260,
+  "id": "chatcmpl-CKQhwSoHEj18UAfvGd9jdMvBvNFzg",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 314,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 564,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 878
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "design_id": "LN2024-001",
+  "title": "Classic Relaxed Linen Button-Up Shirt",
+  "image_prompt": "high-resolution flat-lay product render of a men's relaxed-fit linen button-up shirt, pastel sage green color, short sleeves, spread collar, front placket with mother-of-pearl buttons, single chest pocket, visible stitching, isolated on plain white background, high-detail fabric texture, no model, no mannequin, no human, no lifestyle scene",
+  "color_palette": [
+    "pastel sage green",
+    "off-white",
+    "light beige"
+  ],
+  "fabrics": [
+    "100% pure linen"
+  ],
+  "prints_patterns": [],
+  "garment_type": "shirt",
+  "silhouette": "relaxed fit",
+  "sleeves": "short sleeves",
+  "neckline": "spread collar",
+  "length": "hip length",
+  "style_fit": "casual",
+  "trims_and_details": [
+    "mother-of-pearl buttons",
+    "single chest pocket",
+    "double-needle stitching",
+    "curved hem"
+  ],
+  "techpack": "Men's short sleeve linen shirt with spread collar, front button placket, single chest pocket, curved hem. Fabric: 100% pure linen, 150gsm. Color: pastel sage green. Trims: mother-of-pearl buttons, matching thread. Construction: double-needle stitching on seams, bias tape reinforcement at collar stand.",
+  "provenance": "Inspired by trending pure linen apparel in commercial menswear collections."
+}

@@ -1,0 +1,13 @@
+
+You are a fashion video director. Use the design summary below to:
+1) produce a short 6-second storyboard describing camera framing, timing and moves (3-5 bullets).
+2) then render a photorealistic 6-second runway video showing an Indian model wearing the design.
+
+Design summary:
+Title: Chocolate Brown Crew Neck Knit Sweater. Colors: chocolate brown, warm taupe, soft beige. Fabrics: cotton blend knit, acrylic. Garment: sweater. Silhouette: classic straight. Sleeves: long sleeves. Neckline: crew neck. Notes: Medium-weight cotton blend knit sweater with crew neck, ribbed trims at neckline, cuffs, and hem. Regular fit silhouette with straight body. Long sleeves with ribbed cuffs. Waist length. Color: chocolate brown with warm taupe accents.
+
+Requirements for the video:
+- Model: Indian female, age 25-32, natural makeup, medium-dark skin tone.
+- Shots: Full-length runway shots only (no close-ups). 3–4 distinct moves (walk, turn, pose).
+- Lighting: soft studio key + subtle rim, neutral background, no logos or text.
+- Output: photorealistic MP4, duration ~6s.

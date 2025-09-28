@@ -1,0 +1,31 @@
+{
+  "design_id": "DRESS-GREY-001",
+  "title": "Charcoal Grey Midi Wrap Dress",
+  "image_prompt": "flat-lay product render of a charcoal grey midi wrap dress, soft matte cotton-linen blend fabric, subtle herringbone texture, short flutter sleeves, V-neckline, self-tie waist belt, clean hem, isolated on plain white background, high-detail fabric texture, visible stitching and trims",
+  "color_palette": [
+    "charcoal grey",
+    "soft silver",
+    "graphite"
+  ],
+  "fabrics": [
+    "cotton-linen blend",
+    "viscose lining"
+  ],
+  "prints_patterns": [
+    "subtle herringbone weave"
+  ],
+  "garment_type": "dress",
+  "silhouette": "wrap",
+  "sleeves": "short flutter sleeves",
+  "neckline": "V-neckline",
+  "length": "midi",
+  "style_fit": "regular fit with adjustable waist",
+  "trims_and_details": [
+    "self-fabric waist tie",
+    "topstitch detailing along neckline and hem",
+    "hidden side zipper"
+  ],
+  "techpack": "Wrap-style midi dress in cotton-linen blend with viscose lining. Short flutter sleeves, V-neckline, self-fabric waist tie, hidden side zipper. Subtle herringbone weave texture. Clean hem finish. Regular fit adjustable at waist.",
+  "provenance": "Designed from combo: color:grey | garment:dress",
+  "design_text": "Charcoal Grey Midi Wrap Dress (DRESS-GREY-001)\nColors: charcoal grey, soft silver, graphite\nFabrics: cotton-linen blend, viscose lining\nPrints/Patterns: subtle herringbone weave\nGarment Type: dress\nSilhouette: wrap\nSleeves: short flutter sleeves\nNeckline: V-neckline\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t,  , w, i, t, h,  , a, d, j, u, s, t, a, b, l, e,  , w, a, i, s, t\nTrims & details: self-fabric waist tie, topstitch detailing along neckline and hem, hidden side zipper\nTechpack: available"
+}

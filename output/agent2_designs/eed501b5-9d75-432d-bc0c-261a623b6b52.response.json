@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"SS24-001\",\n    \"title\": \"Classic Short Sleeve Linen Shirt\",\n    \"image_prompt\": \"Isolated flat-lay product render of a classic short sleeve button-up shirt, crafted from lightweight linen, in soft pastel tones, high-detail fabric texture, visible stitching, pearl buttons, plain white background, no model, no mannequin, no human, commercial-ready presentation\",\n    \"color_palette\": [\"soft sky blue\", \"pastel peach\", \"off-white\"],\n    \"fabrics\": [\"100% linen\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"shirt\",\n    \"silhouette\": \"straight cut\",\n    \"sleeves\": \"short sleeve\",\n    \"neckline\": \"classic shirt collar\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"pearl buttons\", \"double-stitched seams\", \"curved hemline\"],\n    \"techpack\": \"Short sleeve button-up shirt with classic collar, straight cut silhouette, hip length, regular fit. Fabric: 100% linen, lightweight, breathable. Trims: pearl buttons, double-stitched seams for durability, curved hemline for ease of movement. Colorways: soft sky blue, pastel peach, off-white.\",\n    \"provenance\": \"Inspired by the short sleeve trend for SS24, designed for commercial manufacturability and comfort.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985542,
+  "id": "chatcmpl-CKQmUF4wDLksKJiBhNitNvXy2uAbL",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 306,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 598,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 904
+  }
+}

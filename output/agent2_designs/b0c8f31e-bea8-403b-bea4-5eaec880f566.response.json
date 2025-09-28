@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"TOP-2024-001\",\n    \"title\": \"Minimalist Linen Blend Boxy Top\",\n    \"image_prompt\": \"flat-lay product render of a minimalist boxy women's top, short sleeves, crew neckline, made from linen-cotton blend, solid dusty sage green color, visible stitching, subtle side slits, isolated on plain white background, high-detail fabric texture, no model, no mannequin\",\n    \"color_palette\": [\"Dusty Sage Green\", \"Off-White\", \"Soft Beige\"],\n    \"fabrics\": [\"Linen-Cotton Blend\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"top\",\n    \"silhouette\": \"boxy\",\n    \"sleeves\": \"short sleeves\",\n    \"neckline\": \"crew neck\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"side slits\", \"topstitch detailing\", \"self-fabric neck binding\"],\n    \"techpack\": \"Boxy silhouette hip-length top with short sleeves and crew neckline. Constructed from linen-cotton blend for breathability and comfort. Side slits for ease of movement. Topstitch detailing along seams. Self-fabric neck binding for clean finish.\",\n    \"provenance\": \"Designed based on 2024 commercial trend for versatile tops.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985402,
+  "id": "chatcmpl-CKQkES62d8DsmobKyMT6ODU8S5EPA",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 297,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 381,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 678
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"KURTA-2024-001\",\n    \"title\": \"Contemporary Linen Blend Kurta\",\n    \"image_prompt\": \"flat-lay product render of a contemporary kurta, crafted from linen-cotton blend fabric, soft pastel sage green color, straight silhouette, three-quarter sleeves, mandarin collar neckline, mid-thigh length, minimal side slits, tonal stitching, wooden button placket, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"pastel sage green\", \"warm beige\", \"soft ivory\"],\n    \"fabrics\": [\"linen-cotton blend\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"kurta\",\n    \"silhouette\": \"straight\",\n    \"sleeves\": \"three-quarter\",\n    \"neckline\": \"mandarin collar\",\n    \"length\": \"mid-thigh\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"wooden buttons\", \"tonal stitching\", \"side slits\"],\n    \"techpack\": \"Regular fit straight silhouette kurta with mandarin collar, three-quarter sleeves, mid-thigh length, side slits for ease of movement, front placket with 4 wooden buttons, constructed in linen-cotton blend fabric, overlocked internal seams, double-stitched hemline.\",\n    \"provenance\": \"Designed from trend 'kurta' for commercial ready-to-wear collection.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985386,
+  "id": "chatcmpl-CKQjyoUYGRxcSXyBk1MS54vJFtKuh",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 383,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 701
+  }
+}

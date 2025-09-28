@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"WHT001\",\n    \"title\": \"Ivory Minimalist Linen Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of an ivory white linen midi dress, A-line silhouette, short flutter sleeves, round neckline, subtle tonal stitching, concealed side zipper, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"ivory white\", \"soft cream\", \"pearl\"],\n    \"fabrics\": [\"100% linen\", \"cotton lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short flutter sleeves\",\n    \"neckline\": \"round neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"relaxed fit\",\n    \"trims_and_details\": [\"concealed side zipper\", \"tonal topstitching\", \"soft cotton lining\"],\n    \"techpack\": \"Ivory white linen midi dress with A-line silhouette, short flutter sleeves, round neckline, concealed side zipper, cotton lining for comfort, tonal stitching for a clean finish. Suitable for summer wear, breathable fabric, machine washable.\",\n    \"provenance\": \"Inspired by the commercial trend of white tones in apparel, designed for manufacturability and versatility.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985333,
+  "id": "chatcmpl-CKQj7O7nLYFqo58RLh3ZHhmWjaNOH",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 287,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 582,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 869
+  }
+}

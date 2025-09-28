@@ -1,0 +1,32 @@
+{
+  "design_id": "RW-001",
+  "title": "Crimson & Ivory Panel Midi Dress",
+  "image_prompt": "flat-lay product render of a commercial-ready midi dress, featuring alternating vertical panels in rich crimson red and crisp ivory white, sleeveless with subtle cap sleeves, fitted bodice, round neckline, A-line silhouette, mid-calf length, made from lightweight cotton sateen, visible stitching, concealed side zipper, isolated on plain white background, high-detail fabric texture and trims",
+  "color_palette": [
+    "crimson red",
+    "ivory white"
+  ],
+  "fabrics": [
+    "cotton sateen",
+    "polyester lining"
+  ],
+  "prints_patterns": [
+    "vertical color-block panels"
+  ],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": [
+    "cap sleeves"
+  ],
+  "neckline": "round",
+  "length": "midi",
+  "style_fit": "fitted bodice with flared skirt",
+  "trims_and_details": [
+    "concealed side zipper",
+    "topstitch detailing along panel seams",
+    "fully lined bodice"
+  ],
+  "techpack": "A-line midi dress with alternating crimson and ivory vertical panels, cotton sateen shell with polyester lining, cap sleeves, round neckline, concealed side zipper on left seam, topstitch detailing along panel seams, mid-calf length skirt with slight flare.",
+  "provenance": "Designed by combining trending red and white color palette into a versatile commercial-ready midi dress.",
+  "design_text": "Crimson & Ivory Panel Midi Dress (RW-001)\nColors: crimson red, ivory white\nFabrics: cotton sateen, polyester lining\nPrints/Patterns: vertical color-block panels\nGarment Type: dress\nSilhouette: A-line\nSleeves: ['cap sleeves']\nNeckline: round\nLength: midi\nStyle / Fit: f, i, t, t, e, d,  , b, o, d, i, c, e,  , w, i, t, h,  , f, l, a, r, e, d,  , s, k, i, r, t\nTrims & details: concealed side zipper, topstitch detailing along panel seams, fully lined bodice\nTechpack: available"
+}

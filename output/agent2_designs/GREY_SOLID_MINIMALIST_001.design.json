@@ -1,0 +1,31 @@
+{
+  "design_id": "GREY_SOLID_MINIMALIST_001",
+  "title": "Minimalist Grey Solid Midi Dress",
+  "image_prompt": "flat-lay product render of a minimalist solid grey midi dress, A-line silhouette, short sleeves, crew neckline, soft matte cotton fabric, isolated on plain white background, high-detail fabric texture, visible stitching and clean hems, no model, no mannequin",
+  "color_palette": [
+    "charcoal grey",
+    "ash grey",
+    "light silver"
+  ],
+  "fabrics": [
+    "cotton poplin",
+    "organic cotton"
+  ],
+  "prints_patterns": [
+    "solid"
+  ],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": "short sleeves",
+  "neckline": "crew neckline",
+  "length": "midi",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "topstitching along seams",
+    "hidden side zipper",
+    "clean hem finish"
+  ],
+  "techpack": "A-line midi dress in solid grey cotton poplin with short sleeves and crew neckline. Hidden side zipper closure, topstitching for durability, clean hem finish. Regular fit with minimal detailing for a modern, versatile look.",
+  "provenance": "Designed based on combination of grey color palette and minimalist solid print trend.",
+  "design_text": "Minimalist Grey Solid Midi Dress (GREY_SOLID_MINIMALIST_001)\nColors: charcoal grey, ash grey, light silver\nFabrics: cotton poplin, organic cotton\nPrints/Patterns: solid\nGarment Type: dress\nSilhouette: A-line\nSleeves: short sleeves\nNeckline: crew neckline\nLength: midi\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: topstitching along seams, hidden side zipper, clean hem finish\nTechpack: available"
+}

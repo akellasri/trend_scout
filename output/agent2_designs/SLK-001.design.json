@@ -1,0 +1,30 @@
+{
+  "design_id": "SLK-001",
+  "title": "Midnight Bloom Silk Blouse",
+  "image_prompt": "high-detail flat-lay product render of a women's silk blouse, deep midnight blue color with subtle floral jacquard pattern, long sleeves with slight puff at shoulders, mandarin collar neckline, concealed button placket, curved hem, isolated on plain white background, visible fine stitching and silk sheen, no model, no mannequin, no human elements",
+  "color_palette": [
+    "Midnight Blue",
+    "Ivory",
+    "Soft Gold"
+  ],
+  "fabrics": [
+    "100% Mulberry Silk"
+  ],
+  "prints_patterns": [
+    "Subtle floral jacquard weave"
+  ],
+  "garment_type": "Blouse",
+  "silhouette": "Tailored",
+  "sleeves": "Long sleeves with slight puff at shoulders",
+  "neckline": "Mandarin collar",
+  "length": "Hip length",
+  "style_fit": "Regular fit",
+  "trims_and_details": [
+    "Concealed button placket",
+    "Curved hem",
+    "Fine topstitching"
+  ],
+  "techpack": "Tailored silk blouse with jacquard floral weave, mandarin collar, concealed button placket, puffed long sleeves, curved hem. Fabric: 100% mulberry silk, 80gsm, pre-shrunk. Buttons: mother-of-pearl, 10mm diameter. Stitching: single needle lockstitch, matching thread.",
+  "provenance": "Inspired by traditional silk weaving techniques and contemporary commercial womenswear trends",
+  "image_prompt_override": ""
+}

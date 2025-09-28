@@ -1,0 +1,27 @@
+{
+  "design_id": "WHTSS001",
+  "title": "White Short Sleeve Linen Button-Up Shirt",
+  "image_prompt": "flat-lay product render of a crisp white short sleeve linen button-up shirt, isolated on plain white background, high-detail fabric texture, visible stitching, pearl buttons, neatly pressed, no model, no mannequin, no human, apparel-only",
+  "color_palette": [
+    "white",
+    "pearl"
+  ],
+  "fabrics": [
+    "100% linen"
+  ],
+  "prints_patterns": [],
+  "garment_type": "shirt",
+  "silhouette": "classic straight",
+  "sleeves": "short sleeve",
+  "neckline": "collared",
+  "length": "hip length",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "pearl buttons",
+    "double-stitched seams",
+    "curved hem"
+  ],
+  "techpack": "White short sleeve shirt in 100% linen, regular fit, collared neckline, button-up front with 6 pearl buttons, curved hem, double-stitched seams for durability, hip length.",
+  "provenance": "Designed based on combination of color:white and sleeve:short sleeve from provided trend context.",
+  "design_text": "White Short Sleeve Linen Button-Up Shirt (WHTSS001)\nColors: white, pearl\nFabrics: 100% linen\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: classic straight\nSleeves: short sleeve\nNeckline: collared\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: pearl buttons, double-stitched seams, curved hem\nTechpack: available"
+}

@@ -1,0 +1,33 @@
+{
+  "design_id": "FLR001",
+  "title": "Botanical Bloom Midi Dress",
+  "image_prompt": "Isolated flat-lay product render of a midi-length dress with a soft A-line silhouette, short flutter sleeves, and a gentle scoop neckline, featuring an all-over botanical floral print in pastel tones, high-detail fabric texture, visible stitching and trims, on a plain white background.",
+  "color_palette": [
+    "pastel pink",
+    "sage green",
+    "buttercream",
+    "soft lavender",
+    "warm beige"
+  ],
+  "fabrics": [
+    "lightweight cotton voile",
+    "cotton lining"
+  ],
+  "prints_patterns": [
+    "botanical floral print with scattered blossoms and foliage"
+  ],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": "short flutter sleeves",
+  "neckline": "scoop neckline",
+  "length": "midi",
+  "style_fit": "relaxed fit",
+  "trims_and_details": [
+    "invisible side zipper",
+    "narrow self-fabric waist tie",
+    "topstitching along neckline and hem"
+  ],
+  "techpack": "A-line midi dress with short flutter sleeves, scoop neckline, botanical floral print on cotton voile, cotton lining, invisible side zipper closure, self-fabric waist tie, topstitched neckline and hem. Print repeat: 30cm x 30cm, colors matched to provided palette.",
+  "provenance": "Inspired by contemporary floral print trends from South Asian designer collections, adapted for commercial ready-to-wear.",
+  "design_text": "Botanical Bloom Midi Dress (FLR001)\nColors: pastel pink, sage green, buttercream, soft lavender, warm beige\nFabrics: lightweight cotton voile, cotton lining\nPrints/Patterns: botanical floral print with scattered blossoms and foliage\nGarment Type: dress\nSilhouette: A-line\nSleeves: short flutter sleeves\nNeckline: scoop neckline\nLength: midi\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: invisible side zipper, narrow self-fabric waist tie, topstitching along neckline and hem\nTechpack: available"
+}

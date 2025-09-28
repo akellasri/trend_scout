@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"SLK-EMB-001\",\n    \"title\": \"Regal Silk Embroidered Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a luxurious pure silk midi dress with intricate floral embroidery, A-line silhouette, short flutter sleeves, sweetheart neckline, knee-length hem, isolated on plain white background, high-detail fabric texture, visible stitching and delicate trims\",\n    \"color_palette\": [\"deep royal blue\", \"gold\", \"ivory\"],\n    \"fabrics\": [\"silk\"],\n    \"prints_patterns\": [\"floral embroidery\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short flutter sleeves\",\n    \"neckline\": \"sweetheart\",\n    \"length\": \"knee-length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"gold thread embroidery\", \"invisible side zipper\", \"silk lining\", \"scalloped hem\"],\n    \"techpack\": \"Pure silk A-line midi dress with gold floral embroidery on bodice and hem, short flutter sleeves, sweetheart neckline, invisible side zipper closure, fully lined with silk, scalloped hem finish.\",\n    \"provenance\": \"Designed by combining silk fabric with embroidery detailing inspired by traditional Indian craftsmanship.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985304,
+  "id": "chatcmpl-CKQieghbNgIPpQuAzLPtzPjZ0WNIE",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 281,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 626,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 907
+  }
+}

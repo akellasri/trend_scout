@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"WD001\",\n    \"title\": \"White Linen Midi Dress with Lace Trim\",\n    \"image_prompt\": \"Isolated flat-lay product render of a white linen midi dress on a plain white background, high-detail fabric texture, visible stitching, delicate lace trim along hem and sleeves, short puff sleeves, fitted bodice with gentle A-line skirt, round neckline, no model or mannequin, apparel-only view.\",\n    \"color_palette\": [\"pure white\", \"ivory lace\"],\n    \"fabrics\": [\"linen\", \"cotton lace\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short puff sleeves\",\n    \"neckline\": \"round neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"fitted bodice with relaxed skirt\",\n    \"trims_and_details\": [\"lace trim at hem\", \"lace edging on sleeves\", \"invisible back zipper\", \"topstitching along seams\"],\n    \"techpack\": \"White linen midi dress featuring short puff sleeves with lace edging, round neckline, fitted bodice, A-line skirt with lace hem trim, invisible back zipper closure, fully lined bodice, topstitched seams for durability.\",\n    \"provenance\": \"Designed based on combination of color:white and garment:dress from provided trend context.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985135,
+  "id": "chatcmpl-CKQfvuaLxGR88D7e8p7MHBGmUybuc",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 299,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 580,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 879
+  }
+}

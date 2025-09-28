@@ -1,0 +1,32 @@
+{
+  "design_id": "embroidery_print_001",
+  "title": "Floral Vine Embroidered Tunic",
+  "image_prompt": "flat-lay product render of a women's tunic, crafted from lightweight cotton-silk blend, featuring intricate floral vine embroidery in contrasting thread colors across the front panel and cuffs, isolated on a plain white background, high-detail fabric texture, visible stitching and trims, no model, no mannequin, no human elements",
+  "color_palette": [
+    "ivory",
+    "deep emerald",
+    "burnished gold",
+    "rose pink"
+  ],
+  "fabrics": [
+    "cotton-silk blend"
+  ],
+  "prints_patterns": [
+    "floral vine embroidery"
+  ],
+  "garment_type": "tunic",
+  "silhouette": "straight",
+  "sleeves": "three-quarter length",
+  "neckline": "boat neck",
+  "length": "mid-thigh",
+  "style_fit": "relaxed fit",
+  "trims_and_details": [
+    "embroidered front panel",
+    "embroidered sleeve cuffs",
+    "side slits",
+    "contrast piping along neckline"
+  ],
+  "techpack": "Lightweight cotton-silk blend tunic with straight silhouette, boat neck, three-quarter sleeves, mid-thigh length. Floral vine embroidery in deep emerald, burnished gold, and rose pink threads on ivory base. Side slits for ease of movement, contrast piping along neckline. Recommended embroidery density: medium, thread type: rayon.",
+  "provenance": "Inspired by contemporary commercial embroidery trends, referencing South Asian artisanal motifs adapted for modern tunic wear.",
+  "design_text": "Floral Vine Embroidered Tunic (embroidery_print_001)\nColors: ivory, deep emerald, burnished gold, rose pink\nFabrics: cotton-silk blend\nPrints/Patterns: floral vine embroidery\nGarment Type: tunic\nSilhouette: straight\nSleeves: three-quarter length\nNeckline: boat neck\nLength: mid-thigh\nStyle / Fit: r, e, l, a, x, e, d,  , f, i, t\nTrims & details: embroidered front panel, embroidered sleeve cuffs, side slits, contrast piping along neckline\nTechpack: available"
+}

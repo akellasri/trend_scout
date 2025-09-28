@@ -1,0 +1,28 @@
+{
+  "design_id": "D20240630-001",
+  "title": "Classic 3/4 Sleeve Cotton Kurti",
+  "image_prompt": "flat-lay product render of a women's kurti with 3/4th sleeves, straight silhouette, round neckline, mid-thigh length, solid dusty rose color, lightweight cotton fabric, subtle tonal stitching, minimal trims, isolated on plain white background, high-detail fabric texture, visible stitching and hems",
+  "color_palette": [
+    "Dusty Rose",
+    "Soft Beige",
+    "Muted Indigo"
+  ],
+  "fabrics": [
+    "100% Cotton",
+    "Cotton Voile"
+  ],
+  "prints_patterns": [],
+  "garment_type": "Kurti",
+  "silhouette": "Straight",
+  "sleeves": "3/4th sleeves with narrow hem",
+  "neckline": "Round neckline",
+  "length": "Mid-thigh",
+  "style_fit": "Regular fit",
+  "trims_and_details": [
+    "Side slits",
+    "Topstitch detailing along neckline and sleeve hem"
+  ],
+  "techpack": "Straight silhouette kurti with 3/4th sleeves, round neckline finished with facing, side slits for ease, double-needle topstitch along neckline and sleeve hem, mid-thigh length, cut from lightweight cotton voile, pre-shrunk fabric, overlocked internal seams.",
+  "provenance": "Inspired by contemporary Indian casual wear trends featuring 3/4th sleeves for versatile seasonal styling.",
+  "image_prompt_override": ""
+}

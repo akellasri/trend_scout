@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"FF001\",\n    \"title\": \"Classic Fit-and-Flare Midi Dress\",\n    \"image_prompt\": \"Isolated flat-lay product render of a classic fit-and-flare midi dress on a plain white background, high-detail fabric texture, visible stitching, waist seam, concealed zipper at back, short sleeves, scoop neckline, smooth cotton sateen fabric, soft drape skirt, commercial ready design, no model, no mannequin, no human, no lifestyle scene\",\n    \"color_palette\": [\"navy blue\", \"soft ivory\", \"blush pink\"],\n    \"fabrics\": [\"cotton sateen\", \"polyester lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"fit-and-flare\",\n    \"sleeves\": \"short sleeves\",\n    \"neckline\": \"scoop neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"tailored bodice with flared skirt\",\n    \"trims_and_details\": [\"concealed back zipper\", \"waist seam\", \"topstitching along neckline and hem\"],\n    \"techpack\": \"Bodice: fitted with darts, waist seam at natural waist, skirt: 6-panel flared midi length, short set-in sleeves, scoop neckline finished with facing, concealed zipper at center back, hem finished with blind stitch, cotton sateen shell with polyester lining.\",\n    \"provenance\": \"Inspired by commercial fit-and-flare silhouettes from Mogra Designs examples\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985521,
+  "id": "chatcmpl-CKQm99kvVjrqmjFJ7iW98Q7WC6umk",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 326,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 601,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 927
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"DRS-2024-001\",\n    \"title\": \"Soft A-Line Midi Dress with Puff Sleeves\",\n    \"image_prompt\": \"Isolated flat-lay product render of a soft A-line midi dress with short puff sleeves, sweetheart neckline, pastel blush pink color, lightweight cotton blend fabric, subtle floral print, visible stitching and trims, on a plain white background, high-detail fabric texture, no model, no mannequin, no human, no lifestyle scene.\",\n    \"color_palette\": [\"pastel blush pink\", \"soft ivory\", \"muted sage green\"],\n    \"fabrics\": [\"cotton blend\", \"lightweight voile lining\"],\n    \"prints_patterns\": [\"small-scale floral print\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short puff sleeves\",\n    \"neckline\": \"sweetheart\",\n    \"length\": \"midi\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"invisible back zipper\", \"waist seam\", \"topstitching along neckline\", \"soft gathered sleeve cuffs\"],\n    \"techpack\": \"A-line midi dress with short puff sleeves and sweetheart neckline. Constructed from cotton blend with voile lining. Features invisible back zipper, waist seam for shaping, and topstitching along neckline. Subtle floral print in pastel tones. Regular fit with midi length skirt.\",\n    \"provenance\": \"Designed from trend 'dress' for commercial ready-to-wear collection.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985380,
+  "id": "chatcmpl-CKQjsHPMrnsQThBTDuU2pCcK6FLHr",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 328,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 381,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 709
+  }
+}

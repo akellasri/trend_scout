@@ -1,0 +1,27 @@
+{
+  "design_id": "COTTON-CREW-001",
+  "title": "Classic Cotton Crew Neck Tee",
+  "image_prompt": "flat-lay product render of a short-sleeve crew neck t-shirt made from soft cotton jersey, solid color, high-detail fabric texture, visible stitching, isolated on plain white background, no model, no mannequin, no human, commercial-ready apparel product image",
+  "color_palette": [
+    "soft heather grey",
+    "white",
+    "navy blue"
+  ],
+  "fabrics": [
+    "100% cotton jersey"
+  ],
+  "prints_patterns": [],
+  "garment_type": "t-shirt",
+  "silhouette": "straight cut",
+  "sleeves": "short sleeves",
+  "neckline": "crew neck",
+  "length": "hip length",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "double-needle stitching at hem and sleeves",
+    "ribbed neckband"
+  ],
+  "techpack": "Regular fit crew neck t-shirt in 100% cotton jersey, short sleeves, ribbed neckband, double-needle stitching at hem and sleeves, hip length. Sizes XS-XXL.",
+  "provenance": "Designed from combination: fabric: cotton | neck: Crew neck",
+  "image_prompt_override": ""
+}

@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BR-RED-001\",\n    \"title\": \"Rust & Crimson Panelled Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a women's midi dress, panelled design combining deep rust brown and rich crimson red sections, made of lightweight crepe with subtle sheen, short flutter sleeves, V-neckline, fitted waist with decorative buttons, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"rust brown\", \"crimson red\", \"antique gold (buttons)\"],\n    \"fabrics\": [\"lightweight crepe\", \"cotton lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"panelled A-line\",\n    \"sleeves\": \"short flutter sleeves\",\n    \"neckline\": \"V-neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"fitted waist, flared skirt\",\n    \"trims_and_details\": [\"antique gold decorative buttons\", \"contrast panel stitching\", \"invisible side zipper\"],\n    \"techpack\": \"Panelled A-line midi dress with rust brown and crimson red crepe panels, short flutter sleeves, V-neckline, fitted waist with antique gold buttons, invisible side zipper, cotton lining for comfort.\",\n    \"provenance\": \"Designed from combination of brown and red color trend, inspired by contemporary Indo-western fusion aesthetics.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985255,
+  "id": "chatcmpl-CKQhrn4CuRUK6DJhNJqsstAjgacrT",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 310,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 602,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 912
+  }
+}

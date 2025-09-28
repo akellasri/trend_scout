@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"GRYCRW001\",\n    \"title\": \"Heather Grey Crew Neck Sweatshirt\",\n    \"image_prompt\": \"flat-lay product render of a heather grey crew neck sweatshirt, isolated on plain white background, high-detail fabric texture, visible stitching, ribbed cuffs and hem, no model, no mannequin, no human, no lifestyle scene\",\n    \"color_palette\": [\"heather grey\", \"light grey\", \"charcoal\"],\n    \"fabrics\": [\"cotton fleece\", \"polyester blend\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"sweatshirt\",\n    \"silhouette\": \"classic straight\",\n    \"sleeves\": \"long sleeves\",\n    \"neckline\": \"crew neck\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"ribbed neckline\", \"ribbed cuffs\", \"ribbed hem\", \"double-needle stitching\"],\n    \"techpack\": \"Regular fit crew neck sweatshirt in heather grey cotton-poly fleece. Ribbed neckline, cuffs, and hem for structure. Double-needle stitching for durability. Hip length with long sleeves. Suitable for casual wear.\",\n    \"provenance\": \"Designed based on combination of grey color palette and crew neck neckline trend.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985314,
+  "id": "chatcmpl-CKQiorcuPEq6e4K0qH46Wp0dQDcTX",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 282,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 587,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 869
+  }
+}

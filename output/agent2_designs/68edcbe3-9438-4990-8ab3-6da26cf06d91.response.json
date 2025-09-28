@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"RD001\",\n    \"title\": \"Crimson Classic Midi Dress\",\n    \"image_prompt\": \"flat-lay product render of a crimson red midi dress, A-line silhouette, short flutter sleeves, sweetheart neckline, fitted waist with matching fabric belt, high-detail fabric texture, visible stitching and trims, isolated on plain white background\",\n    \"color_palette\": [\"crimson red\", \"deep ruby\", \"soft rose\"],\n    \"fabrics\": [\"cotton sateen\", \"polyester lining\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"A-line\",\n    \"sleeves\": \"short flutter sleeves\",\n    \"neckline\": \"sweetheart\",\n    \"length\": \"midi\",\n    \"style_fit\": \"fitted bodice with flared skirt\",\n    \"trims_and_details\": [\"matching fabric belt\", \"concealed back zipper\", \"topstitch detailing along seams\"],\n    \"techpack\": \"A-line midi dress in cotton sateen with polyester lining, sweetheart neckline, short flutter sleeves, fitted waist with matching belt, concealed back zipper, topstitch detailing; finished hem and sleeve edges.\",\n    \"provenance\": \"Designed from combo: color:red | garment:dress\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985295,
+  "id": "chatcmpl-CKQiVYld6JY7HC8vOI8c8OXUQ9TWA",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 275,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 554,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 829
+  }
+}

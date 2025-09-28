@@ -1,0 +1,42 @@
+{
+  "design_id": "FL001",
+  "title": "Minimalist Linen Button-Up Shirt",
+  "image_prompt": "high-resolution flat-lay product render of a minimalist linen button-up shirt, soft off-white color, isolated on plain white background, high-detail fabric texture, visible stitching, pearlescent buttons, neatly arranged sleeves and collar, no model, no mannequin, no human, no lifestyle scene",
+  "color_palette": [
+    "off-white",
+    "pearl",
+    "light beige"
+  ],
+  "fabrics": [
+    "100% linen"
+  ],
+  "prints_patterns": [],
+  "garment_type": "shirt",
+  "silhouette": "straight",
+  "sleeves": "long sleeves",
+  "neckline": "classic shirt collar",
+  "length": "hip length",
+  "style_fit": "regular fit",
+  "trims_and_details": [
+    "pearlescent buttons",
+    "double-stitched seams",
+    "curved hem"
+  ],
+  "techpack": {
+    "measurements": {
+      "chest": "54 cm",
+      "waist": "52 cm",
+      "length": "72 cm",
+      "sleeve_length": "60 cm"
+    },
+    "fabric_weight": "150 gsm",
+    "care_instructions": [
+      "machine wash cold",
+      "do not bleach",
+      "line dry",
+      "warm iron"
+    ]
+  },
+  "provenance": "Designed in Italy, manufactured in Portugal",
+  "design_text": "Minimalist Linen Button-Up Shirt (FL001)\nColors: off-white, pearl, light beige\nFabrics: 100% linen\nPrints/Patterns: none\nGarment Type: shirt\nSilhouette: straight\nSleeves: long sleeves\nNeckline: classic shirt collar\nLength: hip length\nStyle / Fit: r, e, g, u, l, a, r,  , f, i, t\nTrims & details: pearlescent buttons, double-stitched seams, curved hem\nTechpack: available"
+}

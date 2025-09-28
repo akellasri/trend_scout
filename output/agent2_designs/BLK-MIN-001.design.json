@@ -1,0 +1,28 @@
+{
+  "design_id": "BLK-MIN-001",
+  "title": "Black Minimalist Tailored Midi Dress",
+  "image_prompt": "flat-lay product render of a solid black minimalist tailored midi dress, A-line silhouette, short sleeves, crew neckline, mid-calf length, made from smooth lightweight cotton blend, visible stitching and subtle darts, isolated on plain white background, high-detail fabric texture, no model, no mannequin",
+  "color_palette": [
+    "black"
+  ],
+  "fabrics": [
+    "cotton blend",
+    "polyester"
+  ],
+  "prints_patterns": [
+    "solid"
+  ],
+  "garment_type": "dress",
+  "silhouette": "A-line",
+  "sleeves": "short sleeves",
+  "neckline": "crew neckline",
+  "length": "midi",
+  "style_fit": "tailored fit",
+  "trims_and_details": [
+    "invisible back zipper",
+    "subtle waist darts",
+    "clean hem finish"
+  ],
+  "techpack": "Solid black A-line midi dress with short sleeves and crew neckline. Tailored fit with waist darts for shaping. Constructed from lightweight cotton-poly blend for comfort and durability. Invisible back zipper closure. Clean hem finish. Suitable for minimalist collections.",
+  "provenance": "Designed based on combination of color:black and print:solids/minimalist from provided trend context."
+}

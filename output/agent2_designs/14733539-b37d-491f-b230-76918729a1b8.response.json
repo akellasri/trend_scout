@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"BRNCTN-001\",\n    \"title\": \"Classic Brown Cotton Utility Shirt\",\n    \"image_prompt\": \"flat-lay product render of a classic long-sleeve utility shirt in rich chocolate brown cotton, isolated on plain white background, high-detail fabric texture, visible stitching, double chest pockets with button flaps, matte brown buttons, straight hem, no model, no mannequin\",\n    \"color_palette\": [\"chocolate brown\", \"matte dark brown\", \"warm beige stitching\"],\n    \"fabrics\": [\"100% cotton twill\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"shirt\",\n    \"silhouette\": \"straight\",\n    \"sleeves\": \"long sleeves with buttoned cuffs\",\n    \"neckline\": \"classic shirt collar\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"regular fit\",\n    \"trims_and_details\": [\"double chest pockets with button flaps\", \"matte brown buttons\", \"contrast beige topstitching\", \"buttoned cuffs\", \"reinforced shoulder seams\"],\n    \"techpack\": \"Front: two symmetrical chest pockets with flap and single button closure; placket with 7 matte brown buttons; collar with medium spread; long sleeves with adjustable button cuffs; straight hem. Back: yoke with center pleat for ease. Fabric: 100% cotton twill, pre-shrunk. Stitching: contrast beige topstitching at seams and pockets.\",\n    \"provenance\": \"Designed from combination of brown color palette and cotton fabric as per user brief.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985212,
+  "id": "chatcmpl-CKQhAnSL6dYnwZwcau8rN7rLzFnvd",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 339,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 606,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 945
+  }
+}

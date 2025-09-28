@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"WD-FS-001\",\n    \"title\": \"White Full-Sleeve Tailored Shirt\",\n    \"image_prompt\": \"Isolated flat-lay product render of a crisp white full-sleeve tailored shirt, high-detail cotton fabric texture, visible stitching, pearl buttons, structured collar, plain white background, no model, no mannequin, no human elements, commercial product page style\",\n    \"color_palette\": [\"white\", \"pearl\"],\n    \"fabrics\": [\"100% cotton poplin\"],\n    \"prints_patterns\": [],\n    \"garment_type\": \"shirt\",\n    \"silhouette\": \"tailored fit\",\n    \"sleeves\": \"full sleeves\",\n    \"neckline\": \"classic pointed collar\",\n    \"length\": \"hip length\",\n    \"style_fit\": \"slim fit\",\n    \"trims_and_details\": [\"pearl buttons\", \"double-stitched seams\", \"buttoned cuffs\", \"reinforced collar stand\"],\n    \"techpack\": \"White tailored shirt with full sleeves, slim fit, hip length, classic pointed collar, 100% cotton poplin, pearl buttons, double-stitched seams, buttoned cuffs, reinforced collar stand. Flat-lay presentation for product page.\",\n    \"provenance\": \"Designed by in-house fashion product team based on trending minimal white full-sleeve styles.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985224,
+  "id": "chatcmpl-CKQhMVJimpNlXqatmV6vqfdDwWs2p",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 293,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 582,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 875
+  }
+}

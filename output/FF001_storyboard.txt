@@ -1,0 +1,13 @@
+
+You are a fashion video director. Use the design summary below to:
+1) produce a short 6-second storyboard describing camera framing, timing and moves (3-5 bullets).
+2) then render a photorealistic 6-second runway video showing an Indian model wearing the design.
+
+Design summary:
+Title: Classic Fit-and-Flare Midi Dress. Colors: soft blush pink, ivory, warm taupe. Fabrics: cotton sateen, polyester lining. Garment: dress. Silhouette: fit-and-flare. Sleeves: short flutter sleeves. Neckline: scoop neckline. Notes: Bodice: fitted with darts, waist seam at natural waist, skirt: 6-panel soft pleated flare, short flutter sleeves cut on bias, scoop neckline with facing, concealed back zipper closure, fully lined bodice, hem finished with 1cm double fold.
+
+Requirements for the video:
+- Model: Indian female, age 25-32, natural makeup, medium-dark skin tone.
+- Shots: Full-length runway shots only (no close-ups). 3–4 distinct moves (walk, turn, pose).
+- Lighting: soft studio key + subtle rim, neutral background, no logos or text.
+- Output: photorealistic MP4, duration ~6s.

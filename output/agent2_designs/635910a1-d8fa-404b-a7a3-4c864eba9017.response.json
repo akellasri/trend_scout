@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"DRESS-GREY-001\",\n    \"title\": \"Charcoal Grey Midi Wrap Dress\",\n    \"image_prompt\": \"flat-lay product render of a charcoal grey midi wrap dress, soft matte cotton-linen blend fabric, subtle herringbone texture, short flutter sleeves, V-neckline, self-tie waist belt, clean hem, isolated on plain white background, high-detail fabric texture, visible stitching and trims\",\n    \"color_palette\": [\"charcoal grey\", \"soft silver\", \"graphite\"],\n    \"fabrics\": [\"cotton-linen blend\", \"viscose lining\"],\n    \"prints_patterns\": [\"subtle herringbone weave\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"wrap\",\n    \"sleeves\": \"short flutter sleeves\",\n    \"neckline\": \"V-neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"regular fit with adjustable waist\",\n    \"trims_and_details\": [\"self-fabric waist tie\", \"topstitch detailing along neckline and hem\", \"hidden side zipper\"],\n    \"techpack\": \"Wrap-style midi dress in cotton-linen blend with viscose lining. Short flutter sleeves, V-neckline, self-fabric waist tie, hidden side zipper. Subtle herringbone weave texture. Clean hem finish. Regular fit adjustable at waist.\",\n    \"provenance\": \"Designed from combo: color:grey | garment:dress\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985206,
+  "id": "chatcmpl-CKQh4L6ubHJdkAEsl0yjf1oLZw4Re",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 315,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 585,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 900
+  }
+}

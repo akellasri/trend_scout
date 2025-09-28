@@ -1,0 +1,88 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "protected_material_code": {
+          "filtered": false,
+          "detected": false
+        },
+        "protected_material_text": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "```json\n[\n  {\n    \"design_id\": \"DF001\",\n    \"title\": \"Soft Drape Midi Kaftan Dress\",\n    \"image_prompt\": \"Isolated flat-lay product render of a draped, flowing midi-length kaftan dress on a plain white background, high-detail fabric texture, visible stitching and trims, soft rayon blend with gentle sheen, wide sleeves, V-neckline, waist tie belt, no model, no mannequin, no human, apparel-only.\",\n    \"color_palette\": [\"soft blush pink\", \"warm sand beige\", \"muted sage green\"],\n    \"fabrics\": [\"rayon\", \"silk blend\"],\n    \"prints_patterns\": [\"solid with subtle tonal texture\"],\n    \"garment_type\": \"dress\",\n    \"silhouette\": \"draped flowing kaftan\",\n    \"sleeves\": \"wide elbow-length sleeves\",\n    \"neckline\": \"V-neckline\",\n    \"length\": \"midi\",\n    \"style_fit\": \"relaxed fit with adjustable waist tie\",\n    \"trims_and_details\": [\"self-fabric waist tie belt\", \"narrow rolled hem\", \"topstitching along neckline\"],\n    \"techpack\": \"Midi-length kaftan dress with draped silhouette, cut from rayon-silk blend for fluid movement. Wide elbow-length sleeves, V-neckline finished with facing, self-fabric waist tie belt threaded through side loops. Narrow rolled hem at sleeve and bottom edges, topstitching along neckline for durability.\",\n    \"provenance\": \"Inspired by contemporary draped/flowing silhouettes seen in kaftans and saree drapes, adapted for commercial ready-to-wear.\"\n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1758985504,
+  "id": "chatcmpl-CKQlsJ4E1iI14nGZih03SWUu0uMuB",
+  "model": "gpt-5-chat-latest",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "filtered": false,
+          "detected": false
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_4010ec3037",
+  "usage": {
+    "completion_tokens": 352,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 610,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 962
+  }
+}
