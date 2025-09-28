@@ -39,5 +39,7 @@ The pipeline consists of three core agents:
 1. **Generate designs**  
    ```bash
    python test_agent2_payload.py agent2_inputs/payload_combo_0001.json
+   ```
 
    → Produces output/agent2_designs/*.design.json
+
