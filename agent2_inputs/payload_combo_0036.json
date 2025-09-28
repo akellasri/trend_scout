@@ -1,0 +1,33 @@
+{
+  "id": "46164381-6c29-4ba5-8084-10db869ed5c1",
+  "type": "combo",
+  "generated_at": "2025-09-24T13:06:46.413522Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_combo",
+    "combo_key": "length:Full-length | print:embroidery",
+    "instructions": "Design a commercial-ready product that combines: length:Full-length | print:embroidery. Provide a design JSON with palette, fabrics, prints, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "https://taruntahiliani.com/products/thread-and-dori-embroidered-lehenga-brawygulkl2vlh-brawygulkl2du-brawygulkl2bl-cw-117",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/bidri-sharara-set-brawybdrsha2ku-brawybdrsha2sha-brawybdrsha2du-cw-121",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/sequin-embroidered-kurti-sharara-set-brawybdrsha1ku-brawybdrsha1sha-brawybdrsha1du-brawybdrsha1cp-cw-49",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/marori-kanjivaram-saree-brawybdrsa5sa-brawybdrsa5bl-cw-132",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

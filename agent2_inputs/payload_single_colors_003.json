@@ -1,0 +1,34 @@
+{
+  "id": "26c5f46c-6d78-4507-a644-2a9796adde22",
+  "type": "single_trend",
+  "generated_at": "2025-09-24T13:06:44.366424Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_trend",
+    "category": "colors",
+    "selected_trend": "cream",
+    "instructions": "Design a new color inspired by the trend 'cream'. Keep it commercial and manufacturable. Provide color palette, fabrics, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "https://taruntahiliani.com/products/thread-and-dori-embroidered-lehenga-brawygulkl2vlh-brawygulkl2du-brawygulkl2bl-cw-117",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/bidri-sharara-set-brawybdrsha2ku-brawybdrsha2sha-brawybdrsha2du-cw-121",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/jharoka-sequin-embroidered-saree-brawybdrsa2sa-brawybdrsa2bl-cw-49",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/geometric-motif-embroidered-lehenga-set-brawybaskl2lh-brawybaskl2vl-brawybaskl2du-brawybaskl2bl-cw-50",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

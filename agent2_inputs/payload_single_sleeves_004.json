@@ -1,0 +1,34 @@
+{
+  "id": "6a396229-bf48-4471-9769-f172abc10aea",
+  "type": "single_trend",
+  "generated_at": "2025-09-24T13:06:44.933900Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_trend",
+    "category": "sleeves",
+    "selected_trend": "kimono sleeve",
+    "instructions": "Design a new sleeve inspired by the trend 'kimono sleeve'. Keep it commercial and manufacturable. Provide color palette, fabrics, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "https://www.houseofindya.com/white-digital-print-rayon-co-ord-set-447375/iprdt",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://mogradesigns.com/collections/shop/products/teal-embroidered-kimono-style-wrap-dress",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://mogradesigns.com/collections/shop/products/bandhani-embroidered-kimonojacket",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://mogradesigns.com/collections/shop/products/maroon-bandhani-hand-embroidered-kimono-jacket",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

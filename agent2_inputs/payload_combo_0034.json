@@ -1,0 +1,33 @@
+{
+  "id": "54fc5d0a-77c2-4008-a740-474aad9bf737",
+  "type": "combo",
+  "generated_at": "2025-09-24T13:06:46.366609Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_combo",
+    "combo_key": "print:solids / minimalist | sleeve:Sleeveless/Tank",
+    "instructions": "Design a commercial-ready product that combines: print:solids / minimalist | sleeve:Sleeveless/Tank. Provide a design JSON with palette, fabrics, prints, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "http://nishorama.com//products/parna-noodle-strap-corset-kurti-1",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://bykaveri.com/collections/everyday-k-2/products/old-wall-fences-consent-dress",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://nishorama.com//products/araha-halter-neck-top",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://nishorama.com//products/hans-halterneck-corset-kurti",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

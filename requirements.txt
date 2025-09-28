@@ -9,3 +9,4 @@ python-dotenv
 azure-storage-blob
 imagehash
 numpy
+openai

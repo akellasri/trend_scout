@@ -1,0 +1,34 @@
+{
+  "id": "ae87e42d-fdfb-4be6-a6c9-d6333cb822b5",
+  "type": "single_trend",
+  "generated_at": "2025-09-24T13:06:44.490836Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_trend",
+    "category": "fabrics",
+    "selected_trend": "satin",
+    "instructions": "Design a new fabric inspired by the trend 'satin'. Keep it commercial and manufacturable. Provide color palette, fabrics, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "https://taruntahiliani.com/products/marori-kanjivaram-saree-brawybdrsa5sa-brawybdrsa5bl-cw-132",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/crystal-and-sequin-embroidered-lehenga-saree-faawyzrnls1ls-faawyzrnls1cr-faawyzrnls1dp-cw-332",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/mosaic-lehenga-with-corset-and-drape-faawymoskl2lh-faawymoskl2cr-faawymoskl2dp-cw-85",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/classic-printed-saree-faawyprtsa1bl-faawyprtsa1sa-cw-127",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

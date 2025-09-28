@@ -1,0 +1,34 @@
+{
+  "id": "d9606c19-6ec9-4f5a-b7c3-23a39ba0c549",
+  "type": "single_trend",
+  "generated_at": "2025-09-24T13:06:45.400106Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_trend",
+    "category": "groups",
+    "selected_trend": "Earth tones",
+    "instructions": "Design a new group inspired by the trend 'Earth tones'. Keep it commercial and manufacturable. Provide color palette, fabrics, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "https://taruntahiliani.com/products/kashida-embroidered-saree-brawybdrsa1sa-brawybdrsa1bl-cw-85",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/geometric-embroidered-lehenga-with-drape-faawymoskl1lh-faawymoskl1bx-faawymoskl1dp-cw-118",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://nishorama.com//products/muskan-deep-back-sleeved-kurti",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/floral-fishtail-skirt-and-corset-brawygulcs1sk-brawygulcs1cr-brawygulcs1win-cw-117",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

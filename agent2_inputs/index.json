@@ -1,0 +1,421 @@
+{
+  "generated_at": "2025-09-24T13:06:46.518008Z",
+  "payload_count": 83,
+  "files": [
+    {
+      "file": "agent2_inputs/payload_single_colors_000.json",
+      "type": "single_trend",
+      "trend": "brown"
+    },
+    {
+      "file": "agent2_inputs/payload_single_colors_001.json",
+      "type": "single_trend",
+      "trend": "white"
+    },
+    {
+      "file": "agent2_inputs/payload_single_colors_002.json",
+      "type": "single_trend",
+      "trend": "grey"
+    },
+    {
+      "file": "agent2_inputs/payload_single_colors_003.json",
+      "type": "single_trend",
+      "trend": "cream"
+    },
+    {
+      "file": "agent2_inputs/payload_single_colors_004.json",
+      "type": "single_trend",
+      "trend": "black"
+    },
+    {
+      "file": "agent2_inputs/payload_single_fabrics_000.json",
+      "type": "single_trend",
+      "trend": "cotton"
+    },
+    {
+      "file": "agent2_inputs/payload_single_fabrics_001.json",
+      "type": "single_trend",
+      "trend": "silk"
+    },
+    {
+      "file": "agent2_inputs/payload_single_fabrics_002.json",
+      "type": "single_trend",
+      "trend": "linen"
+    },
+    {
+      "file": "agent2_inputs/payload_single_fabrics_003.json",
+      "type": "single_trend",
+      "trend": "satin"
+    },
+    {
+      "file": "agent2_inputs/payload_single_fabrics_004.json",
+      "type": "single_trend",
+      "trend": "chiffon"
+    },
+    {
+      "file": "agent2_inputs/payload_single_prints_000.json",
+      "type": "single_trend",
+      "trend": "embroidery"
+    },
+    {
+      "file": "agent2_inputs/payload_single_prints_001.json",
+      "type": "single_trend",
+      "trend": "solids / minimalist"
+    },
+    {
+      "file": "agent2_inputs/payload_single_prints_002.json",
+      "type": "single_trend",
+      "trend": "florals"
+    },
+    {
+      "file": "agent2_inputs/payload_single_prints_003.json",
+      "type": "single_trend",
+      "trend": "bandhani"
+    },
+    {
+      "file": "agent2_inputs/payload_single_prints_004.json",
+      "type": "single_trend",
+      "trend": "ikat"
+    },
+    {
+      "file": "agent2_inputs/payload_single_silhouettes_000.json",
+      "type": "single_trend",
+      "trend": "Draped/Flowing"
+    },
+    {
+      "file": "agent2_inputs/payload_single_silhouettes_001.json",
+      "type": "single_trend",
+      "trend": "A-line"
+    },
+    {
+      "file": "agent2_inputs/payload_single_silhouettes_002.json",
+      "type": "single_trend",
+      "trend": "Tailored"
+    },
+    {
+      "file": "agent2_inputs/payload_single_silhouettes_003.json",
+      "type": "single_trend",
+      "trend": "Fit-and-flare"
+    },
+    {
+      "file": "agent2_inputs/payload_single_silhouettes_004.json",
+      "type": "single_trend",
+      "trend": "sheath"
+    },
+    {
+      "file": "agent2_inputs/payload_single_sleeves_000.json",
+      "type": "single_trend",
+      "trend": "Full sleeves"
+    },
+    {
+      "file": "agent2_inputs/payload_single_sleeves_001.json",
+      "type": "single_trend",
+      "trend": "Sleeveless/Tank"
+    },
+    {
+      "file": "agent2_inputs/payload_single_sleeves_002.json",
+      "type": "single_trend",
+      "trend": "short sleeve"
+    },
+    {
+      "file": "agent2_inputs/payload_single_sleeves_003.json",
+      "type": "single_trend",
+      "trend": "3/4th sleeves"
+    },
+    {
+      "file": "agent2_inputs/payload_single_sleeves_004.json",
+      "type": "single_trend",
+      "trend": "kimono sleeve"
+    },
+    {
+      "file": "agent2_inputs/payload_single_necklines_000.json",
+      "type": "single_trend",
+      "trend": "Crew neck"
+    },
+    {
+      "file": "agent2_inputs/payload_single_necklines_001.json",
+      "type": "single_trend",
+      "trend": "V-neck"
+    },
+    {
+      "file": "agent2_inputs/payload_single_necklines_002.json",
+      "type": "single_trend",
+      "trend": "Collared"
+    },
+    {
+      "file": "agent2_inputs/payload_single_necklines_003.json",
+      "type": "single_trend",
+      "trend": "Halter"
+    },
+    {
+      "file": "agent2_inputs/payload_single_necklines_004.json",
+      "type": "single_trend",
+      "trend": "Square neck"
+    },
+    {
+      "file": "agent2_inputs/payload_single_garment_types_000.json",
+      "type": "single_trend",
+      "trend": "dress"
+    },
+    {
+      "file": "agent2_inputs/payload_single_garment_types_001.json",
+      "type": "single_trend",
+      "trend": "kurta"
+    },
+    {
+      "file": "agent2_inputs/payload_single_garment_types_002.json",
+      "type": "single_trend",
+      "trend": "kurta-set"
+    },
+    {
+      "file": "agent2_inputs/payload_single_garment_types_003.json",
+      "type": "single_trend",
+      "trend": "coord set"
+    },
+    {
+      "file": "agent2_inputs/payload_single_garment_types_004.json",
+      "type": "single_trend",
+      "trend": "top"
+    },
+    {
+      "file": "agent2_inputs/payload_single_lengths_000.json",
+      "type": "single_trend",
+      "trend": "Full-length"
+    },
+    {
+      "file": "agent2_inputs/payload_single_lengths_001.json",
+      "type": "single_trend",
+      "trend": "Midi"
+    },
+    {
+      "file": "agent2_inputs/payload_single_lengths_002.json",
+      "type": "single_trend",
+      "trend": "Mini"
+    },
+    {
+      "file": "agent2_inputs/payload_single_lengths_003.json",
+      "type": "single_trend",
+      "trend": "Ankle-length"
+    },
+    {
+      "file": "agent2_inputs/payload_single_lengths_004.json",
+      "type": "single_trend",
+      "trend": "Maxi"
+    },
+    {
+      "file": "agent2_inputs/payload_single_groups_000.json",
+      "type": "single_trend",
+      "trend": "Neutrals"
+    },
+    {
+      "file": "agent2_inputs/payload_single_groups_001.json",
+      "type": "single_trend",
+      "trend": "Earth tones"
+    },
+    {
+      "file": "agent2_inputs/payload_single_groups_002.json",
+      "type": "single_trend",
+      "trend": "Pastels"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0000.json",
+      "type": "combo",
+      "combo_key": "color:brown | color:white"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0001.json",
+      "type": "combo",
+      "combo_key": "color:grey | color:white"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0002.json",
+      "type": "combo",
+      "combo_key": "color:white | garment:dress"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0003.json",
+      "type": "combo",
+      "combo_key": "color:white | print:solids / minimalist"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0004.json",
+      "type": "combo",
+      "combo_key": "color:red | color:white"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0005.json",
+      "type": "combo",
+      "combo_key": "color:brown | print:solids / minimalist"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0006.json",
+      "type": "combo",
+      "combo_key": "color:brown | color:grey"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0007.json",
+      "type": "combo",
+      "combo_key": "color:black | color:white"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0008.json",
+      "type": "combo",
+      "combo_key": "color:brown | garment:dress"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0009.json",
+      "type": "combo",
+      "combo_key": "color:white | fabric:cotton"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0010.json",
+      "type": "combo",
+      "combo_key": "color:white | neck:Crew neck"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0011.json",
+      "type": "combo",
+      "combo_key": "color:black | color:brown"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0012.json",
+      "type": "combo",
+      "combo_key": "garment:dress | print:solids / minimalist"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0013.json",
+      "type": "combo",
+      "combo_key": "color:grey | print:solids / minimalist"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0014.json",
+      "type": "combo",
+      "combo_key": "color:blue | color:white"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0015.json",
+      "type": "combo",
+      "combo_key": "color:black | print:solids / minimalist"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0016.json",
+      "type": "combo",
+      "combo_key": "color:grey | garment:dress"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0017.json",
+      "type": "combo",
+      "combo_key": "color:brown | fabric:cotton"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0018.json",
+      "type": "combo",
+      "combo_key": "color:black | color:grey"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0019.json",
+      "type": "combo",
+      "combo_key": "color:white | sleeve:Full sleeves"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0020.json",
+      "type": "combo",
+      "combo_key": "color:pink | color:white"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0021.json",
+      "type": "combo",
+      "combo_key": "color:brown | neck:Crew neck"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0022.json",
+      "type": "combo",
+      "combo_key": "color:brown | print:embroidery"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0023.json",
+      "type": "combo",
+      "combo_key": "color:white | print:embroidery"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0024.json",
+      "type": "combo",
+      "combo_key": "color:white | length:Full-length"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0025.json",
+      "type": "combo",
+      "combo_key": "color:brown | color:red"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0026.json",
+      "type": "combo",
+      "combo_key": "color:green | color:white"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0027.json",
+      "type": "combo",
+      "combo_key": "color:brown | length:Full-length"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0028.json",
+      "type": "combo",
+      "combo_key": "fabric:cotton | neck:Crew neck"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0029.json",
+      "type": "combo",
+      "combo_key": "neck:Crew neck | print:solids / minimalist"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0030.json",
+      "type": "combo",
+      "combo_key": "color:white | fabric:silk"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0031.json",
+      "type": "combo",
+      "combo_key": "color:black | garment:dress"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0032.json",
+      "type": "combo",
+      "combo_key": "color:white | sleeve:short sleeve"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0033.json",
+      "type": "combo",
+      "combo_key": "color:red | garment:dress"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0034.json",
+      "type": "combo",
+      "combo_key": "print:solids / minimalist | sleeve:Sleeveless/Tank"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0035.json",
+      "type": "combo",
+      "combo_key": "fabric:silk | print:embroidery"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0036.json",
+      "type": "combo",
+      "combo_key": "length:Full-length | print:embroidery"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0037.json",
+      "type": "combo",
+      "combo_key": "color:grey | neck:Crew neck"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0038.json",
+      "type": "combo",
+      "combo_key": "color:brown | garment:kurta"
+    },
+    {
+      "file": "agent2_inputs/payload_combo_0039.json",
+      "type": "combo",
+      "combo_key": "garment:dress | sleeve:Sleeveless/Tank"
+    }
+  ]
+}

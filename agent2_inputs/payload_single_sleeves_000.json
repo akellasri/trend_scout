@@ -1,0 +1,34 @@
+{
+  "id": "c4bf3b67-2101-4988-bf5f-6738eb3b24d2",
+  "type": "single_trend",
+  "generated_at": "2025-09-24T13:06:44.805091Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_trend",
+    "category": "sleeves",
+    "selected_trend": "Full sleeves",
+    "instructions": "Design a new sleeve inspired by the trend 'Full sleeves'. Keep it commercial and manufacturable. Provide color palette, fabrics, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "http://bykaveri.com/collections/everyday-k-2/products/patchwork-jacket-set",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://bykaveri.com//products/patchwork-jacket-set?variant=46605187907832",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://nishorama.com//products/amara-sleeved-corset-kurti",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://nishorama.com//products/ruhi-sleeved-corset-kurti",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "19d96dfb-84e9-499e-a9c5-dbf3b12e2936",
+  "type": "combo",
+  "generated_at": "2025-09-24T13:06:45.839112Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_combo",
+    "combo_key": "color:blue | color:white",
+    "instructions": "Design a commercial-ready product that combines: color:blue | color:white. Provide a design JSON with palette, fabrics, prints, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "http://mogradesigns.com/collections/shop/products/handmade-bandhani-tie-dye-fit-flare-dress?variant=40706393166",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://mogradesigns.com/collections/shop/products/handmade-bandhani-tie-dye-fit-flare-dress?variant=40811325620373",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://mogradesigns.com/collections/shop/products/handmade-bandhani-tie-dye-fit-flare-dress?variant=40811692327061",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://mogradesigns.com/collections/shop/products/handmade-bandhani-tie-dye-fit-flare-dress?variant=40811693867157",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

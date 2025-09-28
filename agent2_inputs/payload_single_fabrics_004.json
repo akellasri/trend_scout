@@ -1,0 +1,34 @@
+{
+  "id": "0d80311e-4966-49a0-bab5-f0fee21b335a",
+  "type": "single_trend",
+  "generated_at": "2025-09-24T13:06:44.515327Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_trend",
+    "category": "fabrics",
+    "selected_trend": "chiffon",
+    "instructions": "Design a new fabric inspired by the trend 'chiffon'. Keep it commercial and manufacturable. Provide color palette, fabrics, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "https://taruntahiliani.com/products/classic-chiffon-saree-faawybassa2bx-faawybassa2sa-cw-34",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/classic-georgette-saree-faawybassa1bl-faawybassa1sa-cw-01",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://perniaspopupshop.com//gaurav-gupta-sage-gold-rayon-georgette-lehenga-set-gagu122336.html",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://perniaspopupshop.com//gaurav-gupta-ivory-rayon-georgette-shimmer-sculpted-gown-gagu0723107.html",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

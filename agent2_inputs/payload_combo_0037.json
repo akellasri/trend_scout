@@ -1,0 +1,33 @@
+{
+  "id": "a9bf4618-2e69-4854-8a41-a8478b683cb9",
+  "type": "combo",
+  "generated_at": "2025-09-24T13:06:46.442233Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_combo",
+    "combo_key": "color:grey | neck:Crew neck",
+    "instructions": "Design a commercial-ready product that combines: color:grey | neck:Crew neck. Provide a design JSON with palette, fabrics, prints, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "http://bykaveri.com/collections/everyday-k-2/products/patchwork-jacket-set",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/thread-and-dori-embroidered-lehenga-brawygulkl2vlh-brawygulkl2du-brawygulkl2bl-cw-117",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://bykaveri.com//products/patchwork-jacket-set?variant=46605187907832",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://bykaveri.com/collections/everyday-k-2/products/parpaddle-fences-co-ord",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "4057b0bc-4e19-4c49-ac0a-456069274155",
+  "type": "single_trend",
+  "generated_at": "2025-09-24T13:06:44.465941Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_trend",
+    "category": "fabrics",
+    "selected_trend": "linen",
+    "instructions": "Design a new fabric inspired by the trend 'linen'. Keep it commercial and manufacturable. Provide color palette, fabrics, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "http://nishorama.com//products/off-loose-fitting-linen-pants-copy",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://perniaspopupshop.com//saphed-men-safari-green-pure-linen-shirt-saph092556.html",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://perniaspopupshop.com//saphed-men-pastel-pink-pure-linen-shirt-saph092555.html",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://perniaspopupshop.com//saphed-men-dark-beige-pure-linen-shirt-saph092554.html",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

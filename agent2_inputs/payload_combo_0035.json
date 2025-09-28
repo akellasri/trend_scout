@@ -1,0 +1,33 @@
+{
+  "id": "b2e59667-81be-4ec2-84ab-fbc8ae75b0ab",
+  "type": "combo",
+  "generated_at": "2025-09-24T13:06:46.389770Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_combo",
+    "combo_key": "fabric:silk | print:embroidery",
+    "instructions": "Design a commercial-ready product that combines: fabric:silk | print:embroidery. Provide a design JSON with palette, fabrics, prints, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "https://taruntahiliani.com/products/marori-kanjivaram-saree-brawybdrsa5sa-brawybdrsa5bl-cw-132",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/bidri-kanjivaram-saree-brawybdrsa3sa-brawybdrsa3bl-cw-121",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/bidri-bridal-lehenga-brawybdrkl3lh-brawybdrkl3du-brawybdrkl3bl-brawybdrkl3vl-cw-121",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/classic-printed-saree-faawyprtsa1bl-faawyprtsa1sa-cw-127",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

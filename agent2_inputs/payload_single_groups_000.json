@@ -1,0 +1,34 @@
+{
+  "id": "524affa1-2ab4-40e5-8d1c-139b768fcd11",
+  "type": "single_trend",
+  "generated_at": "2025-09-24T13:06:45.372815Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_trend",
+    "category": "groups",
+    "selected_trend": "Neutrals",
+    "instructions": "Design a new group inspired by the trend 'Neutrals'. Keep it commercial and manufacturable. Provide color palette, fabrics, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": [
+      {
+        "product_url": "http://nishorama.com//products/gunj-off-white-mul-kurti",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://mogradesigns.com/collections/shop/products/patchwork-quilted-jacket",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "http://perniaspopupshop.com//saphed-men-dark-beige-pure-linen-shirt-saph092554.html",
+        "image_url": null,
+        "title": ""
+      },
+      {
+        "product_url": "https://taruntahiliani.com/products/thread-and-dori-embroidered-lehenga-brawygulkl2vlh-brawygulkl2du-brawygulkl2bl-cw-117",
+        "image_url": null,
+        "title": ""
+      }
+    ]
+  }
+}

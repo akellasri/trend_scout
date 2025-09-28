@@ -1,0 +1,13 @@
+{
+  "id": "bea9321e-f25e-4105-88e2-409642e03476",
+  "type": "single_trend",
+  "generated_at": "2025-09-24T13:06:45.273705Z",
+  "system_prompt": "You are an expert fashion product designer assistant. Given the 'user_content' JSON (which contains trending attributes and example images), produce a single well-structured JSON design object describing a new apparel design. The assistant MUST respond ONLY with a JSON object (no extra text). Required keys in the output JSON: design_id, title, image_prompt, color_palette, fabrics, prints_patterns, garment_type, silhouette, sleeves, neckline, length, style_fit, trims_and_details, techpack (brief), provenance. If an attribute cannot be identified, return empty list or 'unknown' for single values.",
+  "user_content": {
+    "mode": "design_from_trend",
+    "category": "lengths",
+    "selected_trend": "Mini",
+    "instructions": "Design a new length inspired by the trend 'Mini'. Keep it commercial and manufacturable. Provide color palette, fabrics, silhouette, sleeves, neckline, trims, and short techpack.",
+    "examples": []
+  }
+}
